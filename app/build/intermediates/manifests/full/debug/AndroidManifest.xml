@@ -6,7 +6,7 @@
 
     <uses-sdk
         android:minSdkVersion="21"
-        android:targetSdkVersion="26" />
+        android:targetSdkVersion="27" />
 
     <application
         android:allowBackup="true"
@@ -16,21 +16,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/AppTheme" >
-        <activity android:name="com.qingxu.demoapp.MainActivity" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
+        <activity android:name="com.qingxu.demoapp.recycler.MainActivity" />
+        <activity android:name="com.qingxu.demoapp.EmptyActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
+        <activity android:name="com.qingxu.demoapp.databinding.DataBindingActivity" />
     </application>
 
 </manifest>

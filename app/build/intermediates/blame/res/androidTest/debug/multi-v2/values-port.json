@@ -19,7 +19,7 @@
             "outputFile": "/Users/mjn_ziyu/StudioProject/Demos/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e7d419927ed5dc0f127ca2058731a817/res/values-port/values-port.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd9cd8f772372f482693374a508ee6c5/res/values-port/values-port.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
