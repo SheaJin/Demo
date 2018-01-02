@@ -30,6 +30,7 @@ public class DataBindingActivity extends AppCompatActivity {
         binding.setStr("str");
         binding.setCount(5555);
         binding.setErr(true);
+        binding.setSrc(getResources().getDrawable(R.drawable.exchange_btn));
         /**
          * RecyclerView
          * */

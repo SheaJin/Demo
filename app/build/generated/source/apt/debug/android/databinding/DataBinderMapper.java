@@ -45,6 +45,7 @@ class DataBinderMapper  {
             ,"count"
             ,"err"
             ,"onClick"
+            ,"src"
             ,"str"
             ,"user"};
     }

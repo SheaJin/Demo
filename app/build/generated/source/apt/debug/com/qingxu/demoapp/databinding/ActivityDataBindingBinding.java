@@ -15,7 +15,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.recyclerView, 8);
+        sViewsWithIds.put(R.id.recyclerView, 9);
     }
     // views
     @NonNull
@@ -35,10 +35,14 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     @NonNull
     private final android.widget.TextView mboundView5;
     @NonNull
+    private final android.widget.ImageView mboundView8;
+    @NonNull
     public final android.support.v7.widget.RecyclerView recyclerView;
     // variables
     @Nullable
     private java.lang.Boolean mErr;
+    @Nullable
+    private android.graphics.drawable.Drawable mSrc;
     @Nullable
     private com.qingxu.demoapp.databinding.UserInfo mUser;
     @Nullable
@@ -52,8 +56,8 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     // Inverse Binding Event Handlers
 
     public ActivityDataBindingBinding(@NonNull android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        super(bindingComponent, root, 0);
-        final Object[] bindings = mapBindings(bindingComponent, root, 9, sIncludes, sViewsWithIds);
+        super(bindingComponent, root, 1);
+        final Object[] bindings = mapBindings(bindingComponent, root, 10, sIncludes, sViewsWithIds);
         this.button1 = (android.widget.Button) bindings[6];
         this.button1.setTag(null);
         this.button2 = (android.widget.Button) bindings[7];
@@ -70,7 +74,9 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         this.mboundView4.setTag(null);
         this.mboundView5 = (android.widget.TextView) bindings[5];
         this.mboundView5.setTag(null);
-        this.recyclerView = (android.support.v7.widget.RecyclerView) bindings[8];
+        this.mboundView8 = (android.widget.ImageView) bindings[8];
+        this.mboundView8.setTag(null);
+        this.recyclerView = (android.support.v7.widget.RecyclerView) bindings[9];
         setRootTag(root);
         // listeners
         invalidateAll();
@@ -79,7 +85,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     @Override
     public void invalidateAll() {
         synchronized(this) {
-                mDirtyFlags = 0x20L;
+                mDirtyFlags = 0x40L;
         }
         requestRebind();
     }
@@ -99,6 +105,9 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         boolean variableSet = true;
         if (BR.err == variableId) {
             setErr((java.lang.Boolean) variable);
+        }
+        else if (BR.src == variableId) {
+            setSrc((android.graphics.drawable.Drawable) variable);
         }
         else if (BR.user == variableId) {
             setUser((com.qingxu.demoapp.databinding.UserInfo) variable);
@@ -121,7 +130,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public void setErr(@Nullable java.lang.Boolean Err) {
         this.mErr = Err;
         synchronized(this) {
-            mDirtyFlags |= 0x1L;
+            mDirtyFlags |= 0x2L;
         }
         notifyPropertyChanged(BR.err);
         super.requestRebind();
@@ -130,10 +139,23 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public java.lang.Boolean getErr() {
         return mErr;
     }
+    public void setSrc(@Nullable android.graphics.drawable.Drawable Src) {
+        this.mSrc = Src;
+        synchronized(this) {
+            mDirtyFlags |= 0x4L;
+        }
+        notifyPropertyChanged(BR.src);
+        super.requestRebind();
+    }
+    @Nullable
+    public android.graphics.drawable.Drawable getSrc() {
+        return mSrc;
+    }
     public void setUser(@Nullable com.qingxu.demoapp.databinding.UserInfo User) {
+        updateRegistration(0, User);
         this.mUser = User;
         synchronized(this) {
-            mDirtyFlags |= 0x2L;
+            mDirtyFlags |= 0x1L;
         }
         notifyPropertyChanged(BR.user);
         super.requestRebind();
@@ -145,7 +167,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public void setOnClick(@Nullable android.view.View.OnClickListener OnClick) {
         this.mOnClick = OnClick;
         synchronized(this) {
-            mDirtyFlags |= 0x4L;
+            mDirtyFlags |= 0x8L;
         }
         notifyPropertyChanged(BR.onClick);
         super.requestRebind();
@@ -157,7 +179,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public void setCount(int Count) {
         this.mCount = Count;
         synchronized(this) {
-            mDirtyFlags |= 0x8L;
+            mDirtyFlags |= 0x10L;
         }
         notifyPropertyChanged(BR.count);
         super.requestRebind();
@@ -168,7 +190,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public void setStr(@Nullable java.lang.String Str) {
         this.mStr = Str;
         synchronized(this) {
-            mDirtyFlags |= 0x10L;
+            mDirtyFlags |= 0x20L;
         }
         notifyPropertyChanged(BR.str);
         super.requestRebind();
@@ -181,6 +203,17 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     @Override
     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
         switch (localFieldId) {
+            case 0 :
+                return onChangeUser((com.qingxu.demoapp.databinding.UserInfo) object, fieldId);
+        }
+        return false;
+    }
+    private boolean onChangeUser(com.qingxu.demoapp.databinding.UserInfo User, int fieldId) {
+        if (fieldId == BR._all) {
+            synchronized(this) {
+                    mDirtyFlags |= 0x1L;
+            }
+            return true;
         }
         return false;
     }
@@ -196,6 +229,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         java.lang.String userName = null;
         java.lang.Boolean err = mErr;
         java.lang.String stringValueOfCount = null;
+        android.graphics.drawable.Drawable src = mSrc;
         java.lang.String userAge = null;
         com.qingxu.demoapp.databinding.UserInfo user = mUser;
         android.view.View.OnClickListener onClick = mOnClick;
@@ -203,18 +237,18 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         int count = mCount;
         java.lang.String str = mStr;
 
-        if ((dirtyFlags & 0x21L) != 0) {
+        if ((dirtyFlags & 0x42L) != 0) {
 
 
 
                 // read android.databinding.DynamicUtil.safeUnbox(err)
                 androidDatabindingDynamicUtilSafeUnboxErr = android.databinding.DynamicUtil.safeUnbox(err);
-            if((dirtyFlags & 0x21L) != 0) {
+            if((dirtyFlags & 0x42L) != 0) {
                 if(androidDatabindingDynamicUtilSafeUnboxErr) {
-                        dirtyFlags |= 0x80L;
+                        dirtyFlags |= 0x100L;
                 }
                 else {
-                        dirtyFlags |= 0x40L;
+                        dirtyFlags |= 0x80L;
                 }
             }
 
@@ -222,7 +256,9 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
                 // read android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
                 errJavaLangStringErrTrueJavaLangStringErrFalse = ((androidDatabindingDynamicUtilSafeUnboxErr) ? ("err为true") : ("err为false"));
         }
-        if ((dirtyFlags & 0x22L) != 0) {
+        if ((dirtyFlags & 0x44L) != 0) {
+        }
+        if ((dirtyFlags & 0x41L) != 0) {
 
 
 
@@ -233,44 +269,49 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
                     userAge = user.getAge();
                 }
         }
-        if ((dirtyFlags & 0x24L) != 0) {
+        if ((dirtyFlags & 0x48L) != 0) {
         }
-        if ((dirtyFlags & 0x28L) != 0) {
+        if ((dirtyFlags & 0x50L) != 0) {
 
 
 
                 // read String.valueOf(count)
                 stringValueOfCount = java.lang.String.valueOf(count);
         }
-        if ((dirtyFlags & 0x30L) != 0) {
+        if ((dirtyFlags & 0x60L) != 0) {
         }
         // batch finished
-        if ((dirtyFlags & 0x24L) != 0) {
+        if ((dirtyFlags & 0x48L) != 0) {
             // api target 1
 
             this.button1.setOnClickListener(onClick);
             this.button2.setOnClickListener(onClick);
         }
-        if ((dirtyFlags & 0x22L) != 0) {
+        if ((dirtyFlags & 0x41L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, userName);
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, userAge);
         }
-        if ((dirtyFlags & 0x30L) != 0) {
+        if ((dirtyFlags & 0x60L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, str);
         }
-        if ((dirtyFlags & 0x28L) != 0) {
+        if ((dirtyFlags & 0x50L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView4, stringValueOfCount);
         }
-        if ((dirtyFlags & 0x21L) != 0) {
+        if ((dirtyFlags & 0x42L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView5, errJavaLangStringErrTrueJavaLangStringErrFalse);
+        }
+        if ((dirtyFlags & 0x44L) != 0) {
+            // api target 1
+
+            android.databinding.adapters.ImageViewBindingAdapter.setImageDrawable(this.mboundView8, src);
         }
     }
     // Listener Stub Implementations
@@ -306,14 +347,15 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         return new ActivityDataBindingBinding(bindingComponent, view);
     }
     /* flag mapping
-        flag 0 (0x1L): err
-        flag 1 (0x2L): user
-        flag 2 (0x3L): onClick
-        flag 3 (0x4L): count
-        flag 4 (0x5L): str
-        flag 5 (0x6L): null
-        flag 6 (0x7L): android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
+        flag 0 (0x1L): user
+        flag 1 (0x2L): err
+        flag 2 (0x3L): src
+        flag 3 (0x4L): onClick
+        flag 4 (0x5L): count
+        flag 5 (0x6L): str
+        flag 6 (0x7L): null
         flag 7 (0x8L): android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
+        flag 8 (0x9L): android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
     flag mapping end*/
     //end
 }

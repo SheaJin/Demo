@@ -23,6 +23,10 @@
             type="Boolean"/>
 
         <variable
+            name="src"
+            type="android.graphics.drawable.Drawable"/>
+
+        <variable
             name="onClick"
             type="android.view.View.OnClickListener"/>
 
@@ -70,9 +74,14 @@
             android:id="@+id/button2"
             android:onClick="@{onClick}"
             android:layout_marginTop="20dp"
-            android:text="buttonsssss"
+            android:text="button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
+
+        <ImageView
+            android:src="@{src}"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recyclerView"
