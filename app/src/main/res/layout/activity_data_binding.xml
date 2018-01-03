@@ -3,12 +3,14 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
+        <import type="com.qingxu.demoapp.databinding.UserInfo"/>
         <import type="java.util.ArrayList"/>
         <import type="android.view.View"/>
+        <import type="com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers"/>
 
         <variable
             name="user"
-            type="com.qingxu.demoapp.databinding.UserInfo"/>
+            type="UserInfo"/>
 
         <variable
             name="str"
@@ -30,6 +32,9 @@
             name="onClick"
             type="android.view.View.OnClickListener"/>
 
+        <variable
+            name="handler"
+            type="EventHandlers"/>
     </data>
 
     <LinearLayout
@@ -70,11 +75,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 
-        <Button
-            android:id="@+id/button2"
-            android:onClick="@{onClick}"
-            android:layout_marginTop="20dp"
-            android:text="button2"
+        <TextView
+            android:onClick="@{handler.handleClick}"
+            android:text="@{user.name}"
+            android:textSize="18sp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
 

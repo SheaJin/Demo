@@ -10,6 +10,10 @@ class DataBinderMapper  {
         switch(layoutId) {
                 case com.qingxu.demoapp.R.layout.activity_data_binding:
                     return com.qingxu.demoapp.databinding.ActivityDataBindingBinding.bind(view, bindingComponent);
+                case com.qingxu.demoapp.R.layout.fragment_data_binding:
+                    return com.qingxu.demoapp.databinding.FragmentDataBindingBinding.bind(view, bindingComponent);
+                case com.qingxu.demoapp.R.layout.item_data_fragment:
+                    return com.qingxu.demoapp.databinding.ItemDataFragmentBinding.bind(view, bindingComponent);
         }
         return null;
     }
@@ -30,6 +34,18 @@ class DataBinderMapper  {
                 }
                 break;
             }
+            case 1465484427: {
+                if(tag.equals("layout/fragment_data_binding_0")) {
+                    return com.qingxu.demoapp.R.layout.fragment_data_binding;
+                }
+                break;
+            }
+            case 1237144143: {
+                if(tag.equals("layout/item_data_fragment_0")) {
+                    return com.qingxu.demoapp.R.layout.item_data_fragment;
+                }
+                break;
+            }
         }
         return 0;
     }
@@ -42,8 +58,11 @@ class DataBinderMapper  {
     private static class InnerBrLookup {
         static String[] sKeys = new String[]{
             "_all"
+            ,"age"
             ,"count"
             ,"err"
+            ,"handler"
+            ,"name"
             ,"onClick"
             ,"src"
             ,"str"

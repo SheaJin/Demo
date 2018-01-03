@@ -10,14 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
         <activity android:name=".recycler.MainActivity" />
-        <activity android:name=".EmptyActivity">
+        <activity android:name=".main.EmptyActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".databinding.DataBindingActivity"></activity>
+        <activity android:name=".databinding.DataBindingActivity" />
+        <activity android:name=".databinding.DataFragmentActivity" />
+        <activity
+            android:name=".rank.RankActivity"
+            android:label="@string/title_activity_rank"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"></activity>
     </application>
 
 </manifest>

@@ -21,8 +21,6 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     @NonNull
     public final android.widget.Button button1;
     @NonNull
-    public final android.widget.Button button2;
-    @NonNull
     private final android.widget.LinearLayout mboundView0;
     @NonNull
     private final android.widget.TextView mboundView1;
@@ -35,6 +33,8 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     @NonNull
     private final android.widget.TextView mboundView5;
     @NonNull
+    private final android.widget.TextView mboundView7;
+    @NonNull
     private final android.widget.ImageView mboundView8;
     @NonNull
     public final android.support.v7.widget.RecyclerView recyclerView;
@@ -43,6 +43,8 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     private java.lang.Boolean mErr;
     @Nullable
     private android.graphics.drawable.Drawable mSrc;
+    @Nullable
+    private com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers mHandler;
     @Nullable
     private com.qingxu.demoapp.databinding.UserInfo mUser;
     @Nullable
@@ -53,6 +55,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     private java.lang.String mStr;
     // values
     // listeners
+    private OnClickListenerImpl mHandlerHandleClickAndroidViewViewOnClickListener;
     // Inverse Binding Event Handlers
 
     public ActivityDataBindingBinding(@NonNull android.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
@@ -60,8 +63,6 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         final Object[] bindings = mapBindings(bindingComponent, root, 10, sIncludes, sViewsWithIds);
         this.button1 = (android.widget.Button) bindings[6];
         this.button1.setTag(null);
-        this.button2 = (android.widget.Button) bindings[7];
-        this.button2.setTag(null);
         this.mboundView0 = (android.widget.LinearLayout) bindings[0];
         this.mboundView0.setTag(null);
         this.mboundView1 = (android.widget.TextView) bindings[1];
@@ -74,6 +75,8 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         this.mboundView4.setTag(null);
         this.mboundView5 = (android.widget.TextView) bindings[5];
         this.mboundView5.setTag(null);
+        this.mboundView7 = (android.widget.TextView) bindings[7];
+        this.mboundView7.setTag(null);
         this.mboundView8 = (android.widget.ImageView) bindings[8];
         this.mboundView8.setTag(null);
         this.recyclerView = (android.support.v7.widget.RecyclerView) bindings[9];
@@ -85,7 +88,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     @Override
     public void invalidateAll() {
         synchronized(this) {
-                mDirtyFlags = 0x40L;
+                mDirtyFlags = 0x200L;
         }
         requestRebind();
     }
@@ -108,6 +111,9 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         }
         else if (BR.src == variableId) {
             setSrc((android.graphics.drawable.Drawable) variable);
+        }
+        else if (BR.handler == variableId) {
+            setHandler((com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers) variable);
         }
         else if (BR.user == variableId) {
             setUser((com.qingxu.demoapp.databinding.UserInfo) variable);
@@ -151,6 +157,18 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public android.graphics.drawable.Drawable getSrc() {
         return mSrc;
     }
+    public void setHandler(@Nullable com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers Handler) {
+        this.mHandler = Handler;
+        synchronized(this) {
+            mDirtyFlags |= 0x8L;
+        }
+        notifyPropertyChanged(BR.handler);
+        super.requestRebind();
+    }
+    @Nullable
+    public com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers getHandler() {
+        return mHandler;
+    }
     public void setUser(@Nullable com.qingxu.demoapp.databinding.UserInfo User) {
         updateRegistration(0, User);
         this.mUser = User;
@@ -167,7 +185,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public void setOnClick(@Nullable android.view.View.OnClickListener OnClick) {
         this.mOnClick = OnClick;
         synchronized(this) {
-            mDirtyFlags |= 0x8L;
+            mDirtyFlags |= 0x10L;
         }
         notifyPropertyChanged(BR.onClick);
         super.requestRebind();
@@ -179,7 +197,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public void setCount(int Count) {
         this.mCount = Count;
         synchronized(this) {
-            mDirtyFlags |= 0x10L;
+            mDirtyFlags |= 0x20L;
         }
         notifyPropertyChanged(BR.count);
         super.requestRebind();
@@ -190,7 +208,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public void setStr(@Nullable java.lang.String Str) {
         this.mStr = Str;
         synchronized(this) {
-            mDirtyFlags |= 0x20L;
+            mDirtyFlags |= 0x40L;
         }
         notifyPropertyChanged(BR.str);
         super.requestRebind();
@@ -215,6 +233,18 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
             }
             return true;
         }
+        else if (fieldId == BR.name) {
+            synchronized(this) {
+                    mDirtyFlags |= 0x80L;
+            }
+            return true;
+        }
+        else if (fieldId == BR.age) {
+            synchronized(this) {
+                    mDirtyFlags |= 0x100L;
+            }
+            return true;
+        }
         return false;
     }
 
@@ -230,25 +260,27 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         java.lang.Boolean err = mErr;
         java.lang.String stringValueOfCount = null;
         android.graphics.drawable.Drawable src = mSrc;
+        com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers handler = mHandler;
         java.lang.String userAge = null;
         com.qingxu.demoapp.databinding.UserInfo user = mUser;
         android.view.View.OnClickListener onClick = mOnClick;
         java.lang.String errJavaLangStringErrTrueJavaLangStringErrFalse = null;
+        android.view.View.OnClickListener handlerHandleClickAndroidViewViewOnClickListener = null;
         int count = mCount;
         java.lang.String str = mStr;
 
-        if ((dirtyFlags & 0x42L) != 0) {
+        if ((dirtyFlags & 0x202L) != 0) {
 
 
 
                 // read android.databinding.DynamicUtil.safeUnbox(err)
                 androidDatabindingDynamicUtilSafeUnboxErr = android.databinding.DynamicUtil.safeUnbox(err);
-            if((dirtyFlags & 0x42L) != 0) {
+            if((dirtyFlags & 0x202L) != 0) {
                 if(androidDatabindingDynamicUtilSafeUnboxErr) {
-                        dirtyFlags |= 0x100L;
+                        dirtyFlags |= 0x800L;
                 }
                 else {
-                        dirtyFlags |= 0x80L;
+                        dirtyFlags |= 0x400L;
                 }
             }
 
@@ -256,65 +288,101 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
                 // read android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
                 errJavaLangStringErrTrueJavaLangStringErrFalse = ((androidDatabindingDynamicUtilSafeUnboxErr) ? ("err为true") : ("err为false"));
         }
-        if ((dirtyFlags & 0x44L) != 0) {
+        if ((dirtyFlags & 0x204L) != 0) {
         }
-        if ((dirtyFlags & 0x41L) != 0) {
+        if ((dirtyFlags & 0x208L) != 0) {
 
 
 
-                if (user != null) {
-                    // read user.name
-                    userName = user.getName();
-                    // read user.age
-                    userAge = user.getAge();
+                if (handler != null) {
+                    // read handler::handleClick
+                    handlerHandleClickAndroidViewViewOnClickListener = (((mHandlerHandleClickAndroidViewViewOnClickListener == null) ? (mHandlerHandleClickAndroidViewViewOnClickListener = new OnClickListenerImpl()) : mHandlerHandleClickAndroidViewViewOnClickListener).setValue(handler));
                 }
         }
-        if ((dirtyFlags & 0x48L) != 0) {
+        if ((dirtyFlags & 0x381L) != 0) {
+
+
+            if ((dirtyFlags & 0x281L) != 0) {
+
+                    if (user != null) {
+                        // read user.name
+                        userName = user.getName();
+                    }
+            }
+            if ((dirtyFlags & 0x301L) != 0) {
+
+                    if (user != null) {
+                        // read user.age
+                        userAge = user.getAge();
+                    }
+            }
         }
-        if ((dirtyFlags & 0x50L) != 0) {
+        if ((dirtyFlags & 0x210L) != 0) {
+        }
+        if ((dirtyFlags & 0x220L) != 0) {
 
 
 
                 // read String.valueOf(count)
                 stringValueOfCount = java.lang.String.valueOf(count);
         }
-        if ((dirtyFlags & 0x60L) != 0) {
+        if ((dirtyFlags & 0x240L) != 0) {
         }
         // batch finished
-        if ((dirtyFlags & 0x48L) != 0) {
+        if ((dirtyFlags & 0x210L) != 0) {
             // api target 1
 
             this.button1.setOnClickListener(onClick);
-            this.button2.setOnClickListener(onClick);
         }
-        if ((dirtyFlags & 0x41L) != 0) {
+        if ((dirtyFlags & 0x281L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, userName);
+            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView7, userName);
+        }
+        if ((dirtyFlags & 0x301L) != 0) {
+            // api target 1
+
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, userAge);
         }
-        if ((dirtyFlags & 0x60L) != 0) {
+        if ((dirtyFlags & 0x240L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView3, str);
         }
-        if ((dirtyFlags & 0x50L) != 0) {
+        if ((dirtyFlags & 0x220L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView4, stringValueOfCount);
         }
-        if ((dirtyFlags & 0x42L) != 0) {
+        if ((dirtyFlags & 0x202L) != 0) {
             // api target 1
 
             android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView5, errJavaLangStringErrTrueJavaLangStringErrFalse);
         }
-        if ((dirtyFlags & 0x44L) != 0) {
+        if ((dirtyFlags & 0x208L) != 0) {
+            // api target 1
+
+            this.mboundView7.setOnClickListener(handlerHandleClickAndroidViewViewOnClickListener);
+        }
+        if ((dirtyFlags & 0x204L) != 0) {
             // api target 1
 
             android.databinding.adapters.ImageViewBindingAdapter.setImageDrawable(this.mboundView8, src);
         }
     }
     // Listener Stub Implementations
+    public static class OnClickListenerImpl implements android.view.View.OnClickListener{
+        private com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers value;
+        public OnClickListenerImpl setValue(com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers value) {
+            this.value = value;
+            return value == null ? null : this;
+        }
+        @Override
+        public void onClick(android.view.View arg0) {
+            this.value.handleClick(arg0);
+        }
+    }
     // callback impls
     // dirty flag
     private  long mDirtyFlags = 0xffffffffffffffffL;
@@ -350,12 +418,15 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         flag 0 (0x1L): user
         flag 1 (0x2L): err
         flag 2 (0x3L): src
-        flag 3 (0x4L): onClick
-        flag 4 (0x5L): count
-        flag 5 (0x6L): str
-        flag 6 (0x7L): null
-        flag 7 (0x8L): android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
-        flag 8 (0x9L): android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
+        flag 3 (0x4L): handler
+        flag 4 (0x5L): onClick
+        flag 5 (0x6L): count
+        flag 6 (0x7L): str
+        flag 7 (0x8L): user.name
+        flag 8 (0x9L): user.age
+        flag 9 (0xaL): null
+        flag 10 (0xbL): android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
+        flag 11 (0xcL): android.databinding.DynamicUtil.safeUnbox(err) ? "err为true" : "err为false"
     flag mapping end*/
     //end
 }

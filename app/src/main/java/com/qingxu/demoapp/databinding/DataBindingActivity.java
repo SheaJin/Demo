@@ -17,6 +17,7 @@ import java.util.List;
 public class DataBindingActivity extends AppCompatActivity {
     private List<String> list;
     private MyAdapter adapter;
+    private UserInfo userInfo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,12 +26,13 @@ public class DataBindingActivity extends AppCompatActivity {
         /**
          * TextView
          * */
-        UserInfo userInfo = new UserInfo("username", "18");
+        userInfo = new UserInfo("username", "18");
         binding.setUser(userInfo);
         binding.setStr("str");
         binding.setCount(5555);
         binding.setErr(true);
         binding.setSrc(getResources().getDrawable(R.drawable.exchange_btn));
+        binding.setHandler(new EventHandlers());
         /**
          * RecyclerView
          * */
@@ -47,11 +49,14 @@ public class DataBindingActivity extends AppCompatActivity {
                 case R.id.button1:
                     Toast.makeText(DataBindingActivity.this, "click Button1", Toast.LENGTH_SHORT).show();
                     break;
-                case R.id.button2:
-                    Toast.makeText(DataBindingActivity.this, "click Button2", Toast.LENGTH_SHORT).show();
-                    break;
             }
         });
+    }
 
+    public class EventHandlers {
+        public void handleClick(View view) {
+            Toast.makeText(DataBindingActivity.this, "you clicked text", Toast.LENGTH_LONG).show();
+            userInfo.setName("namenamenamenamename");
+        }
     }
 }
