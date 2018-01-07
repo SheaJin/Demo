@@ -1,10 +1,114 @@
 <?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 8f105dff8ee3a71ceae1ca04259d48affba67ac9
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context="com.qingxu.demoapp.rank.RankActivity">
 
+<<<<<<< HEAD
+=======
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
-</android.support.design.widget.CoordinatorLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="615px"
+            android:background="@color/theme">
+
+            <!--第一-->
+            <RelativeLayout
+                android:id="@+id/view_first"
+                android:layout_width="wrap_content"
+                android:layout_height="545px"
+                android:layout_centerHorizontal="true">
+
+                <ImageView
+                    android:layout_width="450px"
+                    android:layout_height="450px" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv"
+                    android:layout_width="300px"
+                    android:layout_height="300px"
+                    android:layout_centerInParent="true"
+                    android:src="@color/white_255" />
+>>>>>>> 8f105dff8ee3a71ceae1ca04259d48affba67ac9
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:text="用户名用"
+                    android:textSize="18sp" />
+
+            </RelativeLayout>
+
+            <!--第二-->
+            <LinearLayout
+                android:id="@+id/view_second"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view_first"
+                android:layout_marginLeft="171px"
+                android:layout_marginTop="120px"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="180px"
+                    android:layout_height="180px"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@color/white_255" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="75px"
+                    android:text="用户名用户名" />
+            </LinearLayout>
+
+            <!--第三-->
+            <LinearLayout
+                android:id="@+id/view_third"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/view_first"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="171px"
+                android:layout_marginTop="120px"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="180px"
+                    android:layout_height="180px"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@color/white_255" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="75px"
+                    android:text="用户名用户名" />
+            </LinearLayout>
+
+        </RelativeLayout>
+        <!--底部-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="240px"
+            android:layout_alignParentBottom="true"
+            android:background="@color/drawbrilliant">
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+</LinearLayout>
