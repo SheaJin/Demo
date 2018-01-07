@@ -22,11 +22,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-<<<<<<< HEAD
-=======
-        <activity android:name=".databinding.DataBindingActivity" />
-        <activity android:name=".databinding.DataFragmentActivity" />
-        <activity android:name=".rank.RankActivity"/>
 
         <meta-data
             android:name="design_width"
@@ -34,7 +29,6 @@
         <meta-data
             android:name="design_height"
             android:value="2208" />
->>>>>>> 8f105dff8ee3a71ceae1ca04259d48affba67ac9
     </application>
 
 </manifest>
