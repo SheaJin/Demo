@@ -12,6 +12,8 @@ import com.qingxu.demoapp.api.ApiService;
 import com.qingxu.demoapp.api.ApiStore;
 import com.qingxu.demoapp.api.HttpObserver;
 import com.qingxu.demoapp.model.Register;
+import com.qingxu.demoapp.ui.base.BaseActivity;
+
 import android.support.v7.app.AppCompatActivity;
 
 import net.lucode.hackware.magicindicator.MagicIndicator;
@@ -23,7 +25,7 @@ import io.reactivex.schedulers.Schedulers;
  * Created by JinXinYi on 2018/1/7.
  */
 
-public class RegisterActivity extends AppCompatActivity{
+public class RegisterActivity extends BaseActivity{
 
     private EditText mEtName,mEtMail,mEtPsd;
     private String name,mail,password;
@@ -34,7 +36,7 @@ public class RegisterActivity extends AppCompatActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         indicator = findViewById(R.id.indicator);
-
+        showToast("ss");
     }
 
     /**

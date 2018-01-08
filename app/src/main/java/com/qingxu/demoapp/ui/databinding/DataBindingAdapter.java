@@ -8,7 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.android.databinding.library.baseAdapters.BR;
+import com.qingxu.demoapp.BR;
 import com.qingxu.demoapp.R;
 
 import java.util.List;

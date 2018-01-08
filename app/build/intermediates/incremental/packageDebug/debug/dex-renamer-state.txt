@@ -1,4 +1,0 @@
-#Mon Jan 08 16:38:56 CST 2018
-base.0=/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/transforms/dexMerger/debug/0
-path.0=classes.dex
-renamed.0=classes.dex

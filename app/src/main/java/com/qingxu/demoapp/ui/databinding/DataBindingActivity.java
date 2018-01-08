@@ -8,6 +8,7 @@ import android.view.View;
 import android.widget.Toast;
 
 import com.qingxu.demoapp.R;
+import com.qingxu.demoapp.databinding.ActivityDataBindingBinding;
 import com.qingxu.demoapp.ui.recycler.MyAdapter;
 
 import java.util.ArrayList;

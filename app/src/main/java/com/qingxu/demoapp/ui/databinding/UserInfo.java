@@ -3,7 +3,8 @@ package com.qingxu.demoapp.ui.databinding;
 import android.databinding.BaseObservable;
 import android.databinding.Bindable;
 
-import com.android.databinding.library.baseAdapters.BR;
+import com.qingxu.demoapp.BR;
+
 
 /**
  * Created by jxy on 2018/1/2.

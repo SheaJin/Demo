@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:tools="http://schemas.android.com/tools"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <import type="com.qingxu.demoapp.databinding.UserInfo"/>
+        <import type="com.qingxu.demoapp.ui.databinding.UserInfo"/>
         <import type="java.util.ArrayList"/>
         <import type="android.view.View"/>
-        <import type="com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers"/>
+        <import type="com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers"/>
 
         <variable
             name="user"

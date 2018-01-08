@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+</RelativeLayout>
+<!--<layout xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+    <!--<data>-->
+        <!--<import type="com.qingxu.demoapp.ui.databinding.UserInfo"/>-->
+        <!--<import type="java.util.ArrayList"/>-->
+        <!--<import type="android.view.View"/>-->
+        <!--<import type="com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers"/>-->
+
+        <!--<variable-->
+            <!--name="user"-->
+            <!--type="UserInfo"/>-->
+
+        <!--<variable-->
+            <!--name="str"-->
+            <!--type="String"/>-->
+
+        <!--<variable-->
+            <!--name="count"-->
+            <!--type="int"/>-->
+
+        <!--<variable-->
+            <!--name="err"-->
+            <!--type="Boolean"/>-->
+
+        <!--<variable-->
+            <!--name="src"-->
+            <!--type="android.graphics.drawable.Drawable"/>-->
+
+        <!--<variable-->
+            <!--name="onClick"-->
+            <!--type="android.view.View.OnClickListener"/>-->
+
+        <!--<variable-->
+            <!--name="handler"-->
+            <!--type="EventHandlers"/>-->
+    <!--</data>-->
+
+    <!--<LinearLayout-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<TextView-->
+            <!--android:text="@{user.name}"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:text="@{user.age}"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:text="@{str}"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:text="@{String.valueOf(count)}"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--&lt;!&ndash;注意text用单引号包裹起来&ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:text='@{err ? "err为true":"err为false"}'-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<Button-->
+            <!--android:id="@+id/button1"-->
+            <!--android:onClick="@{onClick}"-->
+            <!--android:layout_marginTop="20dp"-->
+            <!--android:text="button"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<TextView-->
+            <!--android:onClick="@{handler.handleClick}"-->
+            <!--android:text="@{user.name}"-->
+            <!--android:textSize="18sp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
+
+        <!--<ImageView-->
+            <!--android:src="@{src}"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp" />-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/recyclerView"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"/>-->
+    <!--</LinearLayout>-->
+
+
+
+<!--</layout>-->
