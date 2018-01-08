@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "J:\\AndroidStudioProject\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "J:\\AndroidStudioProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
                     "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-v24\\values-v24.xml",
@@ -33,10 +33,10 @@
             ]
         },
         {
-            "outputFile": "J:\\AndroidStudioProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
+            "outputFile": "J:\\Users\\mjn_ziyu\\StudioProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v24\\values-v24.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-v24\\values-v24.xml",
+                    "source": "J:\\Users\\mjn_ziyu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\07f159e8b3b1247123f68fd7f341715f\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -46,7 +46,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\724b9eec2cd2e2a52372bf6ab16cc238\\res\\values-v24\\values-v24.xml",
+                    "source": "J:\\Users\\mjn_ziyu\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.0.2.aar\\3a1f4f28e81e678912b8d02ac2eaab5c\\res\\values-v24\\values-v24.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",

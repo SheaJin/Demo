@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.qingxu.demoapp.databinding.DataFragmentActivity">
+    tools:context="com.qingxu.demoapp.ui.databinding.DataFragmentActivity">
 
     <FrameLayout
         android:id="@+id/frame"

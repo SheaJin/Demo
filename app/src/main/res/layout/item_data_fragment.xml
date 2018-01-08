@@ -2,7 +2,7 @@
 <layout xmlns:android="http://schemas.android.com/apk/res/android">
 
     <data>
-        <import type="com.qingxu.demoapp.databinding.UserInfo"/>
+        <import type="com.qingxu.demoapp.ui.databinding.UserInfo"/>
 
         <variable
             name="user"

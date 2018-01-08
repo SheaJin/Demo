@@ -44,9 +44,9 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     @Nullable
     private android.graphics.drawable.Drawable mSrc;
     @Nullable
-    private com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers mHandler;
+    private com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers mHandler;
     @Nullable
-    private com.qingxu.demoapp.databinding.UserInfo mUser;
+    private com.qingxu.demoapp.ui.databinding.UserInfo mUser;
     @Nullable
     private android.view.View.OnClickListener mOnClick;
     @Nullable
@@ -113,10 +113,10 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
             setSrc((android.graphics.drawable.Drawable) variable);
         }
         else if (BR.handler == variableId) {
-            setHandler((com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers) variable);
+            setHandler((com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers) variable);
         }
         else if (BR.user == variableId) {
-            setUser((com.qingxu.demoapp.databinding.UserInfo) variable);
+            setUser((com.qingxu.demoapp.ui.databinding.UserInfo) variable);
         }
         else if (BR.onClick == variableId) {
             setOnClick((android.view.View.OnClickListener) variable);
@@ -157,7 +157,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     public android.graphics.drawable.Drawable getSrc() {
         return mSrc;
     }
-    public void setHandler(@Nullable com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers Handler) {
+    public void setHandler(@Nullable com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers Handler) {
         this.mHandler = Handler;
         synchronized(this) {
             mDirtyFlags |= 0x8L;
@@ -166,10 +166,10 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         super.requestRebind();
     }
     @Nullable
-    public com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers getHandler() {
+    public com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers getHandler() {
         return mHandler;
     }
-    public void setUser(@Nullable com.qingxu.demoapp.databinding.UserInfo User) {
+    public void setUser(@Nullable com.qingxu.demoapp.ui.databinding.UserInfo User) {
         updateRegistration(0, User);
         this.mUser = User;
         synchronized(this) {
@@ -179,7 +179,7 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         super.requestRebind();
     }
     @Nullable
-    public com.qingxu.demoapp.databinding.UserInfo getUser() {
+    public com.qingxu.demoapp.ui.databinding.UserInfo getUser() {
         return mUser;
     }
     public void setOnClick(@Nullable android.view.View.OnClickListener OnClick) {
@@ -222,11 +222,11 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
         switch (localFieldId) {
             case 0 :
-                return onChangeUser((com.qingxu.demoapp.databinding.UserInfo) object, fieldId);
+                return onChangeUser((com.qingxu.demoapp.ui.databinding.UserInfo) object, fieldId);
         }
         return false;
     }
-    private boolean onChangeUser(com.qingxu.demoapp.databinding.UserInfo User, int fieldId) {
+    private boolean onChangeUser(com.qingxu.demoapp.ui.databinding.UserInfo User, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x1L;
@@ -260,9 +260,9 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
         java.lang.Boolean err = mErr;
         java.lang.String stringValueOfCount = null;
         android.graphics.drawable.Drawable src = mSrc;
-        com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers handler = mHandler;
+        com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers handler = mHandler;
         java.lang.String userAge = null;
-        com.qingxu.demoapp.databinding.UserInfo user = mUser;
+        com.qingxu.demoapp.ui.databinding.UserInfo user = mUser;
         android.view.View.OnClickListener onClick = mOnClick;
         java.lang.String errJavaLangStringErrTrueJavaLangStringErrFalse = null;
         android.view.View.OnClickListener handlerHandleClickAndroidViewViewOnClickListener = null;
@@ -373,8 +373,8 @@ public class ActivityDataBindingBinding extends android.databinding.ViewDataBind
     }
     // Listener Stub Implementations
     public static class OnClickListenerImpl implements android.view.View.OnClickListener{
-        private com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers value;
-        public OnClickListenerImpl setValue(com.qingxu.demoapp.databinding.DataBindingActivity.EventHandlers value) {
+        private com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers value;
+        public OnClickListenerImpl setValue(com.qingxu.demoapp.ui.databinding.DataBindingActivity.EventHandlers value) {
             this.value = value;
             return value == null ? null : this;
         }

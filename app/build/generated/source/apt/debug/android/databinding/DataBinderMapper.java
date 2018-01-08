@@ -10,8 +10,6 @@ class DataBinderMapper  {
         switch(layoutId) {
                 case com.qingxu.demoapp.R.layout.activity_data_binding:
                     return com.qingxu.demoapp.databinding.ActivityDataBindingBinding.bind(view, bindingComponent);
-                case com.qingxu.demoapp.R.layout.fragment_data_binding:
-                    return com.qingxu.demoapp.databinding.FragmentDataBindingBinding.bind(view, bindingComponent);
                 case com.qingxu.demoapp.R.layout.item_data_fragment:
                     return com.qingxu.demoapp.databinding.ItemDataFragmentBinding.bind(view, bindingComponent);
         }
@@ -31,12 +29,6 @@ class DataBinderMapper  {
             case 1514339820: {
                 if(tag.equals("layout/activity_data_binding_0")) {
                     return com.qingxu.demoapp.R.layout.activity_data_binding;
-                }
-                break;
-            }
-            case 1465484427: {
-                if(tag.equals("layout/fragment_data_binding_0")) {
-                    return com.qingxu.demoapp.R.layout.fragment_data_binding;
                 }
                 break;
             }
