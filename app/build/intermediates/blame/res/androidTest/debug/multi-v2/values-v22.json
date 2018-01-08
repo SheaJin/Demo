@@ -1,26 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "J:\\AndroidStudioProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
+            "outputFile": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v22/values-v22.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-v22\\values-v22.xml",
-                    "from": {
-                        "startLines": "2,3,4,9",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,130,217,553",
-                        "endLines": "2,3,8,13",
-                        "endColumns": "74,86,12,12",
-                        "endOffsets": "125,212,548,896"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "J:\\AndroidStudioProject\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-v22\\values-v22.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-v22\\values-v22.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/07f159e8b3b1247123f68fd7f341715f/res/values-v22/values-v22.xml",
                     "from": {
                         "startLines": "2,3,4,9",
                         "startColumns": "4,4,4,4",

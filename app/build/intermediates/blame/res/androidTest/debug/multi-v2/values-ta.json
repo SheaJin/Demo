@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "J:\\AndroidStudioProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ta\\values-ta.xml",
+            "outputFile": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ta/values-ta.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-ta\\values-ta.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/07f159e8b3b1247123f68fd7f341715f/res/values-ta/values-ta.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -14,39 +14,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5d68f03b8ee25916c95cbcaca3d746ef\\res\\values-ta\\values-ta.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "20",
-                        "startColumns": "4",
-                        "startOffsets": "1957",
-                        "endColumns": "100",
-                        "endOffsets": "2053"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "J:\\AndroidStudioProject\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-ta\\values-ta.xml",
-            "map": [
-                {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-ta\\values-ta.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,219,324,439,528,635,761,839,916,998,1100,1204,1301,1411,1513,1620,1777,1877",
-                        "endColumns": "113,104,114,88,106,125,77,76,81,101,103,96,109,101,106,156,99,79",
-                        "endOffsets": "214,319,434,523,630,756,834,911,993,1095,1199,1296,1406,1508,1615,1772,1872,1952"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\5d68f03b8ee25916c95cbcaca3d746ef\\res\\values-ta\\values-ta.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/b0aaa5d2ad854b7323b1a9d1038ce899/res/values-ta/values-ta.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

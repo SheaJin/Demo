@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "J:\\AndroidStudioProject\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\9aac8247cb5f759756bd10c2a2fc8001\\res\\values-v26\\values-v26.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/46232d0b6c29c9c4b483d773cf4024c7/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-v26\\values-v26.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/07f159e8b3b1247123f68fd7f341715f/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -44,10 +44,10 @@
             ]
         },
         {
-            "outputFile": "J:\\AndroidStudioProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "/Users/mjn_ziyu/StudioProject/Demos/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.0.2.aar\\9aac8247cb5f759756bd10c2a2fc8001\\res\\values-v26\\values-v26.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.0.2.aar/46232d0b6c29c9c4b483d773cf4024c7/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",
@@ -66,7 +66,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-v26\\values-v26.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/07f159e8b3b1247123f68fd7f341715f/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

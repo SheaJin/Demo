@@ -1,6 +1,6 @@
 
 package android.databinding;
-import com.qingxu.demoapp.BR;
+
 @javax.annotation.Generated("Android Data Binding")
 class DataBinderMapper  {
     final static int TARGET_MIN_SDK = 21;
@@ -9,11 +9,11 @@ class DataBinderMapper  {
     public android.databinding.ViewDataBinding getDataBinder(android.databinding.DataBindingComponent bindingComponent, android.view.View view, int layoutId) {
         switch(layoutId) {
                 case com.qingxu.demoapp.R.layout.activity_data_binding:
-                    return com.qingxu.demoapp.databinding.ActivityDataBindingBinding.bind(view, bindingComponent);
+                    return com.qingxu.demoapp.ui.databinding.ActivityDataBindingBinding.bind(view, bindingComponent);
                 case com.qingxu.demoapp.R.layout.fragment_data_binding:
-                    return com.qingxu.demoapp.databinding.FragmentDataBindingBinding.bind(view, bindingComponent);
+                    return com.qingxu.demoapp.ui.databinding.FragmentDataBindingBinding.bind(view, bindingComponent);
                 case com.qingxu.demoapp.R.layout.item_data_fragment:
-                    return com.qingxu.demoapp.databinding.ItemDataFragmentBinding.bind(view, bindingComponent);
+                    return com.qingxu.demoapp.ui.databinding.ItemDataFragmentBinding.bind(view, bindingComponent);
         }
         return null;
     }

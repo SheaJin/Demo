@@ -10,13 +10,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".recycler.MainActivity" />
-        <activity android:name=".main.EmptyActivity"/>
-        <activity android:name=".databinding.DataBindingActivity" />
-        <activity android:name=".databinding.DataFragmentActivity" />
-        <activity android:name=".rank.RankActivity"/>
-        <activity android:name=".loadmore.TextLoadMoreActivity"></activity>
-        <activity android:name=".login.RegisterActivity">
+        <activity android:name=".ui.recycler.MainActivity" />
+        <activity android:name=".ui.main.EmptyActivity"/>
+        <activity android:name="com.qingxu.demoapp.ui.databinding.DataBindingActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.databinding.DataFragmentActivity" />
+        <activity android:name=".ui.rank.RankActivity"/>
+        <activity android:name=".ui.loadmore.TextLoadMoreActivity"></activity>
+        <activity android:name=".ui.login.RegisterActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
