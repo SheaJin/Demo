@@ -1,4 +1,5 @@
 #Internal package file, do not edit.
+<<<<<<< HEAD
 #Sat Jan 06 16:08:36 CST 2018
 210.set=ANDROID_RESOURCE
 14.set=ANDROID_RESOURCE
@@ -823,3 +824,11 @@ count=274
 230.file=/Users/mjn_ziyu/StudioProject/Demos/app/build/intermediates/res/debug/resources-debug.ap_/res/layout/notification_template_media.xml
 153.file=/Users/mjn_ziyu/StudioProject/Demos/app/build/intermediates/res/debug/resources-debug.ap_/res/layout-v26/abc_screen_toolbar.xml
 157.set=ANDROID_RESOURCE
+=======
+#Sun Jan 07 22:52:51 CST 2018
+0.baseType=DIRECTORY
+0.base=J\:\\AndroidStudioProject\\Lemon\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+0.path=classes.dex
+0.set=DEX
+count=1
+>>>>>>> c9d2b891ecfa78429acbe06a312bdb0aed2ba2d4

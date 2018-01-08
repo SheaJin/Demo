@@ -1,14 +1,14 @@
 <component name="libraryTable">
   <library name="com.android.databinding:library-1.3.1">
     <CLASSES>
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/ebda9e93d09cd1b7b4f2d5f1d165796d/res" />
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/ebda9e93d09cd1b7b4f2d5f1d165796d/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/6fefe86a63726acf19fe074bccbde57e/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/6fefe86a63726acf19fe074bccbde57e/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
-      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-javadoc.jar!/" />
+      <root url="jar://G:/AndroidSDK/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-javadoc.jar!/" />
     </JAVADOC>
     <SOURCES>
-      <root url="jar://$USER_HOME$/Library/Android/sdk/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-sources.jar!/" />
+      <root url="jar://G:/AndroidSDK/extras/android/m2repository/com/android/databinding/library/1.3.1/library-1.3.1-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

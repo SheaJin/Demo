@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mjn_ziyu/StudioProject/Demo/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "J:\\AndroidStudioProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/e7d419927ed5dc0f127ca2058731a817/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/Users/mjn_ziyu/StudioProject/Demos/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-h720dp-v13/values-h720dp-v13.xml",
+            "outputFile": "J:\\AndroidStudioProject\\Demo\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-h720dp-v13\\values-h720dp-v13.xml",
             "map": [
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/cd9cd8f772372f482693374a508ee6c5/res/values-h720dp-v13/values-h720dp-v13.xml",
+                    "source": "C:\\Users\\JinXinYi\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\c0ddf0548fdf0a538acbccf96b1295aa\\res\\values-h720dp-v13\\values-h720dp-v13.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

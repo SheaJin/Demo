@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/mjn_ziyu/StudioProject/Demos/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/mjn_ziyu/StudioProject/Demos/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="J:\AndroidStudioProject\Lemon\app\src\main\shaders"/></dataSet><dataSet config="debug"><source path="J:\AndroidStudioProject\Lemon\app\src\debug\shaders"/></dataSet></merger>
