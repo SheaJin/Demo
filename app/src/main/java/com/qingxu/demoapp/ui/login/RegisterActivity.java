@@ -14,8 +14,6 @@ import com.qingxu.demoapp.api.HttpObserver;
 import com.qingxu.demoapp.model.Register;
 import com.qingxu.demoapp.ui.base.BaseActivity;
 
-import android.support.v7.app.AppCompatActivity;
-
 import net.lucode.hackware.magicindicator.MagicIndicator;
 
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -36,7 +34,7 @@ public class RegisterActivity extends BaseActivity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         indicator = findViewById(R.id.indicator);
-        showToast("ss");
+        setTitle("登录");
     }
 
     /**

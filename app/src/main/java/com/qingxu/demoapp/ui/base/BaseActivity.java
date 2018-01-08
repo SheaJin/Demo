@@ -7,6 +7,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.Toast;
 
+import com.qingxu.demoapp.util.CustomTitleView;
+
 /**
  * Created by jxy on 2018/1/8.
  */
@@ -17,7 +19,10 @@ public class BaseActivity extends AppCompatActivity{
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        EventBus.getDefault().register(this);
+    }
+
+    public void setTitle(String title){
+        new CustomTitleView.Builder(this).setTitle(title).setBackClick(() -> finish()).build();
     }
 
     public void showToast(String mess){
@@ -31,6 +36,5 @@ public class BaseActivity extends AppCompatActivity{
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        EventBus.getDefault().unregister(this);
     }
 }
