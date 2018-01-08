@@ -9,6 +9,7 @@ import android.support.v7.widget.RecyclerView;
 import com.qingxu.demoapp.R;
 import com.qingxu.demoapp.databinding.DataBindingActivity;
 import com.qingxu.demoapp.databinding.DataFragmentActivity;
+import com.qingxu.demoapp.loadmore.TextLoadMoreActivity;
 import com.qingxu.demoapp.recycler.MainActivity;
 
 import java.util.ArrayList;
@@ -19,7 +20,7 @@ public class EmptyActivity extends AppCompatActivity {
     private RecyclerView mRv;
     private List<String> list;
     private EmptyAdapter adapter;
-    private String[] menus = {"RecyclerView嵌套RecyclerView","dataBinding","Fragment 使用dataBinding"};
+    private String[] menus = {"RecyclerView嵌套RecyclerView","dataBinding","Fragment 使用dataBinding","TextView加载更多"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,6 +46,9 @@ public class EmptyActivity extends AppCompatActivity {
                     break;
                 case 2:
                     startActivity(new Intent(this,DataFragmentActivity.class));
+                    break;
+                case 3:
+                    startActivity(new Intent(this, TextLoadMoreActivity.class));
                     break;
             }
         });
