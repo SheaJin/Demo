@@ -18,14 +18,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:testOnly="true"
-        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
-        <activity android:name="com.qingxu.demoapp.ui.recycler.MainActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.main.EmptyActivity" />
+        android:theme="@style/Theme" >
+        <activity android:name="com.qingxu.demoapp.ui.recycler.RecyclerActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.main.MainActivity" />
         <activity android:name="com.qingxu.demoapp.ui.databinding.DataBindingActivity" />
         <activity android:name="com.qingxu.demoapp.ui.databinding.DataFragmentActivity" />
         <activity android:name="com.qingxu.demoapp.ui.rank.RankActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.loadmore.TextLoadMoreActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.login.RegisterActivity" >
+        <activity android:name="com.qingxu.demoapp.ui.login.RegisterActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.login.LoginActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

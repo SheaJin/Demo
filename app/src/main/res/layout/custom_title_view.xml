@@ -15,7 +15,7 @@
             android:layout_height="match_parent" />
 
         <TextView
-            android:text="title"
+            android:text=""
             android:id="@+id/title_left"
             android:textSize="18sp"
             android:layout_centerVertical="true"
@@ -25,8 +25,8 @@
             android:layout_height="wrap_content" />
 
         <TextView
-            android:text="title"
-            android:id="@+id/title"
+            android:text=""
+            android:id="@+id/titlessssss"
             android:textSize="18sp"
             android:textColor="@color/white_255"
             android:layout_centerInParent="true"
@@ -34,13 +34,13 @@
             android:layout_height="wrap_content" />
 
         <TextView
+            android:text=""
             android:id="@+id/title_right"
             android:textSize="18sp"
             android:textColor="@color/white_255"
             android:layout_marginRight="20px"
             android:layout_centerVertical="true"
             android:layout_alignParentRight="true"
-            android:text="right"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
     </RelativeLayout>

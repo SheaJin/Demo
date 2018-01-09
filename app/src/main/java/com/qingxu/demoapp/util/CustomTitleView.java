@@ -1,13 +1,16 @@
 package com.qingxu.demoapp.util;
 
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
+import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.qingxu.demoapp.R;
 
-import net.lucode.hackware.magicindicator.buildins.commonnavigator.titles.CommonPagerTitleView;
 
 /**
  * Created by jxy on 2018/1/8.
@@ -37,25 +40,19 @@ public class CustomTitleView {
     /**
      * 构造器
      * */
-    public CustomTitleView(Builder builder){
-        this.context = builder.context;
-        this.left = builder.left;
-        this.title = builder.title;
-        this.right = builder.right;
-        this.backClickListener = builder.backClickListener;
-        this.leftClickListener = builder.leftClickListener;
-        this.rightClickListener = builder.rightClickListener;
-        configTitle();
+    private CustomTitleView(AppCompatActivity context,String left,String title,String right,OnBackClickListener backClickListener,OnLeftClickListener leftClickListener,OnRightClickListener rightClickListener){
+        this.context = context;
+        this.left = left;
+        this.title = title;
+        this.right = right;
+        this.backClickListener = backClickListener;
+        this.leftClickListener = leftClickListener;
+        this.rightClickListener = rightClickListener;
     }
 
-    public void configTitle() {
-        View inflate = View.inflate(context,R.layout.custom_title_view,null);
-        mTvLeft = inflate.findViewById(R.id.title_left);
-        mTvTitle = inflate.findViewById(R.id.title);
-        mTvRight = inflate.findViewById(R.id.title_right);
-        mIvBack = inflate.findViewById(R.id.image_back);
+    public static Builder create(AppCompatActivity context){
+        return new Builder(context);
     }
-
 
     public static class Builder{
         private AppCompatActivity context;
@@ -64,7 +61,7 @@ public class CustomTitleView {
         private OnLeftClickListener leftClickListener;
         private OnRightClickListener rightClickListener;
 
-        public Builder(AppCompatActivity context){
+        private Builder(AppCompatActivity context){
             this.context = context;
         }
 
@@ -98,14 +95,32 @@ public class CustomTitleView {
             return this;
         }
 
-        public CommonPagerTitleView build() {
-            return new CommonPagerTitleView(context);
+        public CustomTitleView build() {
+            CustomTitleView view = new CustomTitleView(context,left,title,right,backClickListener,leftClickListener,rightClickListener);
+            return view;
         }
 
     }
 
-    public void show(){
-        configTitle();
+    public CustomTitleView configTitle() {
+        ActionBar.LayoutParams lp = new ActionBar.LayoutParams(ActionBar.LayoutParams.MATCH_PARENT, ActionBar.LayoutParams.WRAP_CONTENT);
+        lp.gravity = Gravity.CENTER_HORIZONTAL | Gravity.CENTER_HORIZONTAL;
+        View view = LayoutInflater.from(context).inflate(R.layout.custom_title_view, null);
+        mTvLeft = view.findViewById(R.id.title_left);
+        mTvTitle = view.findViewById(R.id.title);
+        mTvRight = view.findViewById(R.id.title_right);
+        mIvBack = view.findViewById(R.id.image_back);
+        mTvTitle.setText(title);
+        ActionBar actionBar = context.getSupportActionBar();
+        actionBar.setCustomView(view, lp);
+        actionBar.setDisplayOptions(ActionBar.DISPLAY_SHOW_CUSTOM);
+        actionBar.setDisplayShowCustomEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(false);
+        actionBar.setDisplayShowTitleEnabled(false);
+        actionBar.setElevation(0);
+        Toolbar parent = (Toolbar) view.getParent();
+        parent.setContentInsetsAbsolute(0, 0);
+        return this;
     }
 
 }

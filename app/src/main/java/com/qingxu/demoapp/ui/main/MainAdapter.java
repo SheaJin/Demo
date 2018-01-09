@@ -14,14 +14,14 @@ import java.util.List;
  * Created by jxy on 2018/1/2.
  */
 
-public class EmptyAdapter extends RecyclerView.Adapter<EmptyAdapter.MyViewHolder>{
+public class MainAdapter extends RecyclerView.Adapter<MainAdapter.MyViewHolder>{
 
     private Activity activity;
     private List<String> list;
     private String[] menus;
     private OnItemClickListener itemClickListener;
 
-    public EmptyAdapter(Activity activity, List<String> list,String[] menus) {
+    public MainAdapter(Activity activity, List<String> list, String[] menus) {
         this.activity = activity;
         this.list = list;
         this.menus = menus;
@@ -36,13 +36,13 @@ public class EmptyAdapter extends RecyclerView.Adapter<EmptyAdapter.MyViewHolder
     }
 
     @Override
-    public EmptyAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
+    public MainAdapter.MyViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
         View view = View.inflate(activity, R.layout.empty_item,null);
-        return new EmptyAdapter.MyViewHolder(view);
+        return new MainAdapter.MyViewHolder(view);
     }
 
     @Override
-    public void onBindViewHolder(EmptyAdapter.MyViewHolder holder, int position) {
+    public void onBindViewHolder(MainAdapter.MyViewHolder holder, int position) {
         holder.emptyText.setText(menus[position]);
         holder.itemView.setOnClickListener(v -> itemClickListener.onItemClick(position));
     }

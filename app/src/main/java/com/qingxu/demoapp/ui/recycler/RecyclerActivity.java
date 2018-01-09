@@ -10,7 +10,7 @@ import com.qingxu.demoapp.R;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends AppCompatActivity {
+public class RecyclerActivity extends AppCompatActivity {
     private RecyclerView mRv;
     private List<String> list;
     private MyAdapter adapter;
@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_recycler);
         mRv = findViewById(R.id.rv);
         mRv.setLayoutManager(new LinearLayoutManager(this));
         list = new ArrayList<>();
