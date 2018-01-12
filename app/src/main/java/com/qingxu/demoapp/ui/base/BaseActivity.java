@@ -2,52 +2,77 @@ package com.qingxu.demoapp.ui.base;
 
 import android.content.Context;
 import android.os.Bundle;
-import android.support.annotation.CallSuper;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
 import com.qingxu.demoapp.R;
+import com.qingxu.demoapp.model.event.MessageEvent;
 import com.qingxu.demoapp.util.CustomTitleView;
+import com.zhy.autolayout.AutoLayoutActivity;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+import butterknife.ButterKnife;
 
 /**
  * Created by jxy on 2018/1/8.
  */
 
-public abstract class BaseActivity extends AppCompatActivity {
+public abstract class BaseActivity extends AutoLayoutActivity implements View.OnClickListener{
     public CustomTitleView bar;
     private TextView mTvTitle;
+    private ImageView mIvBack;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        initView();
+    }
+
+    @Override
+    public void setContentView(int layoutResID) {
+        super.setContentView(layoutResID);
+        initBind();
+        initUI();
         initData();
+
+    }
+
+    public void initBind(){
+        ButterKnife.bind(this);
+//        EventBus.getDefault().register(this);
     }
 
     /**
-     * 初始化界面
+     * 界面初始化
      */
-    protected abstract void initView();
+    protected abstract void initUI();
 
     /**
-     * 初始化数据
+     * 数据初始化
      */
     protected abstract void initData();
 
-//    protected void setClick(int... resId) {
-//        for (int id : resId) {
-//            View view = this.findViewById(id);
-//            view.setOnClickListener(listener);
-//        }
-//    }
-//
-//    @Override
-//    public void onClick(View v) {
-//
-//    }
+    /**
+     * 点击事件
+     */
+    protected void setClick(int... resId) {
+        for (int id : resId) {
+            View view = this.findViewById(id);
+            view.setOnClickListener(this);
+        }
+    }
+
+    @Override
+    public void onClick(View v) {
+
+    }
 
     /**
      * 标题栏
@@ -56,9 +81,11 @@ public abstract class BaseActivity extends AppCompatActivity {
      */
     public void initTitle(String s) {
         mTvTitle = findViewById(R.id.titlessssss);
+        mIvBack = findViewById(R.id.image_back);
         if (s != null) {
             mTvTitle.setText(s);
         }
+        mIvBack.setOnClickListener(v -> finish());
     }
 
     /**
@@ -81,6 +108,8 @@ public abstract class BaseActivity extends AppCompatActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
+//        EventBus.getDefault().unregister(this);
     }
+
 
 }

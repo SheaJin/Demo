@@ -7,6 +7,7 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.qingxu.demoapp.R;
+import com.qingxu.demoapp.ui.adapter.MainAdapter;
 import com.qingxu.demoapp.ui.databinding.DataBindingActivity;
 import com.qingxu.demoapp.ui.databinding.DataFragmentActivity;
 import com.qingxu.demoapp.ui.recycler.RecyclerActivity;
