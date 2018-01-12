@@ -20,7 +20,7 @@
     <uses-permission android:name="android.permission.NO" />
 
     <application
-        android:name="com.qingxu.demoapp.LemonApplication"
+        android:name="com.qingxu.demoapp.ui.base.LemonApplication"
         android:allowBackup="true"
         android:debuggable="true"
         android:icon="@mipmap/logo"
@@ -36,7 +36,8 @@
         <activity android:name="com.qingxu.demoapp.ui.rank.RankActivity" />
         <activity android:name="com.qingxu.demoapp.ui.login.RegisterActivity" />
         <activity android:name="com.qingxu.demoapp.ui.pic.ImpressPicActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.login.LoginActivity" >
+        <activity android:name="com.qingxu.demoapp.ui.login.LoginActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.rx.RxActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

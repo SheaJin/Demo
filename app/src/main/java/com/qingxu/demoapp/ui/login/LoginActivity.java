@@ -10,6 +10,7 @@ import com.qingxu.demoapp.R;
 import com.qingxu.demoapp.ui.base.BaseActivity;
 import com.qingxu.demoapp.ui.pic.ImpressPicActivity;
 import com.qingxu.demoapp.ui.rank.RankActivity;
+import com.qingxu.demoapp.ui.rx.RxActivity;
 
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -41,7 +42,7 @@ public class LoginActivity extends BaseActivity {
     void click(View view){
         switch (view.getId()){
             case R.id.but:
-                startActivity(new Intent(this,RankActivity.class));
+                startActivity(new Intent(this,RxActivity.class));
                 break;
         }
     }

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
 MERGED from [com.android.databinding:adapters:1.3.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/adapters-1.3.1.aar/2b77acfbd02b20c4867345f7f5a2d2d6/AndroidManifest.xml:17:1-26:12
 MERGED from [com.android.databinding:library:1.3.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/library-1.3.1.aar/4e4d0dac7fc98560ce25ee5d92fab1d8/AndroidManifest.xml:17:1-26:12
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:2:1-11:12
@@ -27,20 +27,20 @@ MERGED from [com.android.support:support-core-utils:27.0.2] /Users/mjn_ziyu/.gra
 MERGED from [com.android.support:support-vector-drawable:27.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.0.2.aar/e71c57da49ac709a5c3dae2b01e9087d/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.0.2.aar/1e99a63cb5880817ada07f67556d944b/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.0.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.0.3.aar/02699deeb40cc7bcae5cdff9f2ebcdc2/AndroidManifest.xml:17:1-24:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
 	package
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:3:5-33
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-49:12
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-50:12
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:11-69
@@ -85,7 +85,7 @@ ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:14:22-58
 application
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:16:5-47:19
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:16:5-48:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/07ab6161c86f7c3082eb1275032840a0/AndroidManifest.xml:9:5-20
@@ -103,7 +103,7 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_
 	android:theme
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:23:9-37
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:17:9-41
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:17:9-49
 activity#com.qingxu.demoapp.ui.recycler.RecyclerActivity
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:24:9-66
 	android:name
@@ -133,31 +133,35 @@ ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:30:19-60
 activity#com.qingxu.demoapp.ui.login.LoginActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:31:9-37:20
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:31:9-59
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:31:19-57
+activity#com.qingxu.demoapp.ui.rx.RxActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:32:9-38:20
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:32:19-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:32:13-36:29
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:33:17-69
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:34:17-69
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:33:25-66
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:34:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:35:17-77
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:36:17-77
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:35:27-74
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:36:27-74
 meta-data#design_width
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:39:9-41:36
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:40:9-42:36
 	android:value
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:41:13-33
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:42:13-33
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:40:13-40
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:41:13-40
 meta-data#design_height
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:42:9-44:36
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:43:9-45:36
 	android:value
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:44:13-33
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:45:13-33
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:43:13-41
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:44:13-41
 uses-sdk
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml

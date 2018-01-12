@@ -28,7 +28,8 @@
         <activity android:name=".ui.rank.RankActivity" />
         <activity android:name=".ui.login.RegisterActivity"/>
         <activity android:name=".ui.pic.ImpressPicActivity"/>
-        <activity android:name=".ui.login.LoginActivity">
+        <activity android:name=".ui.login.LoginActivity"/>
+        <activity android:name=".ui.rx.RxActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
