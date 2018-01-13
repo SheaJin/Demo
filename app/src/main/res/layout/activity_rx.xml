@@ -7,7 +7,13 @@
 
     <Button
         android:id="@+id/but"
-        android:text="button"
+        android:text="RxJava简单订阅"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/but2"
+        android:text="RxJava线程调度"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 </LinearLayout>

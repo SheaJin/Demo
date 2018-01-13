@@ -504,6 +504,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-xxhdpi-v4/abc_popup_background_mtrl_mult.9.png"
     },
     {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout_include_viewpager.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/convenientbanner-2.0.5.aar/cf0a7b6d7ce0c33514e9bfb27d302daf/res/layout/include_viewpager.xml"
+    },
+    {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },

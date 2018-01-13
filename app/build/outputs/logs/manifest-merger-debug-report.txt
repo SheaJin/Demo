@@ -108,10 +108,10 @@ activity#com.qingxu.demoapp.ui.recycler.RecyclerActivity
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:24:9-66
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:24:19-63
-activity#com.qingxu.demoapp.ui.main.MainActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:25:9-58
+activity#com.qingxu.demoapp.ui.rx.RxActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:25:9-54
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:25:19-55
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:25:19-51
 activity#com.qingxu.demoapp.ui.databinding.DataBindingActivity
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:26:9-72
 	android:name
@@ -136,10 +136,10 @@ activity#com.qingxu.demoapp.ui.login.LoginActivity
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:31:9-59
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:31:19-57
-activity#com.qingxu.demoapp.ui.rx.RxActivity
+activity#com.qingxu.demoapp.ui.main.MainActivity
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:32:9-38:20
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:32:19-51
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:32:19-55
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:33:13-37:29
 action#android.intent.action.MAIN

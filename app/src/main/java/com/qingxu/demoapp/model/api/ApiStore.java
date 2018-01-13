@@ -43,8 +43,7 @@ public class ApiStore {
 
                     Request request = requestBuilder.build();
                     return chain.proceed(request);
-                })
-                .addInterceptor(new HttpLoggingInterceptor());
+                }).addInterceptor(new HttpLoggingInterceptor());
 
         SSLSocketFactory sslSocketFactory = getSSLSocketFactory(new Buffer().writeUtf8(AppConfig.SSL_KEY).inputStream(), new Buffer().writeUtf8(AppConfig.MIDDLE_KEY).inputStream());
         if (sslSocketFactory != null) {

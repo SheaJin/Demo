@@ -14,7 +14,6 @@
 
     <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
-
     <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/theme</item>
@@ -23,4 +22,11 @@
         <!--下段代码就是去除阴影的-->
         <item name="android:windowContentOverlay">@null</item>
     </style>
+
+    <!--PopupWindow从底部进入和取消-->
+    <style name="showPopupFromBottom" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowEnterAnimation">@anim/window_bottom_out</item>
+        <item name="android:windowExitAnimation">@anim/window_bottom_in</item>
+    </style>
+
 </resources>

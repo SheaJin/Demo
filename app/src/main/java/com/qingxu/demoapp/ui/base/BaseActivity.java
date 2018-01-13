@@ -3,7 +3,6 @@ package com.qingxu.demoapp.ui.base;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -11,13 +10,8 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.qingxu.demoapp.R;
-import com.qingxu.demoapp.model.event.MessageEvent;
-import com.qingxu.demoapp.util.CustomTitleView;
+import com.qingxu.demoapp.widget.CustomTitleView;
 import com.zhy.autolayout.AutoLayoutActivity;
-
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
 
 import butterknife.ButterKnife;
 

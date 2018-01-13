@@ -15,12 +15,13 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.OnClick;
 import io.reactivex.Observable;
-import io.reactivex.ObservableSource;
+import io.reactivex.ObservableEmitter;
+import io.reactivex.ObservableOnSubscribe;
 import io.reactivex.Observer;
+import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
-import io.reactivex.functions.Function;
-import io.reactivex.functions.Predicate;
+import io.reactivex.schedulers.Schedulers;
 
 
 /**
@@ -33,6 +34,17 @@ import io.reactivex.functions.Predicate;
  * Subscribe  订阅
  * Subscriber 观察者 它与Observer没什么实质的区别，不同的是 Subscriber要与Flowable(也是一种被观察者)联合使用，
  * Obsesrver用于订阅Observable，而Subscriber用于订阅Flowable
+ *
+ *
+ * Scheduler  相当于线程控制器，RxJava 通过它来指定每一段代码应该运行在什么样的线程。
+ * subscribeOn(): 指定Observable(被观察者)所在的线程，或者叫做事件产生的线程。
+ * observeOn(): 指定 Observer(观察者)所运行在的线程，或者叫做事件消费的线程。
+ *
+ *
+ * Disposable 当调用Disposable的dispose方法，会切断Observable 和 Observer的连接
+ * Disposable对象的获得有两种方式
+ * 1.Observer接口中的OnSubscribe方法
+ * 2.Consume或其他函数式接口
  */
 public class RxActivity extends BaseActivity {
 
@@ -71,6 +83,7 @@ public class RxActivity extends BaseActivity {
 
             @Override
             public void onNext(Object o) {
+                showLog(activity, "2当前线程" + Thread.currentThread().getName());
                 //观察者收到通知，操作
                 showLog(activity, "收到通知" + o.toString());
             }
@@ -97,13 +110,13 @@ public class RxActivity extends BaseActivity {
 
     }
 
-    @OnClick(R.id.but)
+    @OnClick({R.id.but, R.id.but2})
     public void click(View view) {
         switch (view.getId()) {
             case R.id.but:
                 showLog(activity, "click");
                 //Observable 其他创建方式1
-//              observable = Observable.just("hello");
+                observable = Observable.just("hello");
 
                 //Observable 其他创建方式2
                 List<String> list = new ArrayList<String>();
@@ -191,36 +204,54 @@ public class RxActivity extends BaseActivity {
                  *
                  * doOnNext()允许我们在每次输出一个元素之前做一些额外的事情。
                  * */
-                Observable.just(list).flatMap(new Function<List<String>, ObservableSource<?>>() {
-                    @Override
-                    public ObservableSource<?> apply(List<String> strings) throws Exception {
-                        return Observable.fromIterable(strings);
-                    }
-                }).filter(new Predicate<Object>() {
-                    @Override
-                    public boolean test(Object o) throws Exception {
-                        String s = o.toString();
-                        if (Integer.parseInt(String.valueOf(s.charAt(5))) - 3 > 0) {
-                            return true;
-                        }
-                        return false;
-                    }
-                }).take(3).doOnNext(new Consumer<Object>() {
-                    @Override
-                    public void accept(Object o) throws Exception {
-                        showLog(activity,"prepare");
-                    }
-                }).subscribe(new Consumer<Object>() {
-                    @Override
-                    public void accept(Object o) throws Exception {
-                        showLog(activity, (String) o);
-                    }
-                });
+//                Observable.just(list).flatMap(new Function<List<String>, ObservableSource<?>>() {
+//                    @Override
+//                    public ObservableSource<?> apply(List<String> strings) throws Exception {
+//                        return Observable.fromIterable(strings);
+//                    }
+//                }).filter(new Predicate<Object>() {
+//                    @Override
+//                    public boolean test(Object o) throws Exception {
+//                        String s = o.toString();
+//                        if (Integer.parseInt(String.valueOf(s.charAt(5))) - 3 > 0) {
+//                            return true;
+//                        }
+//                        return false;
+//                    }
+//                }).take(3).doOnNext(new Consumer<Object>() {
+//                    @Override
+//                    public void accept(Object o) throws Exception {
+//                        showLog(activity,"prepare");
+//                    }
+//                }).subscribe(new Consumer<Object>() {
+//                    @Override
+//                    public void accept(Object o) throws Exception {
+//                        showLog(activity,"1当前线程" + Thread.currentThread().getName());
+//                        showLog(activity, (String) o);
+//                    }
+//                });
 
                 /**
                  * 订阅
                  * */
-//                observable.subscribe(observer);
+                observable.subscribe(observer);
+                break;
+            case R.id.but2:
+                Observable.create(new ObservableOnSubscribe<Object>() {
+                    @Override
+                    public void subscribe(ObservableEmitter<Object> e) throws Exception {
+                        showLog(activity, "3当前线程" + Thread.currentThread().getName());
+                        e.onNext("msg");
+                    }
+                }).subscribeOn(Schedulers.io())
+                        .observeOn(AndroidSchedulers.mainThread())
+                        .subscribe(new Consumer<Object>() {
+                            @Override
+                            public void accept(Object o) throws Exception {
+                                showLog(activity, "所在的线程：" + Thread.currentThread().getName());
+                                showLog(activity, "接收到的数据:" + o.toString());
+                            }
+                        });
                 break;
         }
     }

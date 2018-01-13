@@ -53,5 +53,6 @@
     <color name="point_white">#80ffffff</color>
     <color name="card_shape">#eeeeee</color>
     <color name="finish">#767676</color>
+    <color name="popup_window">#804e4d4d</color>
 
 </resources>
