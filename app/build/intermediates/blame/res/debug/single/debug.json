@@ -124,6 +124,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable/abc_ic_go_search_api_material.xml"
     },
     {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable_no_banner.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/drawable/no_banner.png"
+    },
+    {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable-ldrtl-mdpi-v17_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-ldrtl-mdpi-v17/abc_spinner_mtrl_am_alpha.9.png"
     },
@@ -692,6 +696,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable_black_background.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/drawable/black_background.xml"
+    },
+    {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_csbz.png.flat",
         "source": "/Users/mjn_ziyu/StudioProject/Lemon/app/src/main/res/mipmap-xhdpi/csbz.png"
     },
@@ -890,6 +898,10 @@
     {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable_gray_radius.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/drawable/gray_radius.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
@@ -1092,6 +1104,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/layout_activity_ok_http.xml.flat",
+        "source": "/Users/mjn_ziyu/StudioProject/Lemon/app/src/main/res/layout/activity_ok_http.xml"
+    },
+    {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/layout_abc_screen_toolbar.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/layout/abc_screen_toolbar.xml"
     },
@@ -1220,6 +1236,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable_white_radius.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/drawable/white_radius.xml"
+    },
+    {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi_ic_launcher_round.png.flat",
         "source": "/Users/mjn_ziyu/StudioProject/Lemon/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
@@ -1338,6 +1358,10 @@
     {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-hdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/animator_scale_with_alpha.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/animator/scale_with_alpha.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/layout_abc_popup_menu_item_layout.xml.flat",
@@ -1620,6 +1644,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_timg.jpg.flat",
+        "source": "/Users/mjn_ziyu/StudioProject/Lemon/app/src/main/res/mipmap-xhdpi/timg.jpg"
+    },
+    {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
@@ -1818,6 +1846,10 @@
     {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_black_48dp.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.0.2.aar/ce6ce6f495122f000da39b646a071ff7/res/drawable-xhdpi-v4/abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/layout_banner.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/layout/banner.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/res/merged/debug/drawable-anydpi-v21_design_ic_visibility_off.xml.flat",

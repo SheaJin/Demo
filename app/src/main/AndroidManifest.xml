@@ -26,9 +26,9 @@
         <activity android:name=".ui.databinding.DataBindingActivity" />
         <activity android:name=".ui.databinding.DataFragmentActivity" />
         <activity android:name=".ui.rank.RankActivity" />
-        <activity android:name=".ui.login.RegisterActivity"/>
-        <activity android:name=".ui.pic.ImpressPicActivity"/>
-        <activity android:name=".ui.login.LoginActivity"/>
+        <activity android:name=".ui.login.RegisterActivity" />
+        <activity android:name=".ui.pic.ImpressPicActivity" />
+        <activity android:name=".ui.login.LoginActivity" />
         <activity android:name=".ui.main.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -44,7 +44,7 @@
             android:name="design_height"
             android:value="2208" />
 
-
+        <activity android:name=".ui.rx.UploadImageActivity"></activity>
     </application>
 
 </manifest>

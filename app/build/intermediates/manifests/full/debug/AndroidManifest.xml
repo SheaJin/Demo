@@ -50,6 +50,8 @@
         <meta-data
             android:name="design_height"
             android:value="2208" />
+
+        <activity android:name="com.qingxu.demoapp.ui.rx.UploadImageActivity" />
     </application>
 
 </manifest>

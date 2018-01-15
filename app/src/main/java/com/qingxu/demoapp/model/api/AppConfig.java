@@ -15,10 +15,11 @@ public class AppConfig {
 
     public static final String REGISTER = API + "register";
 
-    public static final String testUrl1 = "https://ss2.bdstatic.com/70cFvnSh_Q1YnxGkpoWK1HF6hhy/it/u=604358495,553167525&fm=27&gp=0.jpg";
+    public static final String testUrl1 = "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1516003911910&di=92b6ba90d378cf2a2edebda408d9fa13&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D2760457749%2C4161462131%26fm%3D214%26gp%3D0.jpg";
     public static final String testUrl2 = "https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=4246415532,1875407510&fm=27&gp=0.jpg";
     public static final String testUrl3 = "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2287779081,1000471659&fm=27&gp=0.jpg";
     public static final String testUrl4 = "https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2374400698,3555894510&fm=27&gp=0.jpg";
+    public static final String bigPic = "http://lensbuyersguide.com/gallery/219/2/23_iso100_14mm.jpg";
 
 
 }

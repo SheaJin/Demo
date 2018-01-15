@@ -7,14 +7,13 @@ import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 
 import com.qingxu.demoapp.R;
-import com.qingxu.demoapp.model.data.Register;
 import com.qingxu.demoapp.ui.adapter.MainAdapter;
 import com.qingxu.demoapp.ui.databinding.DataBindingActivity;
-import com.qingxu.demoapp.ui.databinding.DataFragmentActivity;
 import com.qingxu.demoapp.ui.login.LoginActivity;
-import com.qingxu.demoapp.ui.login.RegisterActivity;
+import com.qingxu.demoapp.ui.rank.RankActivity;
 import com.qingxu.demoapp.ui.recycler.RecyclerActivity;
 import com.qingxu.demoapp.ui.rx.RxActivity;
+import com.qingxu.demoapp.ui.rx.UploadImageActivity;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private RecyclerView mRv;
     private List<String> list;
     private MainAdapter adapter;
-    private String[] menus = {"RecyclerView嵌套RecyclerView","dataBinding","Fragment 使用dataBinding","RxJava","Login"};
+    private String[] menus = {"RecyclerView嵌套RecyclerView", "dataBinding", "RxJava", "Login", "Ranking","upload"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,16 +48,16 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(this,DataBindingActivity.class));
                     break;
                 case 2:
-                    startActivity(new Intent(this,DataFragmentActivity.class));
-                    break;
-                case 3:
                     startActivity(new Intent(this,RxActivity.class));
                     break;
-                case 4:
+                case 3:
                     startActivity(new Intent(this,LoginActivity.class));
                     break;
+                case 4:
+                    startActivity(new Intent(this, RankActivity.class));
+                    break;
                 case 5:
-//                    startActivity(new Intent(this,RegisterActivity.class));
+                    startActivity(new Intent(this, UploadImageActivity.class));
                     break;
             }
         });

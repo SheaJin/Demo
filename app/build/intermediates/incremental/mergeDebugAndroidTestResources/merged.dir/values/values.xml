@@ -284,6 +284,16 @@
             <flag name="minHeight" value="32768"/>
             <flag name="maxHeight" value="65536"/>
         </attr></declare-styleable>
+    <declare-styleable name="Banner"><attr format="integer" name="delay_time"/><attr format="integer" name="scroll_time"/><attr format="boolean" name="is_auto_play"/><attr format="color|reference" name="title_background"/><attr format="color" name="title_textcolor"/><attr format="dimension" name="title_textsize"/><attr format="dimension" name="title_height"/><attr format="dimension" name="indicator_width"/><attr format="dimension" name="indicator_height"/><attr format="dimension" name="indicator_margin"/><attr format="reference" name="indicator_drawable_selected"/><attr format="reference" name="indicator_drawable_unselected"/><attr format="reference" name="banner_layout"/><attr format="reference" name="banner_default_image"/><attr format="enum" name="image_scale_type">
+            <enum name="center" value="0"/>
+            <enum name="center_crop" value="1"/>
+            <enum name="center_inside" value="2"/>
+            <enum name="fit_center" value="3"/>
+            <enum name="fit_end" value="4"/>
+            <enum name="fit_start" value="5"/>
+            <enum name="fit_xy" value="6"/>
+            <enum name="matrix" value="7"/>
+        </attr></declare-styleable>
     <declare-styleable name="BottomNavigationView"><attr name="menu"/><attr name="itemIconTint"/><attr name="itemTextColor"/><attr name="itemBackground"/><attr name="elevation"/></declare-styleable>
     <declare-styleable name="BottomSheetBehavior_Layout"><attr format="dimension" name="behavior_peekHeight">
             
@@ -743,15 +753,23 @@
     <item name="action_bar_spinner" type="id"/>
     <item name="action_menu_divider" type="id"/>
     <item name="action_menu_presenter" type="id"/>
+    <item name="bannerContainer" type="id"/>
+    <item name="bannerDefaultImage" type="id"/>
+    <item name="bannerTitle" type="id"/>
+    <item name="bannerViewPager" type="id"/>
+    <item name="circleIndicator" type="id"/>
     <item name="dataBinding" type="id"/>
     <item name="ghost_view" type="id"/>
     <item name="home" type="id"/>
     <item name="id_tag_autolayout_margin" type="id"/>
     <item name="id_tag_autolayout_padding" type="id"/>
     <item name="id_tag_autolayout_size" type="id"/>
+    <item name="indicatorInside" type="id"/>
     <item name="item_touch_helper_previous_elevation" type="id"/>
     <item name="line1" type="id"/>
     <item name="line3" type="id"/>
+    <item name="numIndicator" type="id"/>
+    <item name="numIndicatorInside" type="id"/>
     <item name="onAttachStateChangeListener" type="id"/>
     <item name="onDateChanged" type="id"/>
     <item name="parent_matrix" type="id"/>
@@ -768,6 +786,7 @@
     <item name="textinput_counter" type="id"/>
     <item name="textinput_error" type="id"/>
     <item name="title" type="id"/>
+    <item name="titleView" type="id"/>
     <item name="transition_current_scene" type="id"/>
     <item name="transition_layout_save" type="id"/>
     <item name="transition_position" type="id"/>
