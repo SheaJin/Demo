@@ -4,17 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.qingxu.demoapp.ui.rx.UploadImageActivity">
+    tools:context="com.qingxu.demoapp.ui.pic.UploadImageActivity">
 
     <Button
         android:id="@+id/but"
         android:text="compress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
-    
-    <com.youth.banner.Banner
-        android:layout_width=""
-        android:layout_height=""></com.youth.banner.Banner>
+
 
     <android.support.v4.view.ViewPager
         android:layout_alignParentBottom="true"

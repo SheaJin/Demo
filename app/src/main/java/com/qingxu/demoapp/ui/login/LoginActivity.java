@@ -3,10 +3,10 @@ package com.qingxu.demoapp.ui.login;
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.Gravity;
+import android.view.MotionEvent;
 import android.view.View;
 import android.view.WindowManager;
 import android.widget.Button;
-import android.widget.TextView;
 
 import com.qingxu.demoapp.R;
 import com.qingxu.demoapp.ui.base.BaseActivity;
@@ -55,5 +55,42 @@ public class LoginActivity extends BaseActivity {
         if (window != null) {
             window = null;
         }
+    }
+
+    /**
+     * onTouch事件
+     *
+     * ● 按下（ACTION_DOWN）
+     * ● 移动（ACTION_MOVE）
+     * ● 抬起（ACTION_UP）
+     * ● 取消手势（ACTION_CANCEL）
+     * ● 滑出屏幕（ACTION_OUTSIDE）
+     */
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        switch (event.getAction()) {
+            case MotionEvent.ACTION_DOWN:
+
+                break;
+            case MotionEvent.ACTION_UP:
+
+                break;
+            case MotionEvent.ACTION_MOVE:
+
+                break;
+            case MotionEvent.ACTION_CANCEL:
+
+                break;
+            case MotionEvent.ACTION_OUTSIDE:
+
+                break;
+        }
+        return super.onTouchEvent(event);
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent ev) {
+
+        return super.dispatchTouchEvent(ev);
     }
 }

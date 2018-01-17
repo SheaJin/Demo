@@ -13,7 +13,7 @@ import com.qingxu.demoapp.ui.login.LoginActivity;
 import com.qingxu.demoapp.ui.rank.RankActivity;
 import com.qingxu.demoapp.ui.recycler.RecyclerActivity;
 import com.qingxu.demoapp.ui.rx.RxActivity;
-import com.qingxu.demoapp.ui.rx.UploadImageActivity;
+import com.qingxu.demoapp.ui.pic.UploadImageActivity;
 
 import java.util.ArrayList;
 import java.util.List;

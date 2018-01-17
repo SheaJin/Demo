@@ -1,4 +1,4 @@
-package com.qingxu.demoapp.ui.rx;
+package com.qingxu.demoapp.ui.pic;
 
 import android.os.Bundle;
 import android.os.Environment;
