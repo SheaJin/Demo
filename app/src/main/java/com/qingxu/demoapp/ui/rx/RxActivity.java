@@ -110,6 +110,11 @@ public class RxActivity extends BaseActivity {
 
     }
 
+    @Override
+    protected int setFragmentContainerResId() {
+        return 0;
+    }
+
     @OnClick({R.id.but, R.id.but2})
     public void click(View view) {
         switch (view.getId()) {

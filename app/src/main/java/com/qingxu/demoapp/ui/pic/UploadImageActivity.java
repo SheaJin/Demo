@@ -95,6 +95,11 @@ public class UploadImageActivity extends BaseActivity {
         });
     }
 
+    @Override
+    protected int setFragmentContainerResId() {
+        return 0;
+    }
+
     @OnClick(R.id.but)
     public void click() {
 

@@ -12,10 +12,21 @@ import com.bumptech.glide.request.target.Target;
 import com.bumptech.glide.signature.StringSignature;
 
 /**
- * Created by yangmu on 2017/8/9.
+ * Created by jxy on 2017/8/9.
  */
 
 public class GlideUtil {
+    /**
+     * 加载res
+     */
+    public static void loadImage(Context context, int resId, ImageView imageView) {
+        Glide.with(context)
+                .load(resId)
+                .skipMemoryCache(false)
+                .diskCacheStrategy(DiskCacheStrategy.RESULT)
+                .into(imageView);
+    }
+
     /**
      * 自适应宽度加载图片。保持图片的长宽比例不变，通过修改imageView的高度来完全显示图片。
      */

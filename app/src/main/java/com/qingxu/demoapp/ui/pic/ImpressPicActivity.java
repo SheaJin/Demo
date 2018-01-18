@@ -55,6 +55,11 @@ public class ImpressPicActivity extends BaseActivity {
 
     }
 
+    @Override
+    protected int setFragmentContainerResId() {
+        return 0;
+    }
+
     @OnClick( R.id.but_press)
     public void click(View view) {
         switch (view.getId()) {

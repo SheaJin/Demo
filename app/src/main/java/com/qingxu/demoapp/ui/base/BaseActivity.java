@@ -3,6 +3,8 @@ package com.qingxu.demoapp.ui.base;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentTransaction;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -23,7 +25,9 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     public CustomTitleView bar;
     private TextView mTvTitle;
     private ImageView mIvBack;
-
+    protected BaseActivity activity;
+    protected FragmentManager fm;
+    protected BaseFragment currentFragment;
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -32,6 +36,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     @Override
     public void setContentView(int layoutResID) {
         super.setContentView(layoutResID);
+        activity = this;
         initBind();
         initUI();
         initData();
@@ -52,6 +57,10 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
      * 数据初始化
      */
     protected abstract void initData();
+
+    protected int setFragmentContainerResId(){
+        return 0;
+    }
 
     /**
      * 点击事件
@@ -105,5 +114,31 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
 //        EventBus.getDefault().unregister(this);
     }
 
-
+    /**
+     * 显示Fragment
+     *
+     * @param fragment
+     */
+    protected void showFragment(BaseFragment fragment, int position) {
+        if (fm == null) {
+            fm = getSupportFragmentManager();
+        }
+        FragmentTransaction transaction = fm.beginTransaction();
+        //Fragment添加
+        if (!fragment.isAdded()) {
+            transaction.add(setFragmentContainerResId(), fragment, position + "");
+        }
+        if (currentFragment == null) {
+            currentFragment = fragment;
+        }
+//        //通过tag进行过渡动画滑动判断
+//        if (Integer.parseInt(currentFragment.getTag()) >= Integer.parseInt(fragment.getTag())) {
+//            transaction.setCustomAnimations(R.anim.fragment_push_left_in, R.anim.fragment_push_right_out);
+//        } else {
+//            transaction.setCustomAnimations(R.anim.fragment_push_right_in, R.anim.fragment_push_left_out);
+//        }
+        transaction.hide(currentFragment).show(fragment);
+        transaction.commit();
+        currentFragment = fragment;
+    }
 }

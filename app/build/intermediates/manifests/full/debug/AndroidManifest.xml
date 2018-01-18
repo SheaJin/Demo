@@ -29,6 +29,13 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/Theme" >
+        <activity android:name="com.qingxu.demoapp.ui.splash.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="com.qingxu.demoapp.ui.recycler.RecyclerActivity" />
         <activity android:name="com.qingxu.demoapp.ui.rx.RxActivity" />
         <activity android:name="com.qingxu.demoapp.ui.databinding.DataBindingActivity" />
@@ -38,6 +45,12 @@
         <activity android:name="com.qingxu.demoapp.ui.pic.ImpressPicActivity" />
         <activity android:name="com.qingxu.demoapp.ui.login.LoginActivity" />
         <activity android:name="com.qingxu.demoapp.ui.main.MainActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.pic.UploadImageActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.rank.CoordinatorActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.service.ServiceActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.main.HomeActivity" />
+
+        <service android:name="com.qingxu.demoapp.ui.service.MyService" />
 
         <meta-data
             android:name="design_width"
@@ -46,20 +59,10 @@
             android:name="design_height"
             android:value="2208" />
 
-        <activity android:name="com.qingxu.demoapp.ui.pic.UploadImageActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.rank.CoordinatorActivity" />
-
-        <service android:name="com.qingxu.demoapp.ui.service.MyService" />
-
-        <activity android:name="com.qingxu.demoapp.ui.service.ServiceActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.splash.SplashActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-        <activity android:name="com.qingxu.demoapp.ui.main.HomeActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.fragment.NewsFragment" />
+        <activity android:name="com.qingxu.demoapp.ui.fragment.MineFragment" />
+        <activity android:name="com.qingxu.demoapp.ui.fragment.CommunityFragment" />
+        <activity android:name="com.qingxu.demoapp.ui.fragment.InfoFragment" />
     </application>
 
 </manifest>

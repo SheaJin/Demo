@@ -38,6 +38,11 @@ public class LoginActivity extends BaseActivity {
 
     }
 
+    @Override
+    protected int setFragmentContainerResId() {
+        return 0;
+    }
+
     @OnClick(R.id.but)
     void click(View view){
         switch (view.getId()){

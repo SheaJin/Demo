@@ -38,6 +38,11 @@ public class ServiceActivity extends BaseActivity {
 
     }
 
+    @Override
+    protected int setFragmentContainerResId() {
+        return 0;
+    }
+
     public ServiceConnection connection = new ServiceConnection() {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {

@@ -94,4 +94,9 @@ public class RankActivity extends BaseActivity {
     protected void initData() {
 
     }
+
+    @Override
+    protected int setFragmentContainerResId() {
+        return 0;
+    }
 }

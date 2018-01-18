@@ -118,6 +118,11 @@ public class RegisterActivity extends BaseActivity{
 //    }
     }
 
+    @Override
+    protected int setFragmentContainerResId() {
+        return 0;
+    }
+
     private void register() {
         ArrayMap<String,String> params = new ArrayMap<>();
         params.put("name",name);
