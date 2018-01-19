@@ -23,8 +23,7 @@
             android:layout_height="@dimen/dp_180"
             android:layout_gravity="bottom"
             app:bnbActiveColor="?attr/colorPrimary"
-            app:bnbBackgroundColor="@color/white_255"
-            app:bnbInactiveColor="@color/text_grey" />
+            app:bnbBackgroundColor="@color/white_255" />
     </LinearLayout>
 
 </RelativeLayout>

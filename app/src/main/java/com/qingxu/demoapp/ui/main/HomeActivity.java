@@ -45,11 +45,11 @@ public class HomeActivity extends BaseActivity {
         /**
          * 底部导航栏
          */
-        bottomHome.addItem(newBnbItem("比赛", R.drawable.ic_svg_match_bg_dark_24))
-                .addItem(newBnbItem("新闻", R.drawable.ic_svg_news_bg_dark_24))
-                .addItem(newBnbItem("社区", R.drawable.ic_svg_info_bg_dark_24))
-                .addItem(newBnbItem("数据", R.drawable.ic_svg_forum_bg_dark_24))
-                .addItem(newBnbItem("我的", R.drawable.ic_svg_mine_bg_dark_24))
+        bottomHome.addItem(newBnbItem("比赛", R.drawable.ic_svg_match_bg_dark_24)).setInActiveColor(R.color.text_grey)
+                .addItem(newBnbItem("新闻", R.drawable.ic_svg_news_bg_dark_24)).setInActiveColor(R.color.black_255)
+                .addItem(newBnbItem("社区", R.drawable.ic_svg_info_bg_dark_24)).setInActiveColor(R.color.text_grey)
+                .addItem(newBnbItem("数据", R.drawable.ic_svg_forum_bg_dark_24)).setInActiveColor(R.color.black_255)
+                .addItem(newBnbItem("我的", R.drawable.ic_svg_mine_bg_dark_24)).setInActiveColor(R.color.text_grey)
                 .setMode(BottomNavigationBar.MODE_SHIFTING)
                 .setBackgroundStyle(BottomNavigationBar.BACKGROUND_STYLE_STATIC)
                 .initialise();
