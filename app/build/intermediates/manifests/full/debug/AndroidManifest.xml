@@ -27,7 +27,6 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
         android:theme="@style/Theme" >
         <activity android:name="com.qingxu.demoapp.ui.splash.SplashActivity" >
             <intent-filter>
@@ -36,21 +35,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.qingxu.demoapp.ui.recycler.RecyclerActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.rx.RxActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.databinding.DataBindingActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.databinding.DataFragmentActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.rank.RankActivity" />
+        <activity android:name="app.recycler.RecyclerActivity" />
+        <activity android:name="app.rx.RxActivity" />
+        <activity android:name="app.databinding.DataBindingActivity" />
+        <activity android:name="app.databinding.DataFragmentActivity" />
+        <activity android:name="app.rank.RankActivity" />
         <activity android:name="com.qingxu.demoapp.ui.login.RegisterActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.pic.ImpressPicActivity" />
+        <activity android:name="app.pic.ImpressPicActivity" />
         <activity android:name="com.qingxu.demoapp.ui.login.LoginActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.main.MainActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.pic.UploadImageActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.rank.CoordinatorActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.service.ServiceActivity" />
+        <activity android:name="app.MainActivity" />
+        <activity android:name="app.pic.UploadImageActivity" />
+        <activity android:name="app.rank.CoordinatorActivity" />
         <activity android:name="com.qingxu.demoapp.ui.main.HomeActivity" />
-
-        <service android:name="com.qingxu.demoapp.ui.service.MyService" />
 
         <meta-data
             android:name="design_width"
@@ -59,10 +55,9 @@
             android:name="design_height"
             android:value="2208" />
 
-        <activity android:name="com.qingxu.demoapp.ui.fragment.NewsFragment" />
-        <activity android:name="com.qingxu.demoapp.ui.fragment.MineFragment" />
-        <activity android:name="com.qingxu.demoapp.ui.fragment.CommunityFragment" />
-        <activity android:name="com.qingxu.demoapp.ui.fragment.InfoFragment" />
+        <activity android:name="com.qingxu.demoapp.ui.main.DemoActivity" />
+        <activity android:name="com.qingxu.demoapp.ui.main.SendSocketActivity" />
+        <activity android:name="app.news.NewsContentFragment" />
     </application>
 
 </manifest>

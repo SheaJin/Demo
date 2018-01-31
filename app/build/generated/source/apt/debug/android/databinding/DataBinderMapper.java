@@ -51,13 +51,7 @@ class DataBinderMapper  {
         static String[] sKeys = new String[]{
             "_all"
             ,"age"
-            ,"count"
-            ,"err"
-            ,"handler"
             ,"name"
-            ,"onClick"
-            ,"src"
-            ,"str"
             ,"user"};
     }
 }

@@ -11,7 +11,6 @@ import android.widget.TextView;
 
 import com.qingxu.demoapp.R;
 
-
 /**
  * Created by jxy on 2018/1/8.
  */
@@ -99,7 +98,6 @@ public class CustomTitleView {
             CustomTitleView view = new CustomTitleView(context,left,title,right,backClickListener,leftClickListener,rightClickListener);
             return view;
         }
-
     }
 
     public CustomTitleView configTitle() {

@@ -14,7 +14,7 @@ import android.widget.TextView;
  * Created by jxy on 2018/1/13.
  */
 
-public class BaseFragment extends Fragment implements View.OnClickListener{
+public abstract class BaseFragment extends Fragment implements View.OnClickListener{
     public View rootView;
     protected Activity activity;
     public BaseFragment() {
@@ -28,7 +28,19 @@ public class BaseFragment extends Fragment implements View.OnClickListener{
     protected void setContentView(View view) {
         rootView = view;
         init();
+        initUI();
+        initData();
     }
+
+    /**
+     * 界面初始化
+     */
+    protected abstract void initUI();
+
+    /**
+     * 数据初始化
+     */
+    protected abstract void initData();
 
     @Override
     public void onAttach(Activity activity) {
@@ -96,6 +108,5 @@ public class BaseFragment extends Fragment implements View.OnClickListener{
     @Override
     public void onDestroy() {
         super.onDestroy();
-//        BaseApp.getRefWatcher(this.getContext()).watch(this);
     }
 }

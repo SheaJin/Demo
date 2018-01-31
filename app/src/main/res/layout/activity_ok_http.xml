@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.qingxu.demoapp.ui.pic.UploadImageActivity">
+    tools:context="app.pic.UploadImageActivity">
 
     <Button
         android:id="@+id/but"

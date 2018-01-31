@@ -14,4 +14,14 @@ public class CommunityFragment extends BaseFragment {
         setContentView(R.layout.fragment_community);
 
     }
+
+    @Override
+    protected void initUI() {
+
+    }
+
+    @Override
+    protected void initData() {
+
+    }
 }

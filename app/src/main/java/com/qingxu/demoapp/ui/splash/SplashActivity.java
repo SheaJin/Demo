@@ -39,7 +39,7 @@ public class SplashActivity extends BaseActivity {
 
     @Override
     protected void initUI() {
-        GlideUtil.loadImage(activity,R.mipmap.bryant_cover,ivBg);
+        GlideUtil.loadImage(activity,R.mipmap.dog,ivBg);
     }
 
     @Override

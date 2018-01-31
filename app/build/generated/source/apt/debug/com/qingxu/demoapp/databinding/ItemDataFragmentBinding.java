@@ -25,7 +25,7 @@ public class ItemDataFragmentBinding extends android.databinding.ViewDataBinding
     private final android.widget.TextView mboundView2;
     // variables
     @Nullable
-    private com.qingxu.demoapp.ui.databinding.UserInfo mUser;
+    private app.databinding.UserInfo mUser;
     // values
     // listeners
     // Inverse Binding Event Handlers
@@ -66,7 +66,7 @@ public class ItemDataFragmentBinding extends android.databinding.ViewDataBinding
     public boolean setVariable(int variableId, @Nullable Object variable)  {
         boolean variableSet = true;
         if (BR.user == variableId) {
-            setUser((com.qingxu.demoapp.ui.databinding.UserInfo) variable);
+            setUser((app.databinding.UserInfo) variable);
         }
         else {
             variableSet = false;
@@ -74,7 +74,7 @@ public class ItemDataFragmentBinding extends android.databinding.ViewDataBinding
             return variableSet;
     }
 
-    public void setUser(@Nullable com.qingxu.demoapp.ui.databinding.UserInfo User) {
+    public void setUser(@Nullable app.databinding.UserInfo User) {
         updateRegistration(0, User);
         this.mUser = User;
         synchronized(this) {
@@ -84,7 +84,7 @@ public class ItemDataFragmentBinding extends android.databinding.ViewDataBinding
         super.requestRebind();
     }
     @Nullable
-    public com.qingxu.demoapp.ui.databinding.UserInfo getUser() {
+    public app.databinding.UserInfo getUser() {
         return mUser;
     }
 
@@ -92,11 +92,11 @@ public class ItemDataFragmentBinding extends android.databinding.ViewDataBinding
     protected boolean onFieldChange(int localFieldId, Object object, int fieldId) {
         switch (localFieldId) {
             case 0 :
-                return onChangeUser((com.qingxu.demoapp.ui.databinding.UserInfo) object, fieldId);
+                return onChangeUser((app.databinding.UserInfo) object, fieldId);
         }
         return false;
     }
-    private boolean onChangeUser(com.qingxu.demoapp.ui.databinding.UserInfo User, int fieldId) {
+    private boolean onChangeUser(app.databinding.UserInfo User, int fieldId) {
         if (fieldId == BR._all) {
             synchronized(this) {
                     mDirtyFlags |= 0x1L;
@@ -127,7 +127,7 @@ public class ItemDataFragmentBinding extends android.databinding.ViewDataBinding
         }
         java.lang.String userName = null;
         java.lang.String userAge = null;
-        com.qingxu.demoapp.ui.databinding.UserInfo user = mUser;
+        app.databinding.UserInfo user = mUser;
 
         if ((dirtyFlags & 0xfL) != 0) {
 
@@ -151,12 +151,12 @@ public class ItemDataFragmentBinding extends android.databinding.ViewDataBinding
         if ((dirtyFlags & 0xbL) != 0) {
             // api target 1
 
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView1, userName);
+            this.mboundView1.setText(userName);
         }
         if ((dirtyFlags & 0xdL) != 0) {
             // api target 1
 
-            android.databinding.adapters.TextViewBindingAdapter.setText(this.mboundView2, userAge);
+            this.mboundView2.setText(userAge);
         }
     }
     // Listener Stub Implementations

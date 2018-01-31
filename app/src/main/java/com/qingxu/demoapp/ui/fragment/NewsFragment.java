@@ -13,4 +13,14 @@ public class NewsFragment extends BaseFragment {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.fragment_news);
     }
+
+    @Override
+    protected void initUI() {
+
+    }
+
+    @Override
+    protected void initData() {
+
+    }
 }

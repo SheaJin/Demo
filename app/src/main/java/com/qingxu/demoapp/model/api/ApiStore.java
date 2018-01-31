@@ -23,6 +23,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 
 public class ApiStore {
     private static Retrofit retrofit;
+    public static String baseUrl = AppConfig.TECENT_SERVER;
 
     static {
         createProxy();
@@ -32,8 +33,8 @@ public class ApiStore {
         return retrofit.create(serviceClass);
     }
 
-    private static void createProxy() {
-        String baseUrl = AppConfig.BASE_URL;
+    public static void createProxy() {
+
         Gson gson = new GsonBuilder().setDateFormat("yyyy.MM.dd HH:mm:ss").create();
 
         OkHttpClient.Builder builder = new OkHttpClient().newBuilder()
@@ -43,7 +44,8 @@ public class ApiStore {
 
                     Request request = requestBuilder.build();
                     return chain.proceed(request);
-                }).addInterceptor(new HttpLoggingInterceptor());
+                }).addInterceptor(new BaseUrlInterceptor())
+                .addInterceptor(new HttpLoggingInterceptor());
 
         SSLSocketFactory sslSocketFactory = getSSLSocketFactory(new Buffer().writeUtf8(AppConfig.SSL_KEY).inputStream(), new Buffer().writeUtf8(AppConfig.MIDDLE_KEY).inputStream());
         if (sslSocketFactory != null) {
@@ -57,7 +59,7 @@ public class ApiStore {
                 .build();
     }
 
-    private static SSLSocketFactory getSSLSocketFactory(InputStream... certificates) {
+    public static SSLSocketFactory getSSLSocketFactory(InputStream... certificates) {
         try {
             CertificateFactory certificateFactory = CertificateFactory.getInstance("X.509");
             KeyStore keyStore = KeyStore.getInstance(KeyStore.getDefaultType());

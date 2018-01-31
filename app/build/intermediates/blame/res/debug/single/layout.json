@@ -4,15 +4,7 @@
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/activity_data_binding.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_data_fragment.xml",
-        "source": "/Users/mjn_ziyu/StudioProject/Lemon/app/src/main/res/layout/item_data_fragment.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_data_fragment.xml",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/item_data_fragment.xml"
-    },
-    {
-        "merged": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_data_binding.xml",
-        "source": "/Users/mjn_ziyu/StudioProject/Lemon/app/src/main/res/layout/activity_data_binding.xml"
     }
 ]
