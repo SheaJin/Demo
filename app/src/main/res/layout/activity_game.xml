@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="app.ui.activity.GameActivity">
+
+    <!--视频界面-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.tencent.rtmp.ui.TXCloudVideoView
+            android:id="@+id/video_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/video_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@mipmap/video_buffer_bg">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="@string/loading_video"
+                android:textColor="@color/black_255"
+                android:textSize="@dimen/sp_20" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <!--控制界面-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--关闭-->
+        <app.ui.widget.TouchLayout
+            android:id="@+id/touch_close_game"
+            android:layout_width="@dimen/px_180"
+            android:layout_height="@dimen/px_180"
+            android:layout_margin="@dimen/px_18"
+            app:action="CLOSE">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@mipmap/close_game_icon" />
+        </app.ui.widget.TouchLayout>
+        <!--人数-->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/px_18">
+
+            <app.ui.widget.ShadowTextView
+                android:id="@+id/tv_home"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/home_person"
+                android:textSize="@dimen/sp_20"
+                app:innnerColor="@color/white_255"
+                app:outerColor="@color/black_255" />
+
+            <app.ui.widget.ShadowTextView
+                android:id="@+id/tv_person"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tv_home"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/px_12"
+                android:text="1"
+                android:textSize="@dimen/sp_20"
+                app:innnerColor="@color/white_255"
+                app:outerColor="@color/black_255" />
+        </RelativeLayout>
+        <!--钻石金币-->
+        <RelativeLayout
+            android:layout_width="@dimen/px_360"
+            android:layout_height="@dimen/px_180"
+            android:layout_alignParentRight="true"
+            android:layout_margin="@dimen/px_18"
+            android:background="@drawable/drawable_touchlayout"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/px_30">
+
+            <LinearLayout
+                android:id="@+id/ll_diamond"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/px_72"
+                    android:layout_height="@dimen/px_72"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/diamond_icon" />
+
+                <app.ui.widget.ShadowTextView
+                    android:id="@+id/tv_diamond"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:text="1"
+                    android:textSize="@dimen/sp_16"
+                    app:innnerColor="@color/white_255"
+                    app:outerColor="@color/black_255" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ll_diamond"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="@dimen/px_72"
+                    android:layout_height="@dimen/px_72"
+                    android:scaleType="fitCenter"
+                    android:src="@mipmap/coin" />
+
+                <app.ui.widget.ShadowTextView
+                    android:id="@+id/tv_coin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/px_30"
+                    android:text="1"
+                    android:textSize="@dimen/sp_16"
+                    app:innnerColor="@color/white_255"
+                    app:outerColor="@color/black_255" />
+            </LinearLayout>
+        </RelativeLayout>
+        <!--右侧-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/px_18"
+            android:layout_marginTop="@dimen/px_378"
+            android:orientation="vertical">
+            <!--信号-->
+            <ImageView
+                android:id="@+id/image_signal"
+                android:layout_width="@dimen/px_180"
+                android:layout_height="@dimen/px_180"
+                android:src="@mipmap/signal_good_btn" />
+
+            <!--反馈-->
+            <app.ui.widget.TouchLayout
+                android:id="@+id/image_feedback"
+                android:layout_width="@dimen/px_180"
+                android:layout_height="@dimen/px_180"
+                android:layout_marginTop="@dimen/px_80"
+                android:background="@mipmap/fix"
+                app:action="FEEDBACK" />
+
+            <!--摄像头-->
+            <app.ui.widget.TouchLayout
+                android:id="@+id/image_exchange"
+                android:layout_width="@dimen/px_180"
+                android:layout_height="@dimen/px_180"
+                android:layout_marginTop="@dimen/px_80"
+                android:background="@mipmap/change_camera"
+                app:action="EXCHANGE" />
+
+            <!--刷新视频-->
+            <app.ui.widget.TouchLayout
+                android:id="@+id/view_refresh"
+                android:layout_width="@dimen/px_180"
+                android:layout_height="@dimen/px_180"
+                android:layout_marginTop="@dimen/px_80"
+                android:background="@drawable/drawable_touchlayout"
+                app:action="REFRESH">
+
+                <app.ui.widget.ShadowTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/refresh_video"
+                    android:textSize="@dimen/sp_16"
+                    app:innnerColor="@color/white_255"
+                    app:outerColor="@color/black_255" />
+            </app.ui.widget.TouchLayout>
+        </LinearLayout>
+        <!--底部-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_180"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="@dimen/px_30"
+            android:orientation="horizontal">
+            <!--聊天-->
+            <app.ui.widget.TouchLayout
+                android:layout_width="@dimen/px_180"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_18"
+                android:background="@drawable/drawable_touchlayout">
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/px_60"
+                        android:layout_height="@dimen/px_60"
+                        android:src="@mipmap/comment" />
+
+                    <app.ui.widget.ShadowTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/chat"
+                        android:textSize="@dimen/sp_20"
+                        app:innnerColor="@color/white_255"
+                        app:outerColor="@color/black_255" />
+                </LinearLayout>
+            </app.ui.widget.TouchLayout>
+            <!--同款-->
+            <app.ui.widget.TouchLayout
+                android:layout_width="@dimen/px_180"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_27"
+                android:background="@drawable/drawable_touchlayout">
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/px_60"
+                        android:layout_height="@dimen/px_60"
+                        android:src="@mipmap/search_icon" />
+
+                    <app.ui.widget.ShadowTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/fast_select"
+                        android:textSize="@dimen/sp_20"
+                        app:innnerColor="@color/white_255"
+                        app:outerColor="@color/black_255" />
+                </LinearLayout>
+            </app.ui.widget.TouchLayout>
+            <!--开始游戏-->
+            <app.ui.widget.TouchLayout
+                android:layout_width="@dimen/px_378"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_27"
+                android:background="@drawable/drawable_touchlayout">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/px_18"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="@dimen/px_60"
+                            android:layout_height="@dimen/px_60"
+                            android:src="@mipmap/diamond_icon" />
+
+                        <RelativeLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/px_12"
+                            android:paddingRight="@dimen/px_12"
+                            android:visibility="visible">
+
+                            <app.ui.widget.ShadowTextView
+                                android:id="@+id/game_price"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:includeFontPadding="false"
+                                android:text="0"
+                                app:innnerColor="@color/white_255"
+                                app:outerColor="@color/black_255" />
+                            <!--中间横线-->
+                            <ImageView
+                                android:id="@+id/iv_line"
+                                android:layout_width="match_parent"
+                                android:layout_height="@dimen/px_6"
+                                android:layout_alignLeft="@id/game_price"
+                                android:layout_alignRight="@id/game_price"
+                                android:layout_centerVertical="true"
+                                android:background="@mipmap/line"
+                                android:visibility="invisible" />
+                        </RelativeLayout>
+
+                        <app.ui.widget.ShadowTextView
+                            android:id="@+id/game_newprice"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginLeft="@dimen/px_12"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:text=""
+                            app:innnerColor="@color/white_255"
+                            app:outerColor="@color/black_255" />
+
+                    </LinearLayout>
+
+                    <app.ui.widget.ShadowTextView
+                        android:id="@+id/game_start_text"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:includeFontPadding="false"
+                        android:text="开始游戏"
+                        android:textSize="@dimen/sp_20"
+                        app:innnerColor="@color/white_255"
+                        app:outerColor="@color/black_255" />
+                </LinearLayout>
+            </app.ui.widget.TouchLayout>
+            <!--详情-->
+            <app.ui.widget.TouchLayout
+                android:layout_width="@dimen/px_180"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_27"
+                android:background="@drawable/drawable_touchlayout">
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/px_60"
+                        android:layout_height="@dimen/px_60"
+                        android:src="@mipmap/yellow_start" />
+
+                    <app.ui.widget.ShadowTextView
+                        android:textSize="@dimen/sp_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/doll_detail"
+                        app:innnerColor="@color/white_255"
+                        app:outerColor="@color/black_255" />
+                </LinearLayout>
+            </app.ui.widget.TouchLayout>
+            <!--充值-->
+            <app.ui.widget.TouchLayout
+                android:layout_width="@dimen/px_180"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_27"
+                android:layout_marginRight="@dimen/px_18"
+                android:background="@drawable/drawable_touchlayout">
+
+                <LinearLayout
+                    android:layout_centerInParent="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="@dimen/px_60"
+                        android:layout_height="@dimen/px_60"
+                        android:src="@mipmap/diamond_icon" />
+
+                    <app.ui.widget.ShadowTextView
+                        android:textSize="@dimen/sp_20"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/recharge"
+                        app:innnerColor="@color/white_255"
+                        app:outerColor="@color/black_255" />
+                </LinearLayout>
+            </app.ui.widget.TouchLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

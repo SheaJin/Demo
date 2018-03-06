@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qingxu.demoapp"
+    package="com.xy.doll"
     android:versionCode="1"
     android:versionName="1.0" >
 
@@ -17,36 +17,38 @@
     <uses-permission android:name="android.permission.CAMERA" />
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
-    <uses-permission android:name="android.permission.NO" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
 
     <application
-        android:name="com.qingxu.demoapp.ui.base.LemonApplication"
+        android:name="com.xy.doll.DollApplication"
         android:allowBackup="true"
         android:debuggable="true"
-        android:icon="@mipmap/logo"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme" >
-        <activity android:name="com.qingxu.demoapp.ui.splash.SplashActivity" >
+        android:theme="@style/ThemeTitleTheme" >
+        <activity android:name="app.ui.activity.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="app.recycler.RecyclerActivity" />
-        <activity android:name="app.rx.RxActivity" />
-        <activity android:name="app.databinding.DataBindingActivity" />
-        <activity android:name="app.databinding.DataFragmentActivity" />
-        <activity android:name="app.rank.RankActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.login.RegisterActivity" />
-        <activity android:name="app.pic.ImpressPicActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.login.LoginActivity" />
-        <activity android:name="app.MainActivity" />
-        <activity android:name="app.pic.UploadImageActivity" />
-        <activity android:name="app.rank.CoordinatorActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.main.HomeActivity" />
+        <activity android:name="app.ui.activity.LoginActivity" />
+        <activity android:name="app.ui.activity.MainActivity" />
+        <activity android:name="app.ui.activity.CommonDetailsActivity" />
+        <activity android:name="app.ui.activity.GameActivity" />
 
         <meta-data
             android:name="design_width"
@@ -55,9 +57,9 @@
             android:name="design_height"
             android:value="2208" />
 
-        <activity android:name="com.qingxu.demoapp.ui.main.DemoActivity" />
-        <activity android:name="com.qingxu.demoapp.ui.main.SendSocketActivity" />
-        <activity android:name="app.news.NewsContentFragment" />
+        <activity android:name="app.ui.activity.SetActivity" />
+        <activity android:name="app.ui.activity.RechargeActivity" />
+        <activity android:name="app.ui.activity.MyOrderActivity" />
     </application>
 
 </manifest>

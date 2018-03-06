@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.qingxu.demoapp.test" >
+    package="com.xy.doll.test" >
 
     <uses-sdk
         android:minSdkVersion="21"
@@ -10,8 +10,8 @@
         android:name="android.support.test.runner.AndroidJUnitRunner"
         android:functionalTest="false"
         android:handleProfiling="false"
-        android:label="Tests for com.qingxu.demoapp"
-        android:targetPackage="com.qingxu.demoapp" />
+        android:label="Tests for com.xy.doll"
+        android:targetPackage="com.xy.doll" />
 
     <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />

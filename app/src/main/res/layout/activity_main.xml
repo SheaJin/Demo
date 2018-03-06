@@ -3,12 +3,127 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:background="@color/theme"
     android:layout_height="match_parent"
-    tools:context="app.MainActivity">
+    tools:context="app.ui.activity.MainActivity"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--顶部标题栏-->
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_132" >
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rv"
+            <ImageView
+                android:id="@+id/image_info"
+                android:src="@mipmap/user_btn_blue"
+                android:layout_marginLeft="@dimen/px_60"
+                android:layout_centerVertical="true"
+                android:layout_width="@dimen/px_120"
+                android:layout_height="@dimen/px_120" />
+
+            <ImageView
+                android:src="@mipmap/logo_new"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:id="@+id/image_gift"
+                android:layout_centerVertical="true"
+                android:src="@mipmap/giftbox_btn_blue"
+                android:layout_marginRight="@dimen/px_60"
+                android:layout_alignParentRight="true"
+                android:layout_width="@dimen/px_120"
+                android:layout_height="@dimen/px_120" />
+        </RelativeLayout>
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <!--Banner-->
+                    <android.support.v7.widget.CardView
+                        android:layout_marginLeft="@dimen/px_30"
+                        android:layout_marginRight="@dimen/px_30"
+                        android:layout_marginTop="@dimen/px_66"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/px_720"
+                        app:cardCornerRadius="@dimen/dp_10"
+                        app:cardElevation="0px"
+                        app:cardBackgroundColor="@color/white_255">
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent">
+
+                            <com.youth.banner.Banner
+                                android:id="@+id/banner"
+                                android:layout_margin="@dimen/dp_10"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                app:indicator_height="@dimen/px_18"
+                                app:indicator_width="@dimen/px_18"
+                                app:indicator_drawable_selected="@drawable/banner_select"
+                                app:indicator_drawable_unselected="@drawable/banner_normal"/>
+
+                            <com.xy.libs.widget.BannerCover
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent" />
+                        </RelativeLayout>
+                    </android.support.v7.widget.CardView>
+
+                    <!--快速入口-->
+                    <android.support.v7.widget.CardView
+                        android:layout_marginLeft="@dimen/px_30"
+                        android:layout_marginRight="@dimen/px_30"
+                        android:layout_marginTop="@dimen/px_66"
+                        app:cardCornerRadius="@dimen/dp_10"
+                        app:cardElevation="0px"
+                        app:cardBackgroundColor="@color/white_255"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                       <RelativeLayout
+                           android:layout_width="match_parent"
+                           android:layout_height="@dimen/px_450">
+
+                           <android.support.v4.view.ViewPager
+                               android:id="@+id/pager"
+                               android:layout_width="match_parent"
+                               android:layout_height="match_parent"/>
+
+                           <LinearLayout
+                               android:orientation="horizontal"
+                               android:id="@+id/point"
+                               android:layout_marginBottom="@dimen/px_30"
+                               android:layout_alignParentBottom="true"
+                               android:layout_centerHorizontal="true"
+                               android:layout_width="wrap_content"
+                               android:layout_height="wrap_content"/>
+                       </RelativeLayout>
+
+                    </android.support.v7.widget.CardView>
+
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+
+    </LinearLayout>
+    <View
+        android:visibility="gone"
+        android:id="@+id/view_background"
+        android:background="@color/popup_window"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
-
 </RelativeLayout>

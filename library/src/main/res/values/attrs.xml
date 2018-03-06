@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ShadowTextView">
+        <attr name="shadowColor" format="color" />
+    </declare-styleable>
+    <declare-styleable name="GameTouchLayout">
+        <attr name="action" format="string" />
+    </declare-styleable>
+
+    <declare-styleable name="ArrowTextView">
+        <attr name="radius" format="dimension" />
+        <attr name="arrowWidth" format="dimension" />
+        <attr name="arrowInHeight" format="dimension" />
+        <attr name="bg" format="color" />
+    </declare-styleable>
+</resources>
