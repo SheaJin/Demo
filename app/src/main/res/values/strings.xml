@@ -60,4 +60,13 @@
     <string name="fast_select">同款</string>
     <string name="doll_detail">详情</string>
     <string name="recharge">充值</string>
+    <string name="fb_reason1">画面黑屏或定格</string>
+    <string name="fb_reason2">操作按键失灵</string>
+    <string name="fb_reason3">爪子卡住动不了</string>
+    <string name="fb_reason4">其他情况</string>
+    <string name="fb_cancel">取消</string>
+    <string name="fb_other">输入你碰到的详细情况</string>
+    <string name="exchange_diamond">兑换钻石</string>
+    <string name="send_gift">配送娃娃</string>
+    <string name="select_all">全选</string>
 </resources>

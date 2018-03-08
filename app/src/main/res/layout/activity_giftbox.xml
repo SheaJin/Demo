@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.ui.activity.GiftBoxActivity">
+
+    <include layout="@layout/custom_title_view" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--底部-->
+        <RelativeLayout
+            android:id="@+id/view_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_220"
+            android:layout_alignParentBottom="true">
+
+            <RelativeLayout
+                android:id="@+id/view_check_all"
+                android:layout_width="@dimen/px_240"
+                android:layout_height="@dimen/px_240">
+
+                <ImageView
+                    android:id="@+id/iv_check_all"
+                    android:layout_width="@dimen/px_60"
+                    android:layout_height="@dimen/px_60"
+                    android:layout_centerInParent="true"
+                    android:background="@drawable/drawable_check" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_check_all"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/view_check_all"
+                android:text="@string/select_all"
+                android:textColor="@color/homepage_color"
+                android:textSize="@dimen/sp_16" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/px_40">
+
+                <TextView
+                    android:id="@+id/tv_exchange"
+                    android:layout_width="@dimen/px_354"
+                    android:layout_height="@dimen/px_120"
+                    android:background="@drawable/drawable_exchange"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/exchange_diamond"
+                    android:textColor="@color/white_255" />
+
+                <TextView
+                    android:id="@+id/tv_send"
+                    android:layout_width="@dimen/px_354"
+                    android:layout_height="@dimen/px_120"
+                    android:layout_marginLeft="@dimen/px_40"
+                    android:layout_toRightOf="@+id/tv_exchange"
+                    android:background="@drawable/drawable_send"
+                    android:enabled="false"
+                    android:gravity="center"
+                    android:text="@string/send_gift"
+                    android:textColor="@color/white_255" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <com.scwang.smartrefresh.layout.SmartRefreshLayout
+            android:id="@+id/refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/view_bottom">
+
+            <android.support.v4.widget.NestedScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_60"
+                android:layout_marginRight="@dimen/px_60">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/head_view"
+                        android:layout_width="1122px"
+                        android:layout_height="180px"
+                        android:layout_marginBottom="60px"
+                        android:layout_marginTop="60px"
+                        android:background="@drawable/drawable_giftbox"
+                        android:gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginRight="60px"
+                            android:text="进入 娃娃商店 查看收集进度"
+                            android:textColor="@color/text_black" />
+
+                        <ImageView
+                            android:layout_width="72px"
+                            android:layout_height="42px"
+                            android:src="@mipmap/next_icon" />
+                    </LinearLayout>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </LinearLayout>
+            </android.support.v4.widget.NestedScrollView>
+        </com.scwang.smartrefresh.layout.SmartRefreshLayout>
+    </RelativeLayout>
+
+</LinearLayout>

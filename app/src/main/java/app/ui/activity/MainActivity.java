@@ -5,7 +5,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
 import android.view.Gravity;
 import android.view.View;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
@@ -15,6 +14,7 @@ import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.xy.doll.R;
+import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.glide.GlideImageLoader;
 import com.xy.libs.util.storage.SPs;
 import com.youth.banner.Banner;
@@ -33,6 +33,7 @@ import app.ui.fragment.FastFragment;
 import app.ui.widget.UserInfoWindow;
 import butterknife.BindView;
 import butterknife.OnClick;
+import is.hello.go99.AnimationTools;
 
 public class MainActivity extends BaseActivity implements MainContract.View, OnRefreshListener {
     @BindView(R.id.banner)
@@ -81,13 +82,13 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
         switch (view.getId()) {
             case R.id.image_info:
                 window.showAtLocation(view, Gravity.CENTER, 0, 0);
-                WindowManager.LayoutParams lp = getWindow().getAttributes();
-                getWindow().addFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
-                lp.alpha = 0.7f;
-                getWindow().setAttributes(lp);
+                AnimationTools.getInstance().showAlphaAnimation(viewBackground);
                 break;
             case R.id.image_gift:
-
+                JumpUtil.overlay(activity,GiftBoxActivity.class);
+                break;
+            case R.id.view_background:
+                AnimationTools.getInstance().hideAlphaAnimation(viewBackground);
                 break;
         }
     }
@@ -99,12 +100,7 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
         window = new UserInfoWindow(activity);
         presenter = new MainPresenter(this);
         presenter.getEntranceInfo();
-        window.setOnDismissListener(() -> {
-            WindowManager.LayoutParams lp = getWindow().getAttributes();
-            lp.alpha = 1.0f;
-            getWindow().clearFlags(WindowManager.LayoutParams.FLAG_DIM_BEHIND);
-            getWindow().setAttributes(lp);
-        });
+        window.setOnDismissListener(() -> AnimationTools.getInstance().hideAlphaAnimation(viewBackground));
     }
 
     @Override

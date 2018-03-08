@@ -69,7 +69,6 @@ public class UserInfoWindow extends PopupWindow {
                 break;
             case R.id.user_set:
                 JumpUtil.overlay(DollApplication.getInstance(), SetActivity.class);
-//                dismiss();
                 break;
             case R.id.user_cancel:
                 dismiss();

@@ -17,6 +17,13 @@
             android:layout_height="match_parent"
             android:layout_centerInParent="true" />
 
+        <com.tencent.rtmp.ui.TXCloudVideoView
+            android:id="@+id/video_view_side"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
         <RelativeLayout
             android:id="@+id/video_loading"
             android:layout_width="match_parent"
@@ -155,7 +162,7 @@
 
             <!--反馈-->
             <app.ui.widget.TouchLayout
-                android:id="@+id/image_feedback"
+                android:id="@+id/touch_feedback"
                 android:layout_width="@dimen/px_180"
                 android:layout_height="@dimen/px_180"
                 android:layout_marginTop="@dimen/px_80"
@@ -164,7 +171,7 @@
 
             <!--摄像头-->
             <app.ui.widget.TouchLayout
-                android:id="@+id/image_exchange"
+                android:id="@+id/touch_exchange"
                 android:layout_width="@dimen/px_180"
                 android:layout_height="@dimen/px_180"
                 android:layout_marginTop="@dimen/px_80"
@@ -173,7 +180,7 @@
 
             <!--刷新视频-->
             <app.ui.widget.TouchLayout
-                android:id="@+id/view_refresh"
+                android:id="@+id/touch_refresh"
                 android:layout_width="@dimen/px_180"
                 android:layout_height="@dimen/px_180"
                 android:layout_marginTop="@dimen/px_80"
@@ -200,6 +207,8 @@
             android:orientation="horizontal">
             <!--聊天-->
             <app.ui.widget.TouchLayout
+                android:id="@+id/touch_chat"
+                app:action="CHAT"
                 android:layout_width="@dimen/px_180"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/px_18"
@@ -221,13 +230,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/chat"
-                        android:textSize="@dimen/sp_20"
+                        android:textSize="@dimen/sp_16"
                         app:innnerColor="@color/white_255"
                         app:outerColor="@color/black_255" />
                 </LinearLayout>
             </app.ui.widget.TouchLayout>
             <!--同款-->
             <app.ui.widget.TouchLayout
+                android:id="@+id/touch_select"
+                app:action="FASTSELECT"
                 android:layout_width="@dimen/px_180"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/px_27"
@@ -249,13 +260,15 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/fast_select"
-                        android:textSize="@dimen/sp_20"
+                        android:textSize="@dimen/sp_16"
                         app:innnerColor="@color/white_255"
                         app:outerColor="@color/black_255" />
                 </LinearLayout>
             </app.ui.widget.TouchLayout>
             <!--开始游戏-->
             <app.ui.widget.TouchLayout
+                android:id="@+id/touch_start"
+                app:action="GAMESTART"
                 android:layout_width="@dimen/px_378"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/px_27"
@@ -291,6 +304,7 @@
                                 android:layout_height="wrap_content"
                                 android:includeFontPadding="false"
                                 android:text="0"
+                                android:textSize="@dimen/sp_18"
                                 app:innnerColor="@color/white_255"
                                 app:outerColor="@color/black_255" />
                             <!--中间横线-->
@@ -314,6 +328,7 @@
                             android:gravity="center"
                             android:includeFontPadding="false"
                             android:text=""
+                            android:textSize="@dimen/sp_16"
                             app:innnerColor="@color/white_255"
                             app:outerColor="@color/black_255" />
 
@@ -325,13 +340,15 @@
                         android:layout_height="wrap_content"
                         android:includeFontPadding="false"
                         android:text="开始游戏"
-                        android:textSize="@dimen/sp_20"
+                        android:textSize="@dimen/sp_16"
                         app:innnerColor="@color/white_255"
                         app:outerColor="@color/black_255" />
                 </LinearLayout>
             </app.ui.widget.TouchLayout>
             <!--详情-->
             <app.ui.widget.TouchLayout
+                android:id="@+id/touch_details"
+                app:action="DETAILS"
                 android:layout_width="@dimen/px_180"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/px_27"
@@ -350,7 +367,7 @@
                         android:src="@mipmap/yellow_start" />
 
                     <app.ui.widget.ShadowTextView
-                        android:textSize="@dimen/sp_20"
+                        android:textSize="@dimen/sp_16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/doll_detail"
@@ -360,6 +377,8 @@
             </app.ui.widget.TouchLayout>
             <!--充值-->
             <app.ui.widget.TouchLayout
+                android:id="@+id/touch_recharge"
+                app:action="RECHARGE"
                 android:layout_width="@dimen/px_180"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="@dimen/px_27"
@@ -379,7 +398,7 @@
                         android:src="@mipmap/diamond_icon" />
 
                     <app.ui.widget.ShadowTextView
-                        android:textSize="@dimen/sp_20"
+                        android:textSize="@dimen/sp_16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="@string/recharge"
@@ -388,6 +407,13 @@
                 </LinearLayout>
             </app.ui.widget.TouchLayout>
         </LinearLayout>
+
+        <View
+            android:id="@+id/view_empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/black_50"
+            android:visibility="invisible" />
 
     </RelativeLayout>
 

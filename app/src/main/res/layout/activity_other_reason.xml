@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="app.ui.activity.OtherReasonActivity">
+
+    <include layout="@layout/custom_title_view" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_3"
+        android:layout_marginTop="@dimen/px_105"
+        android:background="@color/line" />
+
+    <EditText
+        android:id="@+id/reason"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_360"
+        android:background="@color/white_255"
+        android:gravity="top"
+        android:hint="@string/fb_other"
+        android:maxLength="100"
+        android:padding="@dimen/px_30"
+        android:textColor="@color/text_black"
+        android:textColorHint="@color/text_hint"
+        android:textSize="@dimen/text_size_42" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_3"
+        android:background="@color/line" />
+</LinearLayout>

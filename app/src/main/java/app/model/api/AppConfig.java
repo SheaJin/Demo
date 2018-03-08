@@ -44,4 +44,9 @@ public class AppConfig {
      */
     public static final String GETMACHINEINFO = API + PRIZECLAW + "prize_claw_info";
 
+    /**
+     * 获取娃娃盒列表
+     */
+    public static final String GETGIFTLIST = API + "shopping";
+
 }

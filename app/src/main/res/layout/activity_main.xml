@@ -121,9 +121,9 @@
 
     </LinearLayout>
     <View
-        android:visibility="gone"
+        android:visibility="invisible"
         android:id="@+id/view_background"
-        android:background="@color/popup_window"
+        android:background="@color/black_50"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 </RelativeLayout>

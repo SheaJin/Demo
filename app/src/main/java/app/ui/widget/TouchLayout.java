@@ -35,7 +35,8 @@ public class TouchLayout extends AutoRelativeLayout {
         currentAction = typedArray.getString(R.styleable.TouchLayout_action);
         typedArray.recycle();
 
-        actions = new TouchAction[]{TouchAction.CLOSE};
+        actions = new TouchAction[]{TouchAction.CLOSE, TouchAction.FEEDBACK, TouchAction.EXCHANGE, TouchAction.REFRESH, TouchAction.CHAT,
+                TouchAction.FASTSELECT, TouchAction.GAMESTART, TouchAction.DETAILS, TouchAction.RECHARGE};
     }
 
     @Override
@@ -63,7 +64,7 @@ public class TouchLayout extends AutoRelativeLayout {
         animatorSet.start();
         for (TouchAction touchAction : actions) {
             if (touchAction.getAction().equals(currentAction)) {
-                touchListener.onAction(touchAction);
+                touchListener.onAction(touchAction, true);
             }
         }
     }
@@ -81,13 +82,13 @@ public class TouchLayout extends AutoRelativeLayout {
         LogUtil.e("actions.length = " + actions.length + ",currentAction = " + currentAction);
         for (TouchAction touchAction : actions) {
             if (touchAction.getAction().equals(currentAction)) {
-                touchListener.onAction(touchAction);
+                touchListener.onAction(touchAction, false);
             }
         }
     }
 
     public interface OnTouchListener {
-        void onAction(TouchAction action);
+        void onAction(TouchAction action, boolean canTouch);
     }
 
     public void setTouchListener(OnTouchListener touchListener) {
@@ -95,7 +96,8 @@ public class TouchLayout extends AutoRelativeLayout {
     }
 
     public enum TouchAction {
-        CLOSE(0, "CLOSE"),FEEDBACK(1,"FEEDBACK");
+        CLOSE(0, "CLOSE"), FEEDBACK(1, "FEEDBACK"), EXCHANGE(2, "EXCHANGE"), REFRESH(3, "REFRESH"), CHAT(4, "CHAT"),
+        FASTSELECT(5, "FASTSELECT"), GAMESTART(6, "GAMESTART"), DETAILS(7, "DETAILS"), RECHARGE(8, "RECHARGE");
         public String action;
         public int position;
 

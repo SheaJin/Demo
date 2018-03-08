@@ -1,6 +1,10 @@
 package com.xy.libs.util.normal;
 
+import android.graphics.Color;
 import android.graphics.Paint;
+import android.text.Spannable;
+import android.text.SpannableStringBuilder;
+import android.text.style.ForegroundColorSpan;
 import android.widget.TextView;
 
 import com.zhy.autolayout.config.AutoLayoutConifg;
@@ -80,5 +84,19 @@ public class TextUtil {
         } else {
             return 0;
         }
+    }
+
+    /**
+     * 设置字符串中数字颜色
+     */
+    public static SpannableStringBuilder setNumColor(String str) {
+        SpannableStringBuilder style = new SpannableStringBuilder(str);
+        for (int i = 0; i < str.length(); i++) {
+            char a = str.charAt(i);
+            if (a >= '0' && a <= '9') {
+                style.setSpan(new ForegroundColorSpan(Color.GREEN), i, i + 1, Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+            }
+        }
+        return style;
     }
 }
