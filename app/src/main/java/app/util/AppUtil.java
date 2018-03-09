@@ -9,6 +9,8 @@ import android.content.Context;
 import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.telephony.TelephonyManager;
 
@@ -158,5 +160,40 @@ public class AppUtil {
         }
         return mTelephonyManager.getDeviceId();
     }
+
+    /**
+     * 获取当前网络状态
+     */
+//    public int getNetStatus(Context context) {
+//        switch (NetState.getNetWorkState(context)) {
+//            case NetState.NETWORK_MOBILE:
+//                return 100;
+//                break;
+//            case NetState.NETWORK_WIFI:
+//                getWifiState(context);
+//                break;
+//            default:
+//
+//                return 0;
+//        }
+//    }
+    public static int getWifiState(Context context) {
+        WifiManager wifiManager = (WifiManager) context.getSystemService(Context.WIFI_SERVICE);
+        assert wifiManager != null;
+        WifiInfo wifiInfo = wifiManager.getConnectionInfo();
+        if (wifiInfo != null && wifiInfo.getBSSID() != null) {
+            int level = WifiManager.calculateSignalLevel(wifiInfo.getRssi(), 6);
+            if (level > 3) {
+                return 2;
+            } else if (level > 1) {
+                return 1;
+            } else {
+                return 0;
+            }
+        } else {
+            return 0;
+        }
+    }
+
 
 }

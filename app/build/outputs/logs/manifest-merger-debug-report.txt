@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
 MERGED from [:library] /Users/mjn_ziyu/Lemon/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/aca96fc5cbfea498006fb1538625692e/AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/a8e804e3da2b0671b0d9fb7a4dafddf8/AndroidManifest.xml:2:1-12:12
@@ -25,6 +25,8 @@ MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transf
 MERGED from [com.youth.banner:banner:1.4.10] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/AndroidManifest.xml:2:1-11:12
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:2:1-17:12
 MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/10083d0a7b375879fe8357da0af0f94c/AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/a9780d83f3c3f21b052c66f20a720b0b/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/f067e8ab39f8da929833174a8eb50fdf/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/da04679dae67341a835ee856a61a6a62/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/2a5191bdb9407ed04646eda0be4bd1ca/AndroidManifest.xml:17:1-22:12
@@ -37,20 +39,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4bd307122ba2dfe2e544671267f15ea8/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e90a197ae790052d3b6120d71ca2dc60/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a67c3e1885d5e5c84cbd6ada32c9eff6/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
 	package
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:3:5-26
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-62:12
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-63:12
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:11-69
@@ -143,7 +145,7 @@ ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:24:5-70
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:24:19-67
 application
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:26:5-60:19
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:26:5-61:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:11:5-13:38
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:11:5-13:38
 MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/8d91b19f87a9531b9e3f780983fac1b0/AndroidManifest.xml:11:5-14:19
@@ -158,6 +160,8 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mj
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:11:5-15:19
 MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/10083d0a7b375879fe8357da0af0f94c/AndroidManifest.xml:18:5-22:19
 MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/10083d0a7b375879fe8357da0af0f94c/AndroidManifest.xml:18:5-22:19
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:11:5-20
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:11:5-20
 	android:supportsRtl
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:32:9-35
 	android:label
@@ -239,9 +243,13 @@ ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:58:9-69
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:58:19-66
 activity#app.ui.activity.SendActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:59:9-74
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:59:9-65
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:59:19-62
+activity#app.ui.activity.GiftDetailsActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:60:9-81
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:60:19-69
 uses-sdk
 INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
@@ -288,6 +296,10 @@ MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mj
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:7:5-9:41
 MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/10083d0a7b375879fe8357da0af0f94c/AndroidManifest.xml:7:5-9:41
 MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/10083d0a7b375879fe8357da0af0f94c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/a9780d83f3c3f21b052c66f20a720b0b/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/a9780d83f3c3f21b052c66f20a720b0b/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/f067e8ab39f8da929833174a8eb50fdf/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/f067e8ab39f8da929833174a8eb50fdf/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/da04679dae67341a835ee856a61a6a62/AndroidManifest.xml:20:5-44

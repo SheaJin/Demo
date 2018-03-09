@@ -13,6 +13,7 @@
 
         <com.tencent.rtmp.ui.TXCloudVideoView
             android:id="@+id/video_view"
+            android:visibility="visible"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_centerInParent="true" />
@@ -38,6 +39,14 @@
                 android:textColor="@color/black_255"
                 android:textSize="@dimen/sp_20" />
         </RelativeLayout>
+
+        <!--弹幕-->
+        <master.flame.danmaku.ui.widget.DanmakuView
+            android:id="@+id/danmuku"
+            android:layout_marginTop="@dimen/px_210"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/px_900" />
+
     </RelativeLayout>
 
     <!--控制界面-->
@@ -59,6 +68,13 @@
                 android:scaleType="fitXY"
                 android:src="@mipmap/close_game_icon" />
         </app.ui.widget.TouchLayout>
+        <!--头像-->
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/iv_head"
+            android:layout_width="@dimen/px_120"
+            android:layout_height="@dimen/px_120"
+            android:layout_marginLeft="@dimen/px_258"
+            android:layout_marginTop="@dimen/px_48"/>
         <!--人数-->
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -303,7 +319,7 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:includeFontPadding="false"
-                                android:text="0"
+                                android:text=""
                                 android:textSize="@dimen/sp_18"
                                 app:innnerColor="@color/white_255"
                                 app:outerColor="@color/black_255" />

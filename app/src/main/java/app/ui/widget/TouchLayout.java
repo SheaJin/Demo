@@ -56,6 +56,7 @@ public class TouchLayout extends AutoRelativeLayout {
      * 抬起
      */
     private void actionUp() {
+
         AnimatorSet animatorSet = new AnimatorSet();
         ObjectAnimator scaleX = ObjectAnimator.ofFloat(this, "scaleX", 0.9f, 1.0f);
         ObjectAnimator scaleY = ObjectAnimator.ofFloat(this, "scaleY", 0.9f, 1.0f);
@@ -67,6 +68,7 @@ public class TouchLayout extends AutoRelativeLayout {
                 touchListener.onAction(touchAction, true);
             }
         }
+        LogUtil.e("actionUp" );
     }
 
     /**
@@ -79,12 +81,12 @@ public class TouchLayout extends AutoRelativeLayout {
         animatorSet.setDuration(80);
         animatorSet.play(scaleX).with(scaleY);
         animatorSet.start();
-        LogUtil.e("actions.length = " + actions.length + ",currentAction = " + currentAction);
         for (TouchAction touchAction : actions) {
             if (touchAction.getAction().equals(currentAction)) {
                 touchListener.onAction(touchAction, false);
             }
         }
+        LogUtil.e("actionDown" );
     }
 
     public interface OnTouchListener {

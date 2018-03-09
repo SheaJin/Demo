@@ -874,6 +874,7 @@
     <dimen name="px_420">420px</dimen>
     <dimen name="px_45">45px</dimen>
     <dimen name="px_450">450px</dimen>
+    <dimen name="px_48">48px</dimen>
     <dimen name="px_5">5px</dimen>
     <dimen name="px_50">50px</dimen>
     <dimen name="px_520">520px</dimen>

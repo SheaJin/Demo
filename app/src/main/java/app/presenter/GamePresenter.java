@@ -9,6 +9,7 @@ import app.model.api.HttpObserver;
 import app.model.constant.Constant;
 import app.model.contract.GameContract;
 import app.model.data.MachineInfo;
+import app.model.data.UserInfo;
 import io.reactivex.android.schedulers.AndroidSchedulers;
 import io.reactivex.schedulers.Schedulers;
 
@@ -47,7 +48,31 @@ public class GamePresenter implements GameContract.Presenter{
 
                     @Override
                     public void onError(Throwable e) {
+                        view.getMachineInfoErr("获取娃娃机信息失败");
+                    }
+                });
+    }
 
+    /**
+     * 获取个人信息
+     */
+    @Override
+    public void getUserInfo() {
+        ApiStore.createApi(ApiService.class)
+                .getUserInfo()
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new HttpObserver<BaseResp<UserInfo>>() {
+                    @Override
+                    public void onNext(BaseResp<UserInfo> userInfoBaseResp) {
+                        if (userInfoBaseResp.getStatus() == Constant.REQUEST_SUCCESS) {
+                            view.getUserInfoOk(userInfoBaseResp.getData());
+                        }
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        view.getUserInfoErr("获取个人信息失败");
                     }
                 });
     }

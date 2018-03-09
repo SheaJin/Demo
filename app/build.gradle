@@ -71,4 +71,7 @@ dependencies {
     implementation 'com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3'
     //腾讯云直播 SDK aar
     implementation(name: 'LiteAVSDK_Player_4.1.3173', ext: 'aar')
+    //弹幕库
+    implementation 'com.github.ctiao:DanmakuFlameMaster:0.9.25'
+    implementation 'com.github.ctiao:ndkbitmap-armv7a:0.9.21'
 }

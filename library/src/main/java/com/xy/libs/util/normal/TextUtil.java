@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import com.zhy.autolayout.config.AutoLayoutConifg;
 
+import java.util.Random;
+
 /**
  * Created by JinXinyi on 2017/7/28.
  */
@@ -99,4 +101,16 @@ public class TextUtil {
         }
         return style;
     }
+
+    /**
+     * 设置五颜六色的弹幕
+     */
+    public static int randomColor() {
+        Random random = new Random();
+        int r = random.nextInt(255);
+        int g = random.nextInt(255);
+        int b = random.nextInt(255);
+        return Color.rgb(r, g, b);
+    }
+
 }

@@ -56,7 +56,8 @@
             android:value="2208" />
 
         <activity android:name="app.ui.activity.ExchangeActivity" />
-        <activity android:name="app.ui.activity.SendActivity"></activity>
+        <activity android:name="app.ui.activity.SendActivity" />
+        <activity android:name="app.ui.activity.GiftDetailsActivity"></activity>
     </application>
 
 </manifest>
