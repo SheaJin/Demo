@@ -8,7 +8,7 @@ import android.widget.TextView;
 import com.xy.doll.R;
 import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.glide.GlideUtil;
-import com.xy.libs.util.storage.SPs;
+import app.util.SPs;
 
 import java.util.concurrent.TimeUnit;
 
@@ -59,12 +59,12 @@ public class SplashActivity extends BaseActivity implements LoginContract.View{
                         , throwable -> {}
                         , () -> {
                             if (!SPs.get(activity, Constant.TOKEN, "token").equals(Constant.TOKEN)) {
-//                                JumpUtil.overlay(activity, MainActivity.class);
-                                presenter.login("17621979783","1600");
+                                JumpUtil.overlay(activity, MainActivity.class);
+//                                presenter.login("17621979783","1600");
                             } else {
                                 JumpUtil.overlay(activity, LoginActivity.class);
                             }
-//                            finish();
+                            finish();
                         });
     }
 
@@ -77,12 +77,12 @@ public class SplashActivity extends BaseActivity implements LoginContract.View{
             timer.dispose();
         }
         if (!SPs.get(activity, Constant.TOKEN, "default").equals(Constant.TOKEN)) {
-//            JumpUtil.overlay(activity, MainActivity.class);
-            presenter.login("17621979783","1600");
+            JumpUtil.overlay(activity, MainActivity.class);
+//            presenter.login("17621979783","1600");
         } else {
             JumpUtil.overlay(activity, LoginActivity.class);
         }
-//        finish();
+        finish();
     }
 
     @Override
@@ -95,9 +95,9 @@ public class SplashActivity extends BaseActivity implements LoginContract.View{
 
     @Override
     public void loginOk(UserInfo userInfo) {
-        SPs.put(activity,Constant.TOKEN,userInfo.getToken());
-        JumpUtil.overlay(activity, MainActivity.class);
-        finish();
+//        SPs.put(activity,Constant.TOKEN,userInfo.getToken());
+//        JumpUtil.overlay(activity, MainActivity.class);
+//        finish();
     }
 
     @Override

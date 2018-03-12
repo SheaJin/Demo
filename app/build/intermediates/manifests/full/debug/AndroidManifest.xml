@@ -55,6 +55,9 @@
         <activity android:name="app.ui.activity.MyOrderActivity" />
         <activity android:name="app.ui.activity.OtherReasonActivity" />
         <activity android:name="app.ui.activity.GiftBoxActivity" />
+        <activity android:name="app.ui.activity.ExchangeActivity" />
+        <activity android:name="app.ui.activity.SendActivity" />
+        <activity android:name="app.ui.activity.GiftDetailsActivity" />
 
         <meta-data
             android:name="design_width"
@@ -62,10 +65,6 @@
         <meta-data
             android:name="design_height"
             android:value="2208" />
-
-        <activity android:name="app.ui.activity.ExchangeActivity" />
-        <activity android:name="app.ui.activity.SendActivity" />
-        <activity android:name="app.ui.activity.GiftDetailsActivity" />
     </application>
 
 </manifest>

@@ -5,8 +5,8 @@ import android.os.Build;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.xy.doll.DollApplication;
-import com.xy.libs.util.app.LogUtil;
-import com.xy.libs.util.storage.SPs;
+
+import app.util.SPs;
 
 import java.io.IOException;
 import java.io.InputStream;

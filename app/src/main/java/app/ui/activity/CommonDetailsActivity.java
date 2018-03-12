@@ -18,6 +18,7 @@ import com.xy.libs.ui.adapter.RecyclerViewUtil;
 import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.glide.GlideUtil;
 import com.xy.libs.util.normal.TextUtil;
+import com.xy.libs.util.normal.ToastUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -40,6 +41,7 @@ public class CommonDetailsActivity extends BaseActivity implements MachineContra
     private CommonAdapter<Machine.DeviceListBean, CommonDetailsViewHolder> adapter;
     private MachineContract.Presenter presenter;
     private int page;
+    private Machine.DeviceListBean machines;
     private String title, genre, seriesId = "", deviceId;
     private int[] machineStatus = new int[]{0, R.mipmap.machine_status_empty,
             R.mipmap.machine_status_using,
@@ -107,11 +109,15 @@ public class CommonDetailsActivity extends BaseActivity implements MachineContra
                 return new CommonDetailsViewHolder(itemView){
                     @Override
                     public void OnItemClick(int position) {
-                        Bundle bundle = new Bundle();
-                        deviceId = machineList.get(position).getDevice_id();
-                        bundle.putString("deviceId", deviceId);
-                        bundle.putString("toyId", "0");
-                        JumpUtil.overlay(activity, GameActivity.class, bundle);
+                        if (machineList.get(position).getState() == 3) {
+                            ToastUtil.show(activity, "娃娃机正在维护，无法进入");
+                        } else {
+                            Bundle bundle = new Bundle();
+                            deviceId = machineList.get(position).getDevice_id();
+                            bundle.putString("deviceId", deviceId);
+                            bundle.putString("toyId", "0");
+                            JumpUtil.overlay(activity, GameActivity.class, bundle);
+                        }
                     }
                 };
             }

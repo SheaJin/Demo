@@ -6,7 +6,6 @@ package app.model.data;
 
 public class UserInfo {
 
-
     private String userid;
     private String username;
     private String token;

@@ -2,8 +2,12 @@ package app.ui.activity;
 
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.widget.LinearLayoutManager;
+import android.support.v7.widget.RecyclerView;
+import android.util.ArrayMap;
 import android.view.Gravity;
 import android.view.View;
+import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.RelativeLayout;
 
@@ -12,19 +16,26 @@ import com.tencent.rtmp.TXLiveConstants;
 import com.tencent.rtmp.TXLivePlayer;
 import com.tencent.rtmp.ui.TXCloudVideoView;
 import com.xy.doll.R;
+import com.xy.libs.ui.adapter.CommonAdapter;
+import com.xy.libs.ui.adapter.RecyclerViewUtil;
 import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.app.LogUtil;
 import com.xy.libs.util.glide.GlideUtil;
+import com.xy.libs.util.normal.KeyBoardUtil;
 import com.xy.libs.util.normal.TextUtil;
 import com.xy.libs.util.normal.ToastUtil;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.concurrent.TimeUnit;
 
+import app.model.api.AppConfig;
 import app.model.contract.GameContract;
+import app.model.data.Machine;
 import app.model.data.MachineInfo;
 import app.model.data.UserInfo;
 import app.presenter.GamePresenter;
+import app.ui.adapter.FastSelectViewHolder;
 import app.ui.base.BaseActivity;
 import app.ui.widget.FeedBackWindow;
 import app.ui.widget.ShadowTextView;
@@ -89,6 +100,20 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
     ImageView mIvSignal;
     @BindView(R.id.danmuku)
     DanmakuView danmukuView;
+    @BindView(R.id.empty_machine_count)
+    ShadowTextView mTvEmptyMachineCount;
+    @BindView(R.id.all_machine_count)
+    ShadowTextView mTvAllMachineCount;
+    @BindView(R.id.rv_select)
+    RecyclerView mRvSelect;
+    @BindView(R.id.view_select)
+    RelativeLayout viewSelect;
+    @BindView(R.id.edit_chat)
+    EditText mEtChat;
+    @BindView(R.id.btn_send)
+    ImageView nBtnSend;
+    @BindView(R.id.view_send)
+    RelativeLayout viewSend;
 
     private GamePresenter presenter;
     private String deviceId, toyId;
@@ -99,11 +124,17 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
     private Disposable timer;
     private DanmakuContext danmakuContext;
     private BaseDanmakuParser parser;
+    private boolean fastSelectIsShow = false;
+    private LinearLayoutManager selectManager;
+    private List<Machine.DeviceListBean> selectList;
+    private CommonAdapter<Machine.DeviceListBean, FastSelectViewHolder> selectAdapter;
     private int[] signal = {R.mipmap.signal_bad_btn, R.mipmap.signal_normal_btn, R.mipmap.signal_good_btn};
+    private int[] machineStatus = new int[]{0, R.mipmap.machine_status_empty, R.mipmap.machine_status_using, R.mipmap.machine_status_fixing};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        LogUtil.e("GameActivity onCreate");
         setContentView(R.layout.activity_game);
         ButterKnife.bind(this);
     }
@@ -122,6 +153,10 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
         presenter = new GamePresenter(this);
         feedBackWindow = new FeedBackWindow(activity);
         feedBackWindow.setListener(this);
+        selectManager = new LinearLayoutManager(this);
+        selectManager.setOrientation(LinearLayoutManager.HORIZONTAL);
+        RecyclerViewUtil.nestedRecyclerView(mRvSelect, selectManager);
+        selectList = new ArrayList<>();
         //初始化播放器
         initPlayer();
         //初始化弹幕
@@ -242,11 +277,15 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
         feedBackWindow.setOnDismissListener(() -> AnimationTools.getInstance().hideAlphaAnimation(mViewEmpty));
     }
 
-    @OnClick({R.id.view_empty})
+    @OnClick({R.id.view_empty, R.id.btn_send})
     void click(View view) {
         switch (view.getId()) {
             case R.id.view_empty:
                 AnimationTools.getInstance().hideAlphaAnimation(mViewEmpty);
+                break;
+            case R.id.btn_send:
+                viewSend.setVisibility(View.GONE);
+                KeyBoardUtil.closeKeybord(mEtChat, activity);
                 break;
         }
     }
@@ -258,11 +297,11 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
                 case CLOSE:
                     finish();
                     break;
-                case FEEDBACK:
+                case FEEDBACK://申诉
                     feedBackWindow.showAtLocation(mViewEmpty, Gravity.BOTTOM, 0, 0);
                     AnimationTools.getInstance().showAlphaAnimation(mViewEmpty);
                     break;
-                case EXCHANGE:
+                case EXCHANGE://切换摄像头
                     switch (currentDirection) {
                         case 1:
                             frontVideoView.setVisibility(View.VISIBLE);
@@ -276,24 +315,34 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
                             break;
                     }
                     break;
-                case REFRESH:
+                case REFRESH://刷新视频
 
                     break;
-                case CHAT:
+                case CHAT://聊天
+                    viewSend.setVisibility(View.VISIBLE);
+                    KeyBoardUtil.openKeybord(mEtChat, activity);
+                    mEtChat.setFocusableInTouchMode(true);
+                    mEtChat.setFocusable(true);
+                    mEtChat.requestFocus();
+                    break;
+                case FASTSELECT://同款
+                    if (fastSelectIsShow) {
+                        viewSelect.setVisibility(View.GONE);
+                        fastSelectIsShow = false;
+                    } else {
+                        viewSelect.setVisibility(View.VISIBLE);
+                        fastSelectIsShow = true;
+                    }
+                    break;
+                case GAMESTART://开始游戏
 
                     break;
-                case FASTSELECT:
-
-                    break;
-                case GAMESTART:
-
-                    break;
-                case DETAILS:
+                case DETAILS://详情
                     Bundle bundle = new Bundle();
                     bundle.putStringArrayList("list", (ArrayList<String>) machineInfos.getDetail_img());
                     JumpUtil.overlay(activity, GiftDetailsActivity.class, bundle);
                     break;
-                case RECHARGE:
+                case RECHARGE://充值
                     JumpUtil.overlay(activity, RechargeActivity.class);
                     break;
             }
@@ -320,6 +369,11 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
             GlideUtil.loadImage(activity, machineInfo.getEmploy_info().getImg(), mIvHead);
             sidePlayer.startPlay(machineInfo.getSide_live(), TXLivePlayer.PLAY_TYPE_LIVE_FLV);
             frontPlayer.startPlay(machineInfo.getFront_live(), TXLivePlayer.PLAY_TYPE_LIVE_FLV);
+            //获取同款列表
+            ArrayMap<String, String> params = new ArrayMap<>();
+            params.put("toy_id", machineInfos.getToy_id());
+            params.put("device_id", machineInfos.getDevice_id());
+            presenter.getFastSelectList(params);
         }
     }
 
@@ -342,8 +396,68 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
     }
 
     @Override
+    public void getFastSelectListOk(Machine machine) {
+        mTvAllMachineCount.setText(machine.getDevice_list().size() + " 台");
+        mTvEmptyMachineCount.setText(machine.getFree_num() + " 台");
+        if (machine != null) {
+            selectList.clear();
+            selectList.addAll(machine.getDevice_list());
+            selectAdapter = new CommonAdapter<Machine.DeviceListBean, FastSelectViewHolder>(activity, selectList) {
+                @Override
+                public int layoutResId(int viewType) {
+                    return R.layout.item_fast_select;
+                }
+
+                @Override
+                public FastSelectViewHolder holderInstance(View itemView, int viewType) {
+                    return new FastSelectViewHolder(itemView) {
+                        @Override
+                        public void OnItemClick(int position) {
+                            if (selectList.get(position).getState() == 3) {
+                                ToastUtil.show(activity, "娃娃机正在维护，无法进入");
+                            } else {
+                                Bundle bundle = new Bundle();
+                                bundle.putString("deviceId", machineInfos.getDevice_id());
+                                bundle.putString("toyId", "0");
+                                JumpUtil.overlay(activity, GameActivity.class, bundle);
+                                finish();
+                            }
+                        }
+                    };
+                }
+
+                @Override
+                public void fillView(FastSelectViewHolder holder, Machine.DeviceListBean data, int position) {
+                    Machine.DeviceListBean machine = selectList.get(position);
+                    holder.mIvState.setImageResource(machineStatus[machine.getState()]);
+                    GlideUtil.loadImage(activity, AppConfig.BASE_URL_PIC + machine.getFront_cover(), holder.mIvThumb);
+                    switch (machine.getInfinite()) {
+                        case 0:
+                            holder.mIvInfinite.setVisibility(View.GONE);
+                            break;
+                        case 1:
+                        case 2:
+                            holder.mIvInfinite.setVisibility(View.VISIBLE);
+                            GlideUtil.loadImage(activity, AppConfig.BASE_URL_PIC + machine.getCharacteristic(), holder.mIvInfinite);
+                            break;
+                    }
+                }
+            };
+            selectAdapter.notifyDataSetChanged();
+            mRvSelect.setAdapter(selectAdapter);
+        }
+
+    }
+
+    @Override
+    public void getFastSelectListErr(String info) {
+        ToastUtil.show(activity, info);
+    }
+
+    @Override
     protected void onDestroy() {
         super.onDestroy();
+        LogUtil.e("GameActivity onDestroy");
         if (sideVideoView != null)
             sideVideoView.onDestroy();
         if (sidePlayer != null)

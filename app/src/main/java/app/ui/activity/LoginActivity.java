@@ -10,10 +10,12 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import com.google.gson.Gson;
 import com.xy.doll.R;
 import app.ui.base.BaseActivity;
 import com.xy.libs.util.app.JumpUtil;
-import com.xy.libs.util.storage.SPs;
+import com.xy.libs.util.app.LogUtil;
+import app.util.SPs;
 
 import app.model.constant.Constant;
 import app.model.contract.LoginContract;
@@ -37,6 +39,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.View {
     private LoginPresenter presenter;
     private String username,password,rules;
     private UserInfo info;
+    private Gson gson;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -57,6 +60,7 @@ public class LoginActivity extends BaseActivity implements LoginContract.View {
 
     @Override
     protected void initUI() {
+        gson = new Gson();
         presenter = new LoginPresenter(this);
     }
 
@@ -71,11 +75,13 @@ public class LoginActivity extends BaseActivity implements LoginContract.View {
     @Override
     public void loginOk(UserInfo userInfo) {
         showMess(Constant.LOGINOK);
+        SPs.upData(activity,gson.toJson(userInfo));
+        LogUtil.e("gson = " + gson.toJson(userInfo));
         info = userInfo;
         /**
          * 存token
          * */
-        SPs.put(activity,Constant.TOKEN,info.getToken());
+//        SPs.put(activity,Constant.TOKEN,info.getToken());
         JumpUtil.overlay(activity,MainActivity.class);
         finish();
     }

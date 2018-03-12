@@ -1,0 +1,10 @@
+package app.model.constant;
+
+/**
+ * Created by jxy on 2018/3/12.
+ */
+
+public class EventConstant {
+    public static int LOGOUT = 1;
+
+}

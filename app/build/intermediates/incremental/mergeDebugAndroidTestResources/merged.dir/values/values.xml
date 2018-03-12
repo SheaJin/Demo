@@ -850,6 +850,7 @@
     <dimen name="px_2">2px</dimen>
     <dimen name="px_20">20px</dimen>
     <dimen name="px_200">200px</dimen>
+    <dimen name="px_210">210px</dimen>
     <dimen name="px_22">22px</dimen>
     <dimen name="px_220">220px</dimen>
     <dimen name="px_24">24px</dimen>
@@ -861,6 +862,7 @@
     <dimen name="px_3">3px</dimen>
     <dimen name="px_30">30px</dimen>
     <dimen name="px_300">300px</dimen>
+    <dimen name="px_330">330px</dimen>
     <dimen name="px_35">35px</dimen>
     <dimen name="px_354">354px</dimen>
     <dimen name="px_360">360px</dimen>
@@ -1120,11 +1122,11 @@
     </style>
     <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-        
+        <!--下段代码就是去除阴影的-->
         <item name="android:windowContentOverlay">@null</item>
     </style>
     <style name="BadgeText" parent="TextAppearance.AppCompat.Body2">
@@ -2511,11 +2513,11 @@
     <style name="TextAppearance.Widget.AppCompat.Toolbar.Title" parent="Base.TextAppearance.Widget.AppCompat.Toolbar.Title">
     </style>
     <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
-        
+        <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/theme</item>
         <item name="colorPrimaryDark">@color/theme</item>
         <item name="colorAccent">@color/theme</item>
-        
+        <!--下段代码就是去除阴影的-->
         <item name="android:windowContentOverlay">@null</item>
     </style>
     <style name="Theme.AppCompat" parent="Base.Theme.AppCompat"/>

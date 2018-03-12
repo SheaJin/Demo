@@ -49,4 +49,8 @@ public class AppConfig {
      */
     public static final String GETGIFTLIST = API + "shopping";
 
+    /**
+     * 获取同款列表
+     */
+    public static final String GETFASTSELECTLIST = API + PRIZECLAW + "fast_add";
 }

@@ -9,16 +9,4 @@
 
     <include layout="@layout/custom_title_view" />
 
-    <Button
-        android:layout_gravity="center"
-        android:text="Button1"
-        android:id="@+id/but"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
-    <Button
-        android:layout_gravity="center"
-        android:text="Button2"
-        android:id="@+id/but2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
 </LinearLayout>

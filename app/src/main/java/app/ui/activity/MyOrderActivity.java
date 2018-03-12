@@ -27,21 +27,4 @@ public class MyOrderActivity extends BaseActivity {
 
     }
 
-    @OnClick({R.id.but, R.id.but2})
-    void click(View view) {
-        switch (view.getId()){
-            case R.id.but:
-                Intent intent1 = new Intent();
-                intent1.putExtra("return", "23333333");
-                setResult(RESULT_OK, intent1);
-                finish();
-                break;
-            case R.id.but2:
-                Intent intent2 = new Intent();
-                intent2.putExtra("returnsss", "jdsdsdsndijnahfbahsubfhuasbdhbasdhj");
-                setResult(RESULT_OK, intent2);
-                finish();
-                break;
-        }
-    }
 }

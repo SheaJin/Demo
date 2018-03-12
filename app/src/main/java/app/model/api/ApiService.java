@@ -60,4 +60,11 @@ public interface ApiService {
     @FormUrlEncoded
     @POST(AppConfig.GETGIFTLIST)
     Observable<BaseResp<List<Gift>>> getGiftList(@Field("page") String page);
+
+    /**
+     * 获取同款列表
+     */
+    @FormUrlEncoded
+    @POST(AppConfig.GETFASTSELECTLIST)
+    Observable<BaseResp<Machine>> getFastSelectList(@FieldMap ArrayMap<String, String> params);
 }

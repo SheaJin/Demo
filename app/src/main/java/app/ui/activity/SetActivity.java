@@ -1,16 +1,18 @@
 package app.ui.activity;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Switch;
 import android.widget.TextView;
 
 import com.xy.doll.R;
-import com.xy.libs.util.app.LogUtil;
-import com.xy.libs.util.normal.ToastUtil;
+import com.xy.libs.util.app.JumpUtil;
+
+import org.greenrobot.eventbus.EventBus;
 
 import app.model.constant.Constant;
+import app.model.constant.EventConstant;
+import app.model.constant.MessageEvent;
 import app.ui.base.BaseActivity;
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -58,9 +60,7 @@ public class SetActivity extends BaseActivity {
 
                 break;
             case R.id.view_order:
-//                JumpUtil.overlay(activity,MyOrderActivity.class);
-                Intent intent = new Intent(SetActivity.this, MyOrderActivity.class);
-                startActivityForResult(intent, 1);
+                JumpUtil.overlay(activity, MyOrderActivity.class);
                 break;
             case R.id.view_recharge_history:
 
@@ -90,21 +90,10 @@ public class SetActivity extends BaseActivity {
 
                 break;
             case R.id.logout:
-
+                JumpUtil.overlay(activity, LoginActivity.class);
+                EventBus.getDefault().post(new MessageEvent(EventConstant.LOGOUT, ""));
+                finish();
                 break;
-        }
-    }
-
-    @Override
-    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
-        super.onActivityResult(requestCode, resultCode, data);
-        switch (resultCode) {
-            case -1:
-                if (resultCode == RESULT_OK) {
-                    ToastUtil.show(activity, data.getStringExtra("return"));
-                    LogUtil.e(data.getStringExtra("return"));
-                    break;
-                }
         }
     }
 }

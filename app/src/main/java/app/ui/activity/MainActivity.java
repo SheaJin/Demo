@@ -16,14 +16,19 @@ import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.xy.doll.R;
 import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.glide.GlideImageLoader;
-import com.xy.libs.util.storage.SPs;
 import com.youth.banner.Banner;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import app.model.api.AppConfig;
 import app.model.constant.Constant;
+import app.model.constant.EventConstant;
+import app.model.constant.MessageEvent;
 import app.model.contract.MainContract;
 import app.model.data.FastEntrance;
 import app.presenter.MainPresenter;
@@ -31,6 +36,7 @@ import app.ui.adapter.FastEntranceAdapter;
 import app.ui.base.BaseActivity;
 import app.ui.fragment.FastFragment;
 import app.ui.widget.UserInfoWindow;
+import app.util.SPs;
 import butterknife.BindView;
 import butterknife.OnClick;
 import is.hello.go99.AnimationTools;
@@ -65,6 +71,7 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+//        EventBus.getDefault().register(this);
     }
 
     private void initRefresh() {
@@ -75,6 +82,13 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
         mRefresh.setRefreshHeader(new ClassicsHeader(activity));
         mRefresh.setRefreshFooter(new ClassicsFooter(activity));
         mRefresh.setHeaderHeight(50);
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN) //在ui线程执行
+    public void onEvent(MessageEvent event) {
+        if (event.getCode() == EventConstant.LOGOUT) {
+            finish();
+        }
     }
 
     @OnClick({R.id.image_info, R.id.image_gift, R.id.view_background})
@@ -211,13 +225,15 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
             mRefresh.finishRefresh(false);
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-    }
 
     @Override
     public void onRefresh(RefreshLayout refreshLayout) {
         presenter.getEntranceInfo();
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+//        EventBus.getDefault().unregister(this);
     }
 }

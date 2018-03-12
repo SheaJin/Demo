@@ -2,7 +2,6 @@ package app.ui.base;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
-import android.support.v4.app.FragmentManager;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
@@ -12,6 +11,12 @@ import android.widget.Toast;
 import com.xy.doll.DollApplication;
 import com.xy.libs.R;
 import com.zhy.autolayout.AutoLayoutActivity;
+
+import org.greenrobot.eventbus.EventBus;
+import org.greenrobot.eventbus.Subscribe;
+import org.greenrobot.eventbus.ThreadMode;
+
+import app.model.constant.MessageEvent;
 import butterknife.ButterKnife;
 
 /**
@@ -39,7 +44,11 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
 
     public void initBind(){
         ButterKnife.bind(this);
-//        EventBus.getDefault().register(this);
+        EventBus.getDefault().register(this);
+    }
+
+    @Subscribe(threadMode = ThreadMode.MAIN) //在ui线程执行
+    public void onEvent(MessageEvent event) {
     }
 
     /**
@@ -101,7 +110,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     @Override
     protected void onDestroy() {
         super.onDestroy();
-//        EventBus.getDefault().unregister(this);
+        EventBus.getDefault().unregister(this);
     }
 
 }

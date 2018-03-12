@@ -8,6 +8,7 @@ import app.model.api.BaseResp;
 import app.model.api.HttpObserver;
 import app.model.constant.Constant;
 import app.model.contract.GameContract;
+import app.model.data.Machine;
 import app.model.data.MachineInfo;
 import app.model.data.UserInfo;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -67,12 +68,38 @@ public class GamePresenter implements GameContract.Presenter{
                     public void onNext(BaseResp<UserInfo> userInfoBaseResp) {
                         if (userInfoBaseResp.getStatus() == Constant.REQUEST_SUCCESS) {
                             view.getUserInfoOk(userInfoBaseResp.getData());
+                        } else {
+                            view.getUserInfoErr(userInfoBaseResp.getInfo());
                         }
                     }
 
                     @Override
                     public void onError(Throwable e) {
                         view.getUserInfoErr("获取个人信息失败");
+                    }
+                });
+    }
+
+    /**
+     * 获取同款列表
+     */
+    @Override
+    public void getFastSelectList(ArrayMap<String, String> params) {
+        ApiStore.createApi(ApiService.class)
+                .getFastSelectList(params)
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new HttpObserver<BaseResp<Machine>>() {
+                    @Override
+                    public void onNext(BaseResp<Machine> machineBaseResp) {
+                        if (machineBaseResp.getStatus() == Constant.REQUEST_SUCCESS) {
+                            view.getFastSelectListOk(machineBaseResp.getData());
+                        }
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        view.getUserInfoErr("获取同款列表失败");
                     }
                 });
     }

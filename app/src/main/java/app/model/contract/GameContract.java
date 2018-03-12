@@ -1,5 +1,8 @@
 package app.model.contract;
 
+import android.util.ArrayMap;
+
+import app.model.data.Machine;
 import app.model.data.MachineInfo;
 import app.model.data.UserInfo;
 
@@ -20,6 +23,11 @@ public class GameContract {
 
         void getUserInfoErr(String info);
 
+        //同款列表
+        void getFastSelectListOk(Machine machine);
+
+        void getFastSelectListErr(String info);
+
     }
 
     public interface Presenter {
@@ -27,5 +35,7 @@ public class GameContract {
         void getMachineInfo(String machineId,String toyId);
 
         void getUserInfo();
+
+        void getFastSelectList(ArrayMap<String, String> params);
     }
 }
