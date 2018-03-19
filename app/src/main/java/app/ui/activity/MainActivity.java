@@ -1,5 +1,6 @@
 package app.ui.activity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.view.ViewPager;
@@ -14,7 +15,7 @@ import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.xy.doll.R;
-import com.xy.libs.util.app.JumpUtil;
+import com.xy.libs.util.app.LogUtil;
 import com.xy.libs.util.glide.GlideImageLoader;
 import com.youth.banner.Banner;
 
@@ -25,12 +26,19 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.util.ArrayList;
 import java.util.List;
 
+import app.model.api.ApiService;
+import app.model.api.ApiStore;
 import app.model.api.AppConfig;
+import app.model.api.BaseResp;
+import app.model.api.HttpObserver;
 import app.model.constant.Constant;
 import app.model.constant.EventConstant;
-import app.model.constant.MessageEvent;
+import app.model.constant.ObjectEvent;
 import app.model.contract.MainContract;
 import app.model.data.FastEntrance;
+import app.model.data.IPaddress;
+import app.model.service.GameControl;
+import app.model.service.WebSocketService;
 import app.presenter.MainPresenter;
 import app.ui.adapter.FastEntranceAdapter;
 import app.ui.base.BaseActivity;
@@ -39,6 +47,8 @@ import app.ui.widget.UserInfoWindow;
 import app.util.SPs;
 import butterknife.BindView;
 import butterknife.OnClick;
+import io.reactivex.android.schedulers.AndroidSchedulers;
+import io.reactivex.schedulers.Schedulers;
 import is.hello.go99.AnimationTools;
 
 public class MainActivity extends BaseActivity implements MainContract.View, OnRefreshListener {
@@ -71,7 +81,7 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-//        EventBus.getDefault().register(this);
+        EventBus.getDefault().register(this);
     }
 
     private void initRefresh() {
@@ -85,8 +95,10 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
     }
 
     @Subscribe(threadMode = ThreadMode.MAIN) //在ui线程执行
-    public void onEvent(MessageEvent event) {
+    public void onEvent(ObjectEvent event) {
         if (event.getCode() == EventConstant.LOGOUT) {
+            finish();
+        } else if (event.getCode() == EventConstant.RELOGIN) {
             finish();
         }
     }
@@ -99,7 +111,8 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
                 AnimationTools.getInstance().showAlphaAnimation(viewBackground);
                 break;
             case R.id.image_gift:
-                JumpUtil.overlay(activity,GiftBoxActivity.class);
+//                JumpUtil.overlay(activity,GiftBoxActivity.class);
+                getSocketUrl();
                 break;
             case R.id.view_background:
                 AnimationTools.getInstance().hideAlphaAnimation(viewBackground);
@@ -217,6 +230,27 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
         });
     }
 
+    private void getSocketUrl() {
+        ApiStore.createApi(ApiService.class)
+                .getSocketUrl()
+                .subscribeOn(Schedulers.io())
+                .observeOn(AndroidSchedulers.mainThread())
+                .subscribe(new HttpObserver<BaseResp<IPaddress>>() {
+                    @Override
+                    public void onNext(BaseResp<IPaddress> iPaddressBaseResp) {
+                        if (iPaddressBaseResp.getStatus() == Constant.REQUEST_SUCCESS) {
+                            GameControl.getInstance().setSocketUrl(iPaddressBaseResp.getData().getControl_url());
+                            LogUtil.e("WebSocketService连接地址：" + iPaddressBaseResp.getData().getControl_url());
+                        }
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+
+                    }
+                });
+    }
+
     @Override
     public void getEntranceInfoErr(String info) {
         if (mRefresh.isLoading())
@@ -224,7 +258,6 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
         if (mRefresh.isRefreshing())
             mRefresh.finishRefresh(false);
     }
-
 
     @Override
     public void onRefresh(RefreshLayout refreshLayout) {
@@ -234,6 +267,9 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
     @Override
     protected void onDestroy() {
         super.onDestroy();
-//        EventBus.getDefault().unregister(this);
+        EventBus.getDefault().unregister(this);
+        GameControl.getInstance().close();
+        Intent intent = new Intent(activity, WebSocketService.class);
+        stopService(intent);
     }
 }

@@ -6,8 +6,10 @@ import java.util.List;
 
 import app.model.data.FastEntrance;
 import app.model.data.Gift;
+import app.model.data.IPaddress;
 import app.model.data.Machine;
 import app.model.data.MachineInfo;
+import app.model.data.PlayHistory;
 import app.model.data.UserInfo;
 import io.reactivex.Observable;
 import retrofit2.http.Field;
@@ -67,4 +69,18 @@ public interface ApiService {
     @FormUrlEncoded
     @POST(AppConfig.GETFASTSELECTLIST)
     Observable<BaseResp<Machine>> getFastSelectList(@FieldMap ArrayMap<String, String> params);
+
+    /**
+     * 抓取记录
+     */
+    @FormUrlEncoded
+    @POST(AppConfig.GETPLAYHISTORY)
+    Observable<BaseResp<PlayHistory>> getHistoryList(@Field("page") String page);
+
+    /**
+     * socket地址
+     */
+    @POST(AppConfig.GETLINKURL)
+    Observable<BaseResp<IPaddress>> getSocketUrl();
+
 }

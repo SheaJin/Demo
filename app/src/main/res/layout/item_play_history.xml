@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/px_30"
+    android:gravity="center_vertical">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardCornerRadius="@dimen/px_30">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white_255"
+            android:padding="@dimen/px_30">
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/card_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="@dimen/px_45"
+                app:cardElevation="0px">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/doll_thumb"
+                        android:layout_width="@dimen/px_300"
+                        android:layout_height="@dimen/px_300"
+                        android:layout_centerInParent="true"
+                        android:scaleType="centerCrop" />
+
+                    <ImageView
+                        android:id="@+id/doll_play"
+                        android:layout_width="@dimen/px_120"
+                        android:layout_height="@dimen/px_120"
+                        android:layout_centerInParent="true"
+                        android:src="@mipmap/play" />
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="@dimen/px_60"
+                android:layout_toRightOf="@+id/card_image"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/doll_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:maxLines="1"
+                    android:text="恐龙布朗熊"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_size_42" />
+
+                <TextView
+                    android:id="@+id/doll_status"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px_30"
+                    android:text="抓取成功"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_size_42" />
+
+                <TextView
+                    android:id="@+id/doll_surplus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px_30"
+                    android:text=""
+                    android:textColor="@color/text_hint"
+                    android:textSize="@dimen/text_size_36" />
+
+                <TextView
+                    android:id="@+id/doll_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/px_20"
+                    android:text=""
+                    android:textColor="@color/text_hint"
+                    android:textSize="@dimen/text_size_36" />
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="@dimen/px_24"
+                android:layout_height="@dimen/px_42"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:background="@mipmap/right_arrow" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+    <View
+        android:id="@+id/item_line"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_3"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="@dimen/px_30"
+        android:layout_marginRight="@dimen/px_30"
+        android:background="@color/line"
+        android:visibility="invisible" />
+</RelativeLayout>

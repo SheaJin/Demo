@@ -1,11 +1,29 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    android:orientation="vertical"
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
     tools:context="app.ui.activity.RechargeActivity">
 
     <include layout="@layout/custom_title_view"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <app.ui.widget.CircleProgressBar
+            android:id="@+id/progress"
+            app:progress="40"
+            app:radius="60dp"
+            android:layout_centerInParent="true"
+            app:strokeWidth="12dp"
+            app:progressColor="@color/green"
+            app:backgroundColor="@color/grey"
+            app:textColor="@color/theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RelativeLayout>
 </LinearLayout>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme"
+    android:orientation="vertical"
+    tools:context="app.ui.activity.CatchFailedDetailsActivity">
+
+    <include layout="@layout/custom_title_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v4.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0px"
+                android:layout_marginBottom="@dimen/px_30"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.CardView
+                    android:layout_width="@dimen/px_1122"
+                    android:layout_height="@dimen/px_540"
+                    android:layout_marginTop="@dimen/px_60"
+                    app:cardCornerRadius="@dimen/px_45"
+                    app:cardElevation="0px">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0px"
+                            android:layout_marginLeft="@dimen/px_60"
+                            android:layout_weight="1"
+                            android:gravity="bottom">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="抓取编号:"
+                                android:textColor="@color/text_hint"
+                                android:textSize="@dimen/text_size_42" />
+
+                            <TextView
+                                android:id="@+id/order_num"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="00000000"
+                                android:textColor="@color/text_black"
+                                android:textSize="@dimen/text_size_42" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/px_330"
+                            android:layout_margin="@dimen/px_60"
+                            android:orientation="horizontal">
+
+                            <android.support.v7.widget.CardView
+                                android:layout_width="@dimen/px_300"
+                                android:layout_height="@dimen/px_330"
+                                app:cardCornerRadius="@dimen/px_45"
+                                app:cardElevation="0px">
+
+                                <RelativeLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent">
+
+                                    <ImageView
+                                        android:id="@+id/doll_thumb"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:layout_centerInParent="true"
+                                        android:scaleType="centerCrop" />
+
+                                    <ImageView
+                                        android:id="@+id/doll_play"
+                                        android:layout_width="@dimen/px_120"
+                                        android:layout_height="@dimen/px_120"
+                                        android:layout_centerInParent="true"
+                                        android:src="@mipmap/play" />
+                                </RelativeLayout>
+                            </android.support.v7.widget.CardView>
+
+                            <LinearLayout
+                                android:layout_width="0px"
+                                android:layout_height="match_parent"
+                                android:layout_marginLeft="@dimen/px_60"
+                                android:layout_weight="1"
+                                android:gravity="center_vertical"
+                                android:orientation="vertical">
+
+                                <TextView
+                                    android:id="@+id/doll_name"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:ellipsize="end"
+                                    android:maxLines="1"
+                                    android:text="恐龙布朗熊"
+                                    android:textColor="@color/text_black"
+                                    android:textSize="@dimen/text_size_42" />
+
+                                <TextView
+                                    android:id="@+id/doll_status"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/px_30"
+                                    android:text="抓取成功"
+                                    android:textColor="@color/text_black"
+                                    android:textSize="@dimen/text_size_42" />
+
+                                <TextView
+                                    android:id="@+id/doll_surplus"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/px_20"
+                                    android:text="2222.22.22 22.22"
+                                    android:textColor="@color/text_hint"
+                                    android:textSize="@dimen/text_size_36" />
+
+                                <TextView
+                                    android:id="@+id/doll_time"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="@dimen/px_20"
+                                    android:text="2222.22.22 22.22"
+                                    android:textColor="@color/text_hint"
+                                    android:textSize="@dimen/text_size_36" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </android.support.v7.widget.CardView>
+
+                <TextView
+                    android:id="@+id/return_diamond"
+                    android:layout_width="@dimen/px_1122"
+                    android:layout_height="@dimen/px_180"
+                    android:layout_marginTop="@dimen/px_120"
+                    android:background="@drawable/drawable_cancel"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/px_60"
+                    android:text="申诉退钻"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_size_42" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/px_1122"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/px_60">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="如在游戏过程中遇到如下问题"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="1. 画面黑屏或定格"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="2. 操作按键失灵"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="3. 爪子卡住动不了"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="4. 其他影响操作的问题"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="可以申请退还钻石，运营团队将尽快对你的申请作出回复"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/return_doll"
+                    android:layout_width="@dimen/px_1122"
+                    android:layout_height="@dimen/px_180"
+                    android:layout_marginTop="@dimen/px_60"
+                    android:background="@drawable/drawable_cancel"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/px_60"
+                    android:text="申诉娃娃"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/text_size_42" />
+
+                <LinearLayout
+                    android:layout_width="@dimen/px_1122"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="@dimen/px_60">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="如在游戏过程中遇到如下问题"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="抓取成功系统判定失败"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="@dimen/px_60"
+                        android:layout_marginTop="@dimen/px_30"
+                        android:text="可以申请退还钻石，运营团队将尽快对你的申请作出回复"
+                        android:textColor="@color/white_255"
+                        android:textSize="@dimen/text_size_36" />
+                </LinearLayout>
+            </LinearLayout>
+        </android.support.v4.widget.NestedScrollView>
+    </LinearLayout>
+
+</LinearLayout>

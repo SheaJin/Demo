@@ -17,13 +17,20 @@ import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.glide.GlideUtil;
 import com.xy.libs.util.normal.ToastUtil;
 
+import org.greenrobot.eventbus.EventBus;
+
 import app.model.api.ApiService;
 import app.model.api.ApiStore;
 import app.model.api.AppConfig;
 import app.model.api.BaseResp;
 import app.model.api.HttpObserver;
 import app.model.constant.Constant;
+import app.model.constant.EventConstant;
+import app.model.constant.MessageEvent;
+import app.model.constant.ObjectEvent;
 import app.model.data.UserInfo;
+import app.ui.activity.LoginActivity;
+import app.ui.activity.PlayHistoryActivity;
 import app.ui.activity.SetActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -36,7 +43,8 @@ import io.reactivex.schedulers.Schedulers;
  * Created by jxy on 2018/2/7.
  */
 
-public class UserInfoWindow extends PopupWindow {
+public class
+UserInfoWindow extends PopupWindow {
 
     @BindView(R.id.user_head)
     CircleImageView userHead;
@@ -62,10 +70,9 @@ public class UserInfoWindow extends PopupWindow {
     void click(View view) {
         switch (view.getId()) {
             case R.id.catch_history:
-
+                JumpUtil.overlay(DollApplication.getInstance(), PlayHistoryActivity.class);
                 break;
             case R.id.notification_msg:
-
                 break;
             case R.id.user_set:
                 JumpUtil.overlay(DollApplication.getInstance(), SetActivity.class);
@@ -115,6 +122,8 @@ public class UserInfoWindow extends PopupWindow {
                             newNotification.setVisibility(userInfo.getNew_notify() != 0 ? View.VISIBLE : View.GONE);
                         } else {
                             ToastUtil.show(context, Constant.GETUSERINFO);
+                            JumpUtil.overlay(context, LoginActivity.class);
+                            EventBus.getDefault().post(new ObjectEvent("",EventConstant.RELOGIN));
                         }
                     }
 

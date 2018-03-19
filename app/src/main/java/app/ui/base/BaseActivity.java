@@ -17,6 +17,7 @@ import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
 import app.model.constant.MessageEvent;
+import app.model.constant.ObjectEvent;
 import butterknife.ButterKnife;
 
 /**
@@ -44,12 +45,12 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
 
     public void initBind(){
         ButterKnife.bind(this);
-        EventBus.getDefault().register(this);
+//        EventBus.getDefault().register(this);
     }
 
-    @Subscribe(threadMode = ThreadMode.MAIN) //在ui线程执行
-    public void onEvent(MessageEvent event) {
-    }
+//    @Subscribe(threadMode = ThreadMode.MAIN) //在ui线程执行
+//    public void onEvent(ObjectEvent event) {
+//    }
 
     /**
      * 界面初始化
@@ -90,14 +91,6 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
         mIvBack.setOnClickListener(v -> finish());
     }
 
-    /**
-     * 标题栏
-     *
-     * @param title
-     */
-    public void setTitle(String title) {
-//        bar = CustomTitleView.create(this).setTitle(title).setBackClick(() -> finish()).build().configTitle();
-    }
 
     public void showMess(String mess) {
         Toast.makeText(this, mess, Toast.LENGTH_SHORT).show();
@@ -110,7 +103,7 @@ public abstract class BaseActivity extends AutoLayoutActivity implements View.On
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        EventBus.getDefault().unregister(this);
+//        EventBus.getDefault().unregister(this);
     }
 
 }

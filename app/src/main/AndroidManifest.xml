@@ -31,6 +31,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/ThemeTitleTheme">
+        <meta-data
+            android:name="design_width"
+            android:value="1242" />
+        <meta-data
+            android:name="design_height"
+            android:value="2208" />
+
+        <service android:name="app.model.service.WebSocketService" android:exported="true">
+
+        </service>
+
         <activity android:name="app.ui.activity.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -49,14 +60,10 @@
         <activity android:name="app.ui.activity.GiftBoxActivity" />
         <activity android:name="app.ui.activity.ExchangeActivity" />
         <activity android:name="app.ui.activity.SendActivity" />
-        <activity android:name="app.ui.activity.GiftDetailsActivity"/>
-
-        <meta-data
-            android:name="design_width"
-            android:value="1242" />
-        <meta-data
-            android:name="design_height"
-            android:value="2208" />
+        <activity android:name="app.ui.activity.GiftDetailsActivity" />
+        <activity android:name="app.ui.activity.PlayHistoryActivity" />
+        <activity android:name="app.ui.activity.CatchFailedDetailsActivity" />
+        <activity android:name="app.ui.activity.CatchSuccessDetailsActivity"></activity>
     </application>
 
 </manifest>

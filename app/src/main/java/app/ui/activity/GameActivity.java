@@ -34,9 +34,11 @@ import app.model.contract.GameContract;
 import app.model.data.Machine;
 import app.model.data.MachineInfo;
 import app.model.data.UserInfo;
+import app.model.service.GameControlHelper;
 import app.presenter.GamePresenter;
 import app.ui.adapter.FastSelectViewHolder;
 import app.ui.base.BaseActivity;
+import app.ui.widget.CustomWindow;
 import app.ui.widget.FeedBackWindow;
 import app.ui.widget.ShadowTextView;
 import app.ui.widget.TouchLayout;
@@ -57,7 +59,7 @@ import master.flame.danmaku.danmaku.model.android.Danmakus;
 import master.flame.danmaku.danmaku.parser.BaseDanmakuParser;
 import master.flame.danmaku.ui.widget.DanmakuView;
 
-public class GameActivity extends BaseActivity implements GameContract.View, TouchLayout.OnTouchListener, FeedBackWindow.OnChooseListener {
+public class GameActivity extends BaseActivity implements GameContract.View, TouchLayout.OnTouchListener, FeedBackWindow.OnChooseListener{
     @BindView(R.id.video_view)
     TXCloudVideoView frontVideoView;
     @BindView(R.id.video_view_side)
@@ -126,6 +128,7 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
     private BaseDanmakuParser parser;
     private boolean fastSelectIsShow = false;
     private LinearLayoutManager selectManager;
+    private GameControlHelper gameControlHelper;
     private List<Machine.DeviceListBean> selectList;
     private CommonAdapter<Machine.DeviceListBean, FastSelectViewHolder> selectAdapter;
     private int[] signal = {R.mipmap.signal_bad_btn, R.mipmap.signal_normal_btn, R.mipmap.signal_good_btn};
@@ -161,6 +164,39 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
         initPlayer();
         //初始化弹幕
         initDanmuku();
+    }
+
+    @Override
+    protected void initData() {
+        deviceId = getIntent().getExtras().getString("deviceId");
+        toyId = getIntent().getExtras().getString("toyId");
+        presenter.getMachineInfo(deviceId, toyId);  //娃娃机信息
+        presenter.getUserInfo();    //个人信息
+        /**
+         * 监听网络状态
+         * */
+        timer = Observable.interval(5, TimeUnit.SECONDS).subscribe(aLong -> {
+            runOnUiThread(() -> mIvSignal.setImageResource(signal[AppUtil.getWifiState(activity)]));
+        });
+        feedBackWindow.setOnDismissListener(() -> AnimationTools.getInstance().hideAlphaAnimation(mViewEmpty));
+        /**
+         * Socket变化
+         */
+        gameControlHelper = new GameControlHelper(){
+            @Override
+            public void gameStatusChange(int status, String lod_id) {
+                super.gameStatusChange(status, lod_id);
+                runOnUiThread(() -> {
+                    switch (status){
+                        // 31 游戏开始
+                        case 1:
+
+                            break;
+
+                    }
+                });
+            }
+        };
     }
 
     /**
@@ -262,21 +298,6 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
         }
     }
 
-    @Override
-    protected void initData() {
-        deviceId = getIntent().getExtras().getString("deviceId");
-        toyId = getIntent().getExtras().getString("toyId");
-        presenter.getMachineInfo(deviceId, toyId);  //娃娃机信息
-        presenter.getUserInfo();    //个人信息
-        /**
-         * 监听网络状态
-         * */
-        timer = Observable.interval(5, TimeUnit.SECONDS).subscribe(aLong -> {
-            runOnUiThread(() -> mIvSignal.setImageResource(signal[AppUtil.getWifiState(activity)]));
-        });
-        feedBackWindow.setOnDismissListener(() -> AnimationTools.getInstance().hideAlphaAnimation(mViewEmpty));
-    }
-
     @OnClick({R.id.view_empty, R.id.btn_send})
     void click(View view) {
         switch (view.getId()) {
@@ -351,8 +372,6 @@ public class GameActivity extends BaseActivity implements GameContract.View, Tou
 
     /**
      * 反馈 回调
-     *
-     * @param msg
      */
     @Override
     public void choose(String msg) {

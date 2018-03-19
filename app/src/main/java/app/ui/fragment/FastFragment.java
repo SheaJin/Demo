@@ -14,7 +14,6 @@ import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.app.LogUtil;
 import com.xy.libs.util.glide.GlideUtil;
 import com.xy.libs.util.normal.TextUtil;
-import com.xy.libs.util.normal.ToastUtil;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,6 +21,7 @@ import java.util.List;
 import app.model.api.AppConfig;
 import app.model.data.FastEntrance;
 import app.ui.activity.CommonDetailsActivity;
+import app.ui.activity.RechargeActivity;
 import app.ui.adapter.ImageViewHolder;
 import app.ui.base.BaseFragment;
 import butterknife.BindView;
@@ -106,6 +106,9 @@ public class FastFragment extends BaseFragment {
                                 bundles.putString("operate_id", list.get(position).getOperate_id());
                                 bundles.putString("title", list.get(position).getTitle());
                                 JumpUtil.overlay(activity, CommonDetailsActivity.class, bundles);
+                                break;
+                            case 5:     //充值
+                                JumpUtil.overlay(activity, RechargeActivity.class);
                                 break;
                         }
                     }

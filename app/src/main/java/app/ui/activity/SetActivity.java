@@ -12,7 +12,7 @@ import org.greenrobot.eventbus.EventBus;
 
 import app.model.constant.Constant;
 import app.model.constant.EventConstant;
-import app.model.constant.MessageEvent;
+import app.model.constant.ObjectEvent;
 import app.ui.base.BaseActivity;
 import butterknife.BindView;
 import butterknife.OnClick;
@@ -91,7 +91,7 @@ public class SetActivity extends BaseActivity {
                 break;
             case R.id.logout:
                 JumpUtil.overlay(activity, LoginActivity.class);
-                EventBus.getDefault().post(new MessageEvent(EventConstant.LOGOUT, ""));
+                EventBus.getDefault().post(new ObjectEvent("", EventConstant.LOGOUT));
                 finish();
                 break;
         }

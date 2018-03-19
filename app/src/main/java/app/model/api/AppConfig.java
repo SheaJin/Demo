@@ -53,4 +53,15 @@ public class AppConfig {
      * 获取同款列表
      */
     public static final String GETFASTSELECTLIST = API + PRIZECLAW + "fast_add";
+
+    /**
+     * 抓取记录
+     */
+    public static final String GETPLAYHISTORY = API + "catch_record/index";
+
+    /**
+     * socket地址
+     */
+    public static final String GETLINKURL = API + "fast_track/get_link_url";
+
 }
