@@ -882,6 +882,7 @@
     <dimen name="px_5">5px</dimen>
     <dimen name="px_50">50px</dimen>
     <dimen name="px_520">520px</dimen>
+    <dimen name="px_540">540px</dimen>
     <dimen name="px_546">546px</dimen>
     <dimen name="px_55">55px</dimen>
     <dimen name="px_6">5px</dimen>

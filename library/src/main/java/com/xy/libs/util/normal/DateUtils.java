@@ -26,6 +26,13 @@ public class DateUtils {
         return sf.format(d);
     }
 
+    /* 时间戳转换成字符窜 */
+    public static String getDateToStrings(long time) {
+        Date d = new Date(time * 1000);
+        sf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
+        return sf.format(d);
+    }
+
     /* 将字符串转为时间戳 */
     public static long getStringToDate(String time) {
         sf = new SimpleDateFormat("yyyy年MM月dd日");

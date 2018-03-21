@@ -120,16 +120,16 @@
         "source": "/Users/mjn_ziyu/Lemon/library/build/intermediates/bundles/debug/res/mipmap-xxhdpi-v4/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_launcher_round.png.flat",
-        "source": "/Users/mjn_ziyu/Lemon/library/build/intermediates/bundles/debug/res/mipmap-hdpi-v4/ic_launcher_round.png"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout_design_layout_tab_icon.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/layout/design_layout_tab_icon.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout_design_layout_tab_icon.xml.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/layout/design_layout_tab_icon.xml"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/mipmap-hdpi-v4_ic_launcher_round.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/library/build/intermediates/bundles/debug/res/mipmap-hdpi-v4/ic_launcher_round.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout_notification_template_media.xml.flat",
@@ -180,12 +180,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout_design_layout_snackbar_include.xml.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/layout/design_layout_snackbar_include.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_abc_list_longpressed_holo.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-hdpi-v4/abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout_design_layout_snackbar_include.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/layout/design_layout_snackbar_include.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",
@@ -216,12 +216,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xxhdpi-v4_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_abc_btn_check_to_on_mtrl_000.png.flat",
@@ -252,12 +252,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxhdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/drawable-xhdpi-v4/design_ic_visibility.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_abc_ic_menu_cut_mtrl_alpha.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_design_ic_visibility.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/drawable-xhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout_notification_template_big_media_custom.xml.flat",
@@ -324,12 +324,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-mdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/layout-v21_notification_template_custom_big.xml.flat",
@@ -432,12 +432,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/res/drawable-hdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/androidTest/debug/color_abc_tint_spinner.xml.flat",

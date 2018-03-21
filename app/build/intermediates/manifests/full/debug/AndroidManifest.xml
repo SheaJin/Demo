@@ -48,8 +48,7 @@
 
         <service
             android:name="app.model.service.WebSocketService"
-            android:exported="true" >
-        </service>
+            android:exported="true" />
 
         <activity android:name="app.ui.activity.SplashActivity" >
             <intent-filter>
@@ -73,6 +72,8 @@
         <activity android:name="app.ui.activity.PlayHistoryActivity" />
         <activity android:name="app.ui.activity.CatchFailedDetailsActivity" />
         <activity android:name="app.ui.activity.CatchSuccessDetailsActivity" />
+        <activity android:name="app.ui.download.DownloadActivity" />
+        <activity android:name="app.ui.down.DownActivity" />
     </application>
 
 </manifest>

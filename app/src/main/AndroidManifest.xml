@@ -38,9 +38,9 @@
             android:name="design_height"
             android:value="2208" />
 
-        <service android:name="app.model.service.WebSocketService" android:exported="true">
-
-        </service>
+        <service
+            android:name="app.model.service.WebSocketService"
+            android:exported="true" />
 
         <activity android:name="app.ui.activity.SplashActivity">
             <intent-filter>
@@ -63,7 +63,9 @@
         <activity android:name="app.ui.activity.GiftDetailsActivity" />
         <activity android:name="app.ui.activity.PlayHistoryActivity" />
         <activity android:name="app.ui.activity.CatchFailedDetailsActivity" />
-        <activity android:name="app.ui.activity.CatchSuccessDetailsActivity"></activity>
+        <activity android:name="app.ui.activity.CatchSuccessDetailsActivity" />
+        <activity android:name="app.ui.download.DownloadActivity" />
+        <activity android:name="app.ui.down.DownActivity"></activity>
     </application>
 
 </manifest>

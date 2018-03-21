@@ -15,6 +15,7 @@ import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 import com.scwang.smartrefresh.layout.listener.OnRefreshListener;
 import com.xy.doll.R;
+import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.app.LogUtil;
 import com.xy.libs.util.glide.GlideImageLoader;
 import com.youth.banner.Banner;
@@ -42,6 +43,8 @@ import app.model.service.WebSocketService;
 import app.presenter.MainPresenter;
 import app.ui.adapter.FastEntranceAdapter;
 import app.ui.base.BaseActivity;
+import app.ui.down.DownActivity;
+import app.ui.download.DownloadActivity;
 import app.ui.fragment.FastFragment;
 import app.ui.widget.UserInfoWindow;
 import app.util.SPs;
@@ -112,7 +115,8 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
                 break;
             case R.id.image_gift:
 //                JumpUtil.overlay(activity,GiftBoxActivity.class);
-                getSocketUrl();
+//                getSocketUrl();
+                JumpUtil.overlay(activity,DownActivity.class);
                 break;
             case R.id.view_background:
                 AnimationTools.getInstance().hideAlphaAnimation(viewBackground);
