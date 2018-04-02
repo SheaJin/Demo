@@ -1,4 +1,4 @@
-package app.ui.download;
+package com.xy.doll.download;
 
 /**
  * Created by jxy on 2018/3/21.

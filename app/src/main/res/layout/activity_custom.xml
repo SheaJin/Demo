@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white_255"
+    tools:context="com.xy.doll.custom.CustomActivity">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/view_pager"
+        android:layout_marginBottom="174px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <app.ui.widget.BottomView
+        android:id="@+id/bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="216px" />
+
+
+
+
+
+
+
+
+    <!--<app.ui.widget.HeadDropScrollView-->
+        <!--android:id="@+id/scroll_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<LinearLayout-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+            <!--<ImageView-->
+                <!--android:id="@+id/image"-->
+                <!--android:src="@mipmap/splash"-->
+                <!--android:scaleType="centerCrop"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="600px" />-->
+
+            <!--<TextView-->
+                <!--android:layout_marginTop="2000px"-->
+                <!--android:id="@+id/tv"-->
+                <!--android:text=" LV 5 "-->
+                <!--android:textColor="@color/white_255"-->
+                <!--android:background="@drawable/custom_bg"-->
+                <!--android:gravity="center"-->
+                <!--android:textSize="16sp"-->
+                <!--android:textStyle="bold|italic"-->
+                <!--android:layout_width="@dimen/px_300"-->
+                <!--android:layout_height="@dimen/px_120" />-->
+
+            <!--<ProgressBar-->
+                <!--android:id="@+id/progress_bar"-->
+                <!--style="?android:attr/progressBarStyleHorizontal"-->
+                <!--android:indeterminate="false"-->
+                <!--android:layout_marginTop="60px"-->
+                <!--android:minHeight="30px"-->
+                <!--android:progress="60"-->
+                <!--android:layout_gravity="center_horizontal"-->
+                <!--android:progressDrawable="@drawable/drawable_progressbar"-->
+                <!--android:layout_width="@dimen/px_600"-->
+                <!--android:layout_height="wrap_content" />-->
+        <!--</LinearLayout>-->
+
+    <!--</app.ui.widget.HeadDropScrollView>-->
+
+
+
+</RelativeLayout>

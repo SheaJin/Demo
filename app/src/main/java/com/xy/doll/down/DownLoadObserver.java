@@ -1,4 +1,4 @@
-package app.ui.down;
+package com.xy.doll.down;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;

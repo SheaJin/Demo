@@ -43,11 +43,10 @@ import app.model.service.WebSocketService;
 import app.presenter.MainPresenter;
 import app.ui.adapter.FastEntranceAdapter;
 import app.ui.base.BaseActivity;
-import app.ui.down.DownActivity;
-import app.ui.download.DownloadActivity;
 import app.ui.fragment.FastFragment;
 import app.ui.widget.UserInfoWindow;
 import app.util.SPs;
+import com.xy.doll.down.DownActivity;
 import butterknife.BindView;
 import butterknife.OnClick;
 import io.reactivex.android.schedulers.AndroidSchedulers;
@@ -116,7 +115,7 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
             case R.id.image_gift:
 //                JumpUtil.overlay(activity,GiftBoxActivity.class);
 //                getSocketUrl();
-                JumpUtil.overlay(activity,DownActivity.class);
+                JumpUtil.overlay(activity, DownActivity.class);
                 break;
             case R.id.view_background:
                 AnimationTools.getInstance().hideAlphaAnimation(viewBackground);
@@ -151,30 +150,32 @@ public class MainActivity extends BaseActivity implements MainContract.View, OnR
 
     @Override
     public void getEntranceInfoOk(FastEntrance fastEntrance) {
-        if (fastEntrance != null && fastEntrance.getBanner().size() != 0 && fastEntrance.getFast_track().size() != 0) {
-            /**
-             * Banner
-             * */
-            imgs.clear();
-            advert.clear();
-            advert.addAll(fastEntrance.getBanner());
-            for (FastEntrance.BannerBean bannerBean : advert) {
-                imgs.add(AppConfig.BASE_URL_PIC + bannerBean.getPicture());
-            }
-            initBanner();
-            /**
-             * 快速入口,向Fragment传递集合
-             * */
-            fastTrack.clear();
-            fastTrack.addAll(fastEntrance.getFast_track());
-            size = fastTrack.size();
+        if (!isDestroyed()) {
+            if (fastEntrance != null && fastEntrance.getBanner().size() != 0 && fastEntrance.getFast_track().size() != 0) {
+                /**
+                 * Banner
+                 * */
+                imgs.clear();
+                advert.clear();
+                advert.addAll(fastEntrance.getBanner());
+                for (FastEntrance.BannerBean bannerBean : advert) {
+                    imgs.add(AppConfig.BASE_URL_PIC + bannerBean.getPicture());
+                }
+                initBanner();
+                /**
+                 * 快速入口,向Fragment传递集合
+                 * */
+                fastTrack.clear();
+                fastTrack.addAll(fastEntrance.getFast_track());
+                size = fastTrack.size();
 
-            initFastEntrance(size);
+                initFastEntrance(size);
+            }
+            if (mRefresh.isLoading())
+                mRefresh.finishLoadMore(true);
+            if (mRefresh.isRefreshing())
+                mRefresh.finishRefresh(true);
         }
-        if (mRefresh.isLoading())
-            mRefresh.finishLoadMore(true);
-        if (mRefresh.isRefreshing())
-            mRefresh.finishRefresh(true);
     }
 
     private void initFastEntrance(int size) {

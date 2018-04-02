@@ -1,4 +1,4 @@
-package app.ui.down;
+package com.xy.doll.down;
 
 import android.os.Bundle;
 import android.view.View;
@@ -7,6 +7,7 @@ import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 
 import com.xy.doll.R;
+import com.xy.libs.util.app.LogUtil;
 import com.xy.libs.util.normal.ToastUtil;
 
 import app.model.api.AppConfig;
@@ -14,6 +15,7 @@ import app.ui.base.BaseActivity;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import io.reactivex.disposables.Disposable;
 
 public class DownActivity extends BaseActivity {
 
@@ -62,6 +64,12 @@ public class DownActivity extends BaseActivity {
             case R.id.main_btn_down1:
                 DownloadManager.getInstance().download(AppConfig.DOWNLOAD_URL, new DownLoadObserver() {
                     @Override
+                    public void onSubscribe(Disposable d) {
+                        super.onSubscribe(d);
+                        LogUtil.e("path:onSubscribe");
+                    }
+
+                    @Override
                     public void onNext(DownloadInfo downloadInfo) {
                         mainProgress1.setMax((int) downloadInfo.getTotal());
                         mainProgress1.setProgress((int) downloadInfo.getProgress());
@@ -69,9 +77,12 @@ public class DownActivity extends BaseActivity {
 
                     @Override
                     public void onComplete() {
-                        if (downloadInfo != null) {
-                            ToastUtil.show(activity, downloadInfo.getFileName() + "-DownloadComplete");
-                        }
+                    }
+
+                    @Override
+                    public void onError(Throwable e) {
+                        super.onError(e);
+                        LogUtil.e("path:onError");
                     }
                 });
 

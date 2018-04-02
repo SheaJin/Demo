@@ -1,6 +1,8 @@
-package app.ui.down;
+package com.xy.doll.down;
 
-import com.xy.doll.DollApplication;
+import android.os.Environment;
+
+import com.xy.libs.util.app.LogUtil;
 
 import java.io.File;
 import java.io.FileOutputStream;
@@ -54,6 +56,11 @@ public class DownloadManager {
                 .subscribe(downLoadObserver);//添加观察者
     }
 
+    /**
+     * 取消下载
+     *
+     * @param url
+     */
     public void cancel(String url) {
         Call call = downCalls.get(url);
         if (call != null) {
@@ -78,14 +85,15 @@ public class DownloadManager {
     }
 
     private DownloadInfo getRealFileName(DownloadInfo downloadInfo) {
+        LogUtil.e("path:" + Environment.getExternalStorageDirectory() + "/Dolls");
         String fileName = downloadInfo.getFileName();
         long downloadLength = 0, contentLength = downloadInfo.getTotal();
-        File file = new File(DollApplication.getInstance().getFilesDir(), fileName);
+        File file = new File(Environment.getExternalStorageDirectory() + "/Dolls", fileName);
         if (file.exists()) {
             //找到了文件,代表已经下载过,则获取其长度
             downloadLength = file.length();
         }
-        //之前下载过,需要重新来一个文件
+        //之前下载过,需要重新在下载一个文件
         int i = 1;
         while (downloadLength >= contentLength) {
             int dotIndex = fileName.lastIndexOf(".");
@@ -93,10 +101,9 @@ public class DownloadManager {
             if (dotIndex == -1) {
                 fileNameOther = fileName + "(" + i + ")";
             } else {
-                fileNameOther = fileName.substring(0, dotIndex)
-                        + "(" + i + ")" + fileName.substring(dotIndex);
+                fileNameOther = fileName.substring(0, dotIndex) + "(" + i + ")" + fileName.substring(dotIndex);
             }
-            File newFile = new File(DollApplication.getInstance().getFilesDir(), fileNameOther);
+            File newFile = new File(Environment.getExternalStorageDirectory() + "/Dolls", fileNameOther);
             file = newFile;
             downloadLength = newFile.length();
             i++;
@@ -131,7 +138,7 @@ public class DownloadManager {
             downCalls.put(url, call);//把这个添加到call里,方便取消
             Response response = call.execute();
 
-            File file = new File(DollApplication.getInstance().getFilesDir(), downloadInfo.getFileName());
+            File file = new File(Environment.getExternalStorageDirectory() + "/Dolls", downloadInfo.getFileName());
             InputStream is = null;
             FileOutputStream fileOutputStream = null;
             try {

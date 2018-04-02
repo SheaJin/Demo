@@ -1,4 +1,4 @@
-package app.ui.download;
+package com.xy.doll.download;
 
 import android.annotation.SuppressLint;
 import android.os.Handler;
@@ -9,6 +9,7 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.InputStream;
 
+import app.util.FileUtil;
 import okhttp3.Call;
 import okhttp3.Callback;
 import okhttp3.OkHttpClient;

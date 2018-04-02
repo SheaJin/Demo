@@ -1,4 +1,4 @@
-package app.ui.download;
+package app.util;
 
 import android.os.Environment;
 import android.text.TextUtils;

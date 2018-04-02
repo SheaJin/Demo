@@ -43,11 +43,7 @@
             android:exported="true" />
 
         <activity android:name="app.ui.activity.SplashActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name="app.ui.activity.LoginActivity" />
         <activity android:name="app.ui.activity.MainActivity" />
@@ -64,8 +60,16 @@
         <activity android:name="app.ui.activity.PlayHistoryActivity" />
         <activity android:name="app.ui.activity.CatchFailedDetailsActivity" />
         <activity android:name="app.ui.activity.CatchSuccessDetailsActivity" />
-        <activity android:name="app.ui.download.DownloadActivity" />
-        <activity android:name="app.ui.down.DownActivity"></activity>
+        <activity android:name=".download.DownloadActivity" />
+        <activity android:name=".down.DownActivity" />
+        <activity android:name=".rx.RxActivity" />
+        <activity android:name=".custom.CustomActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
 MERGED from [:library] /Users/mjn_ziyu/Lemon/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/aca96fc5cbfea498006fb1538625692e/AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/a8e804e3da2b0671b0d9fb7a4dafddf8/AndroidManifest.xml:2:1-12:12
@@ -39,20 +39,20 @@ MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4bd307122ba2dfe2e544671267f15ea8/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e90a197ae790052d3b6120d71ca2dc60/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a67c3e1885d5e5c84cbd6ada32c9eff6/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
-INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
+INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
 	package
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:3:5-26
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-71:12
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:1-75:12
 		INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:2:11-69
@@ -145,7 +145,7 @@ ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:24:5-70
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:24:19-67
 application
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:26:5-69:19
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:26:5-73:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:11:5-13:38
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:11:5-13:38
 MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/8d91b19f87a9531b9e3f780983fac1b0/AndroidManifest.xml:11:5-14:19
@@ -195,87 +195,95 @@ ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:41:9-43:39
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:42:13-62
 activity#app.ui.activity.SplashActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:45:9-51:20
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:45:9-47:20
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:45:19-64
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:46:13-50:29
-action#android.intent.action.MAIN
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:47:17-69
-	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:47:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:49:17-77
-	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:49:27-74
 activity#app.ui.activity.LoginActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:52:9-66
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:48:9-66
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:52:19-63
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:48:19-63
 activity#app.ui.activity.MainActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:53:9-65
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:49:9-65
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:53:19-62
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:49:19-62
 activity#app.ui.activity.CommonDetailsActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:54:9-74
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:50:9-74
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:54:19-71
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:50:19-71
 activity#app.ui.activity.GameActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:55:9-65
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:51:9-65
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:55:19-62
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:51:19-62
 activity#app.ui.activity.SetActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:56:9-64
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:52:9-64
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:56:19-61
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:52:19-61
 activity#app.ui.activity.RechargeActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:53:9-69
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:53:19-66
+activity#app.ui.activity.MyOrderActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:54:9-68
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:54:19-65
+activity#app.ui.activity.OtherReasonActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:55:9-72
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:55:19-69
+activity#app.ui.activity.GiftBoxActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:56:9-68
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:56:19-65
+activity#app.ui.activity.ExchangeActivity
 ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:57:9-69
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:57:19-66
-activity#app.ui.activity.MyOrderActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:58:9-68
+activity#app.ui.activity.SendActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:58:9-65
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:58:19-65
-activity#app.ui.activity.OtherReasonActivity
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:58:19-62
+activity#app.ui.activity.GiftDetailsActivity
 ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:59:9-72
 	android:name
 		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:59:19-69
-activity#app.ui.activity.GiftBoxActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:60:9-68
-	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:60:19-65
-activity#app.ui.activity.ExchangeActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:61:9-69
-	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:61:19-66
-activity#app.ui.activity.SendActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:62:9-65
-	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:62:19-62
-activity#app.ui.activity.GiftDetailsActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:63:9-72
-	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:63:19-69
 activity#app.ui.activity.PlayHistoryActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:64:9-72
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:60:9-72
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:64:19-69
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:60:19-69
 activity#app.ui.activity.CatchFailedDetailsActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:65:9-79
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:61:9-79
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:65:19-76
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:61:19-76
 activity#app.ui.activity.CatchSuccessDetailsActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:66:9-80
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:62:9-80
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:66:19-77
-activity#app.ui.download.DownloadActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:67:9-69
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:62:19-77
+activity#com.xy.doll.download.DownloadActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:63:9-63
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:67:19-66
-activity#app.ui.down.DownActivity
-ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:68:9-70
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:63:19-60
+activity#com.xy.doll.down.DownActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:64:9-55
 	android:name
-		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:68:19-58
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:64:19-52
+activity#com.xy.doll.rx.RxActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:65:9-51
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:65:19-48
+activity#com.xy.doll.custom.CustomActivity
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:66:9-72:20
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:66:19-56
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:67:13-71:29
+action#android.intent.action.MAIN
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:68:17-69
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:68:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:70:17-77
+	android:name
+		ADDED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml:70:27-74
 uses-sdk
 INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mjn_ziyu/Lemon/app/src/main/AndroidManifest.xml
