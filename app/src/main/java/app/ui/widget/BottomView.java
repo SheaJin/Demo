@@ -63,6 +63,7 @@ public class BottomView extends View implements ViewPager.OnPageChangeListener {
 
     @Override
     protected void onDraw(Canvas canvas) {
+        super.onDraw(canvas);
         iconSize = getHeight() * 0.69444f;
         //画背景
         canvas.drawBitmap(bgBitmap, null, new RectF(0, getHeight() * 0.16666f, getWidth(), getHeight()), paint);

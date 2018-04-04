@@ -1,30 +1,49 @@
 package app.ui.fragment;
 
 
-import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.view.LayoutInflater;
+import android.support.v7.widget.CardView;
+import android.view.Gravity;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.xy.doll.R;
+
+import app.ui.base.BaseFragment;
+import butterknife.BindView;
+import butterknife.ButterKnife;
+import q.rorbin.badgeview.QBadgeView;
 
 /**
  * A simple {@link Fragment} subclass.
  */
-public class BlankFragment extends Fragment {
+public class BlankFragment extends BaseFragment {
 
-
+    @BindView(R.id.rl)
+    View cardView;
+//    private CardView cardView;
     public BlankFragment() {
-        // Required empty public constructor
+//        ButterKnife.bind(activity);
     }
 
+    @Override
+    public int getLayoutResID() {
+        return R.layout.fragment_blank;
+    }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_blank, container, false);
+    protected void initUI() {
+        ButterKnife.bind(activity);
+        cardView = getView(R.id.rl);
+//        new QBadgeView(activity)
+//                .setBadgePadding(10,true)
+//                .bindTarget(cardView)
+//                .setBadgeNumber(5);
+
+    }
+
+    @Override
+    protected void initData() {
+
     }
 
 }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -7,21 +7,112 @@
     android:background="@color/white_255"
     tools:context="com.xy.doll.custom.CustomActivity">
 
-
-    <android.support.v4.view.ViewPager
-        android:id="@+id/view_pager"
-        android:layout_marginBottom="174px"
+    <LinearLayout
+        android:id="@+id/rl_bottom"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="50dp"
+        android:background="#ffffff"
+        android:filterTouchesWhenObscured="true"
+        android:focusableInTouchMode="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="4dp">
 
-    <app.ui.widget.BottomView
-        android:id="@+id/bottom"
-        android:layout_alignParentBottom="true"
+
+        <RelativeLayout
+            android:id="@+id/edittext_layout"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="bottom">
+
+            <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="35dip"
+                android:maxLines="3"
+                android:minHeight="40dp"
+                android:paddingBottom="3dp"
+                android:paddingLeft="1dp"
+                android:paddingRight="1dp"
+                android:paddingTop="3dp"
+                android:textSize="16sp" />
+
+
+            <ImageView
+                android:id="@+id/iv_emoji"
+                android:layout_width="24dip"
+                android:layout_height="24dip"
+                android:layout_alignParentRight="true"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center_vertical|right"
+                android:layout_margin="1dp"
+                android:scaleType="fitCenter"
+                android:visibility="visible" />
+
+
+        </RelativeLayout>
+
+
+        <TextView
+            android:id="@+id/tv_send"
+            android:layout_width="40dp"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:background="@null"
+            android:gravity="center"
+            android:onClick="sendMessage"
+            android:text="发送"
+            android:visibility="visible" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_emoji"
         android:layout_width="match_parent"
-        android:layout_height="216px" />
+        android:layout_height="180dp"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/emoji_viewpage"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="10dip"
+            android:layout_weight="1"
+            android:visibility="visible" />
+
+        <LinearLayout
+            android:id="@+id/emoji_cursor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="6dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+        </LinearLayout>
+    </LinearLayout>
 
 
+    <!--<android.support.v4.view.ViewPager-->
+    <!--android:id="@+id/view_pager"-->
+    <!--android:layout_marginBottom="174px"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"/>-->
 
+    <!--<app.ui.widget.BottomView-->
+    <!--android:id="@+id/bottom"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="216px" />-->
 
 
 
@@ -71,5 +162,4 @@
     <!--</app.ui.widget.HeadDropScrollView>-->
 
 
-
-</RelativeLayout>
+</LinearLayout>

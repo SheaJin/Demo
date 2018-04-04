@@ -32,6 +32,8 @@ public abstract class BaseFragment extends Fragment implements View.OnClickListe
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
         super.onViewCreated(view, savedInstanceState);
         ButterKnife.bind(this, view);
+        rootView = view;
+        activity = getActivity();
         initUI();
         initData();
     }
