@@ -1,10 +1,42 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/mjn_ziyu/Lemon/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sv/values-sv.xml",
+            "outputFile": "D:\\Users\\mjn_ziyu\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
             "map": [
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/res/values-sv/values-sv.xml",
+                    "source": "D:\\Users\\mjn_ziyu\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\e175ac1467b65834907d0fe1e12070e2\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,211,314,425,510,612,725,801,877,957,1063,1163,1259,1364,1466,1568,1722,1824",
+                        "endColumns": "105,102,110,84,101,112,75,75,79,105,99,95,104,101,101,153,101,78",
+                        "endOffsets": "206,309,420,505,607,720,796,872,952,1058,1158,1254,1359,1461,1563,1717,1819,1898"
+                    }
+                },
+                {
+                    "source": "D:\\Users\\mjn_ziyu\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\5519a870595b41137177483c55ebb4d5\\res\\values-sv\\values-sv.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "20",
+                        "startColumns": "4",
+                        "startOffsets": "1903",
+                        "endColumns": "100",
+                        "endOffsets": "1999"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sv\\values-sv.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\gongteng\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.0.aar\\8cc12847761a1fed032900da7082ac50\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +53,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/values-sv/values-sv.xml",
+                    "source": "C:\\Users\\gongteng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d6902c11b17a9200cd837dea22e5043b\\res\\values-sv\\values-sv.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
