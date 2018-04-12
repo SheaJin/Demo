@@ -1,19 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.xy.doll.audio.AudioActivity">
 
-    <!--<AudioRecorderButton-->
-        <!--android:text="录音"-->
-        <!--android:id="@+id/audio"-->
-        <!--android:layout_width="200px"-->
-        <!--android:layout_height="100px" />-->
 
-    <com.xy.doll.audio.AudioRecorderButton
-        android:text="录音"
-        android:id="@+id/audio"
-        android:layout_width="300px"
-        android:layout_height="150px" />
-</LinearLayout>
+    <!--<Button-->
+        <!--android:text="按住说话"-->
+        <!--android:id="@+id/button"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <com.hyphenate.easeui.widget.EaseVoiceRecorderView
+        android:layout_centerInParent="true"
+        android:id="@+id/voice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/button"
+        android:text="按钮"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
