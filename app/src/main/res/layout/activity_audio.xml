@@ -6,22 +6,5 @@
     tools:context="com.xy.doll.audio.AudioActivity">
 
 
-    <!--<Button-->
-        <!--android:text="按住说话"-->
-        <!--android:id="@+id/button"-->
-        <!--android:layout_width="match_parent"-->
-        <!--android:layout_height="wrap_content" />-->
-
-    <com.hyphenate.easeui.widget.EaseVoiceRecorderView
-        android:layout_centerInParent="true"
-        android:id="@+id/voice"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
-
-    <Button
-        android:id="@+id/button"
-        android:text="按钮"
-        android:layout_alignParentBottom="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 </RelativeLayout>
+
