@@ -68,8 +68,11 @@
         <activity android:name="app.ui.activity.CatchSuccessDetailsActivity" />
         <activity android:name="com.xy.doll.download.DownloadActivity" />
         <activity android:name="com.xy.doll.down.DownActivity" />
-        <activity android:name="com.xy.doll.rx.RxActivity" />
+        <activity android:name="com.xy.doll.rxjava.RxActivity" />
         <activity android:name="com.xy.doll.custom.CustomActivity" />
+        <activity
+            android:name="com.xy.doll.hy.ChatActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name="com.xy.doll.audio.AudioActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -85,11 +88,6 @@
         <meta-data
             android:name="com.google.android.gms.version"
             android:value="@integer/google_play_services_version" />
-
-        <activity
-            android:name="com.tbruyelle.rxpermissions.ShadowActivity"
-            android:launchMode="singleTop"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
     </application>
 
 </manifest>

@@ -62,6 +62,9 @@
         <activity android:name=".down.DownActivity" />
         <activity android:name=".rxjava.RxActivity" />
         <activity android:name=".custom.CustomActivity" />
+        <activity
+            android:name=".hy.ChatActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name=".audio.AudioActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
