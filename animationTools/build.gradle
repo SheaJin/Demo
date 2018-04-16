@@ -148,3 +148,6 @@ if (propertiesFile.exists()) {
         }
     }
 }
+repositories {
+    mavenCentral()
+}

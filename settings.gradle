@@ -1,1 +1,1 @@
-include ':app', ':library', ':animationTools', ":easeui"
+include ':app', ':library', ":easeui", ':animationTools'

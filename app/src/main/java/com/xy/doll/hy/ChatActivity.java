@@ -1,6 +1,5 @@
 package com.xy.doll.hy;
 
-import android.Manifest;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.animation.ValueAnimator;
@@ -19,14 +18,12 @@ import android.widget.LinearLayout;
 
 import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayout;
 import com.orangegangsters.github.swipyrefreshlayout.library.SwipyRefreshLayoutDirection;
-import com.tbruyelle.rxpermissions2.RxPermissions;
 import com.xy.doll.R;
 
 import java.util.ArrayList;
 import java.util.List;
 
 import app.ui.base.BaseActivity;
-import io.reactivex.functions.Consumer;
 
 public class ChatActivity extends BaseActivity {
     private final static int ON_EMOJI_CHANGE = 0xc1;
@@ -40,7 +37,7 @@ public class ChatActivity extends BaseActivity {
     private RecyclerView mRv;
     private List<ChatBean> chatList;
     private ChatAdapter chatAdapter;
-    private RxPermissions rxPermissions;
+//    private RxPermissions rxPermissions;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +51,7 @@ public class ChatActivity extends BaseActivity {
         viewBottom = findViewById(R.id.view_bottom);
         viewEmoji = findViewById(R.id.layout_emoji);
         viewInner = findViewById(R.id.view_inner);
-        rxPermissions = new RxPermissions(activity);
+//        rxPermissions = new RxPermissions(activity);
         swipyRefreshLayout = findViewById(R.id.swipyRefreshLayout);
         swipyRefreshLayout.setColorSchemeColors(getResources().getColor(R.color.theme));
         mRv = findViewById(R.id.recyclerView);
@@ -149,14 +146,14 @@ public class ChatActivity extends BaseActivity {
     }
 
     private void requestPermission() {
-        rxPermissions.request(Manifest.permission.RECORD_AUDIO).subscribe(new Consumer<Boolean>() {
-            @Override
-            public void accept(Boolean isGranted) throws Exception {
-                if (!isGranted) {
-                    showMess("未开通授权,无法使用录音功能");
-                }
-            }
-        });
+//        rxPermissions.request(Manifest.permission.RECORD_AUDIO).subscribe(new Consumer<Boolean>() {
+//            @Override
+//            public void accept(Boolean isGranted) throws Exception {
+//                if (!isGranted) {
+//                    showMess("未开通授权,无法使用录音功能");
+//                }
+//            }
+//        });
     }
 
     /**

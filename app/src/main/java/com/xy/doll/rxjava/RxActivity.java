@@ -1,4 +1,4 @@
-package com.xy.doll.rx;
+package com.xy.doll.rxjava;
 
 import android.os.Bundle;
 
