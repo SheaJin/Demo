@@ -8,15 +8,15 @@ package android.support.graphics.drawable;
 
 public final class R {
     public static final class attr {
-        public static final int font = 0x7f0300b9;
-        public static final int fontProviderAuthority = 0x7f0300bb;
-        public static final int fontProviderCerts = 0x7f0300bc;
-        public static final int fontProviderFetchStrategy = 0x7f0300bd;
-        public static final int fontProviderFetchTimeout = 0x7f0300be;
-        public static final int fontProviderPackage = 0x7f0300bf;
-        public static final int fontProviderQuery = 0x7f0300c0;
-        public static final int fontStyle = 0x7f0300c1;
-        public static final int fontWeight = 0x7f0300c2;
+        public static final int font = 0x7f0300c2;
+        public static final int fontProviderAuthority = 0x7f0300c4;
+        public static final int fontProviderCerts = 0x7f0300c5;
+        public static final int fontProviderFetchStrategy = 0x7f0300c6;
+        public static final int fontProviderFetchTimeout = 0x7f0300c7;
+        public static final int fontProviderPackage = 0x7f0300c8;
+        public static final int fontProviderQuery = 0x7f0300c9;
+        public static final int fontStyle = 0x7f0300ca;
+        public static final int fontWeight = 0x7f0300cb;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
@@ -115,14 +115,14 @@ public final class R {
         public static final int Widget_Compat_NotificationActionText = 0x7f0d0176;
     }
     public static final class styleable {
-        public static final int[] FontFamily = { 0x7f0300bb, 0x7f0300bc, 0x7f0300bd, 0x7f0300be, 0x7f0300bf, 0x7f0300c0 };
+        public static final int[] FontFamily = { 0x7f0300c4, 0x7f0300c5, 0x7f0300c6, 0x7f0300c7, 0x7f0300c8, 0x7f0300c9 };
         public static final int FontFamily_fontProviderAuthority = 0;
         public static final int FontFamily_fontProviderCerts = 1;
         public static final int FontFamily_fontProviderFetchStrategy = 2;
         public static final int FontFamily_fontProviderFetchTimeout = 3;
         public static final int FontFamily_fontProviderPackage = 4;
         public static final int FontFamily_fontProviderQuery = 5;
-        public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f0300b9, 0x7f0300c1, 0x7f0300c2 };
+        public static final int[] FontFamilyFont = { 0x01010532, 0x01010533, 0x0101053f, 0x7f0300c2, 0x7f0300ca, 0x7f0300cb };
         public static final int FontFamilyFont_android_font = 0;
         public static final int FontFamilyFont_android_fontWeight = 1;
         public static final int FontFamilyFont_android_fontStyle = 2;

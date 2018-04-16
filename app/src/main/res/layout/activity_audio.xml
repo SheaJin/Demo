@@ -3,6 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.xy.doll.audio.AudioActivity">
 
     <!--<AudioRecorderButton-->
@@ -18,5 +19,18 @@
         android:layout_height="150px" />
 
 
+    <com.xy.doll.BubbleImageView
+        android:background="@color/theme"
+        android:gravity="center"
+        android:text="e市地税局"
+        app:arrowWidth="8dp"
+        app:angle="8dp"
+        app:arrowHeight="10dp"
+        app:arrowPosition="14dp"
+        app:arrowLocation="right"
+        app:arrowCenter="true"
+        app:bubbleColor="#7EC0EE"
+        android:layout_width="300px"
+        android:layout_height="150px" />
 
 </LinearLayout>
