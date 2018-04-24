@@ -73,9 +73,9 @@
         <activity
             android:name="com.xy.doll.hy.ChatActivity"
             android:windowSoftInputMode="adjustResize|stateHidden" />
-        <activity android:name="com.xy.doll.audio.AudioActivity" >
-        </activity>
-        <activity android:name="com.xy.doll.bottom.BottomActivity" >
+        <activity android:name="com.xy.doll.audio.AudioActivity" />
+        <activity android:name="com.xy.doll.bottom.BottomActivity" />
+        <activity android:name="com.xy.doll.animate.AnimateActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
