@@ -30,6 +30,7 @@ public class PksActivity extends BaseActivity {
         setContentView(R.layout.activity_pk);
     }
 
+    //11
     @Override
     protected void initUI() {
         GridLayoutManager manager = new GridLayoutManager(activity, 1);
