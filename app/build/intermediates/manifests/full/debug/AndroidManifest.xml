@@ -75,7 +75,9 @@
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name="com.xy.doll.audio.AudioActivity" />
         <activity android:name="com.xy.doll.bottom.BottomActivity" />
-        <activity android:name="com.xy.doll.animate.AnimateActivity" >
+        <activity android:name="com.xy.doll.animate.AnimateActivity" />
+        <activity android:name="com.xy.doll.banner.BannerActivity" />
+        <activity android:name="com.xy.doll.pk.PksActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -12,12 +12,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_gray_radius.xml.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/drawable/gray_radius.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_dark_focused.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/res/drawable/common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_gray_radius.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/res/drawable/gray_radius.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -42,6 +42,10 @@
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_ease_search_bar_with_padding.xml.flat",
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/layout/ease_search_bar_with_padding.xml"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_activity_pk.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/activity_pk.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_design_layout_snackbar_include.xml.flat",
@@ -96,16 +100,16 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-mdpi-v4/abc_text_select_handle_left_mtrl_dark.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_1.png.flat",
-        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_1.png"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_zww.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/zww.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-v21_design_bottom_navigation_item_background.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/drawable-v21/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_zww.png.flat",
-        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/zww.png"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_1.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_1.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4_back_btn.png.flat",
@@ -120,16 +124,16 @@
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_94.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_ease_btn_blue_selector.xml.flat",
-        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable/ease_btn_blue_selector.xml"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_notification_icon_background.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/res/drawable/notification_icon_background.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_ease_btn_blue_selector.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable/ease_btn_blue_selector.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
@@ -148,16 +152,16 @@
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_37.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_ease_row_sent_location.xml.flat",
-        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/layout/ease_row_sent_location.xml"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_33.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_33.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_btn_radio_to_on_mtrl_000.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_33.png.flat",
-        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_33.png"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_ease_row_sent_location.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/layout/ease_row_sent_location.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_abc_action_mode_close_item_material.xml.flat",
@@ -224,12 +228,12 @@
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ease_group_icon.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/anim-v21/design_bottom_sheet_slide_in.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_19.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_19.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/anim-v21_design_bottom_sheet_slide_in.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/anim-v21/design_bottom_sheet_slide_in.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_gh.png.flat",
@@ -256,12 +260,12 @@
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_appitem_del_btn_normal.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat",
-        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/activity_chat.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_activity_chat.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/activity_chat.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_137.png.flat",
@@ -288,12 +292,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/res/drawable/common_google_signin_btn_icon_disabled.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/layout/abc_list_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_design_ic_visibility.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/drawable-xxxhdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_abc_list_menu_item_layout.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/layout/abc_list_menu_item_layout.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_fragment_blank.xml.flat",
@@ -348,6 +352,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png"
     },
     {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_activity_pks.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/activity_pks.xml"
+    },
+    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_play.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/play.png"
     },
@@ -364,12 +372,12 @@
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable/ease_chat_image_selector.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_98.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_98.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_list_pressed_holo_light.9.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_abc_switch_thumb_material.xml.flat",
@@ -396,12 +404,12 @@
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/comment.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_fragment_fast.xml.flat",
-        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/fragment_fast.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxxhdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_fragment_fast.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/fragment_fast.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ease_mm_listitem_pressed.9.png.flat",
@@ -576,24 +584,24 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxxhdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/drawable/navigation_empty_icon.xml"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/res/drawable-xxhdpi-v4/common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_navigation_empty_icon.xml.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/drawable/navigation_empty_icon.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_tooltip_frame_dark.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable/tooltip_frame_dark.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ee_13.png.flat",
-        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_13.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_72.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_72.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ee_13.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_13.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_000.png.flat",
@@ -688,12 +696,12 @@
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/activity_my_order.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ease_mm_listitem_disable.9.png.flat",
-        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_listitem_disable.9.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ease_chatting_biaoqing_btn_normal.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatting_biaoqing_btn_normal.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ease_mm_listitem_disable.9.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_mm_listitem_disable.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_machine_status_empty.png.flat",
@@ -720,12 +728,16 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_end_end.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/end_end.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_16.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_16.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal_pressed.9.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/res/drawable-xhdpi-v4/notification_bg_normal_pressed.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_ease_btn_cancel_pressed_shape.xml.flat",
@@ -752,12 +764,12 @@
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_record_animate_14.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ease_default_avatar.png.flat",
-        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ease_default_avatar.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_54.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_54.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ease_default_avatar.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ease_default_avatar.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_activity_rx.xml.flat",
@@ -784,12 +796,12 @@
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_dx_checkbox_off.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_ease_mm_title_remove.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-xhdpi-v4/ease_mm_title_remove.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_focused_holo.9.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-hdpi-v4/abc_list_focused_holo.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ease_video_download_btn_nor.png.flat",
@@ -996,12 +1008,12 @@
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/anim/fade_out.xml"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ee_12.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ee_12.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_list_pressed_holo_dark.9.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-hdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ee_25.png.flat",
@@ -1016,12 +1028,12 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
-        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_design_navigation_item_subheader.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_cab_background_top_mtrl_alpha.9.png.flat",
+        "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-ldrtl-xxhdpi-v17_abc_ic_menu_copy_mtrl_am_alpha.png.flat",
@@ -2124,6 +2136,10 @@
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable/drawable_progressbar.xml"
     },
     {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_drawable_pk_blue.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable/drawable_pk_blue.xml"
+    },
+    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi_emoji_44.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/drawable-xhdpi/emoji_44.png"
     },
@@ -2242,6 +2258,10 @@
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_low_normal.9.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/res/drawable-xhdpi-v4/notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_end_again.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/end_again.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_text_select_handle_left_mtrl_dark.png.flat",
@@ -2476,6 +2496,10 @@
         "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/giftbox_btn_blue.png"
     },
     {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_win.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/win.png"
+    },
+    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_ease_chatto_voice_playing.png.flat",
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable-hdpi-v4/ease_chatto_voice_playing.png"
     },
@@ -2546,6 +2570,10 @@
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_tint.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_szww_left.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/szww_left.png"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/color_abc_primary_text_material_dark.xml.flat",
@@ -3020,6 +3048,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/layout-watch-v20/abc_alert_dialog_title_material.xml"
     },
     {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_item_pk.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/item_pk.xml"
+    },
+    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_commit_search_api_mtrl_alpha.png.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable-xhdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png"
     },
@@ -3372,6 +3404,10 @@
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
     {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/mipmap-xhdpi_szww_right.png.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/mipmap-xhdpi/szww_right.png"
+    },
+    {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_ease_timestampe_bg.xml.flat",
         "source": "/Users/mjn_ziyu/Lemon/easeui/build/intermediates/bundles/debug/res/drawable/ease_timestampe_bg.xml"
     },
@@ -3490,6 +3526,10 @@
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable_abc_ic_ab_back_material.xml.flat",
         "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/layout_activity_banner.xml.flat",
+        "source": "/Users/mjn_ziyu/Lemon/app/src/main/res/layout/activity_banner.xml"
     },
     {
         "merged": "/Users/mjn_ziyu/Lemon/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_ic_star_black_48dp.png.flat",
