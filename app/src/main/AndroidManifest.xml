@@ -42,7 +42,13 @@
             android:name="app.model.service.WebSocketService"
             android:exported="true" />
 
-        <activity android:name="app.ui.activity.SplashActivity"></activity>
+        <activity android:name="app.ui.activity.SplashActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name="app.ui.activity.LoginActivity" />
         <activity android:name="app.ui.activity.MainActivity" />
         <activity android:name="app.ui.activity.CommonDetailsActivity" />
@@ -60,16 +66,13 @@
         <activity android:name="app.ui.activity.CatchSuccessDetailsActivity" />
         <activity android:name=".download.DownloadActivity" />
         <activity android:name=".down.DownActivity" />
-        <activity android:name=".rx.RxActivity" />
-        <activity android:name=".custom.CustomActivity">
-
-        </activity>
+        <activity android:name=".rxjava.RxActivity" />
+        <activity android:name=".custom.CustomActivity" />
+        <activity
+            android:name=".hy.ChatActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name=".audio.AudioActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

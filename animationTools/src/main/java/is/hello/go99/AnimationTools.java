@@ -25,6 +25,7 @@ import is.hello.go99.animators.Rotatable;
 
 /**
  * Created on 17/1/17 上午11:24.
+ * @author: this util author by TianZhen ,if you have any problem that send google Email: ryantianzhen@gmail.com
  * @description: AnimationTools 是一个动画的封装工具，部分效果只支持 LOLLIPOP（LeveL>=21）以上，使用方法非常简单，
  *               只需调用getInstance方法，当然为了避免重复创建AnimatorContext对象耗费内存，你可以利用此方法事先检查isInited，
  *               本类会自动完成初始化以及一些默认设置，本类提供了一个动画播放的监听，开发者可根据需要或设定为null，

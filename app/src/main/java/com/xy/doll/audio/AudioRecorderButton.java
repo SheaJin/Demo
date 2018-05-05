@@ -5,11 +5,13 @@ import android.content.Context;
 import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.view.View;
 import android.widget.Button;
+
 import com.xy.doll.R;
 import com.xy.libs.util.normal.DateUtils;
+
 import java.io.IOException;
+
 import app.util.FileUtil;
 
 /**
@@ -23,7 +25,7 @@ import app.util.FileUtil;
  * 3、编写AudioManage、并与该类AudioRecorderButton进行整合；
  */
 
-public class AudioRecorderButton extends Button implements AudioManage.AudioStateListener {
+public class AudioRecorderButton extends Button implements AudioManageUtils.AudioStateListener {
 
     /**
      * AudioRecorderButton的三个状态
@@ -38,9 +40,9 @@ public class AudioRecorderButton extends Button implements AudioManage.AudioStat
 
     private static final int DISTANCE_Y_CANCEL = 50;
 
-    private AudioDialogManage audioDialogManage;
+    private AudioDialogManageUtils audioDialogManage;
 
-    private AudioManage mAudioManage;
+    private AudioManageUtils mAudioManage;
 
     /**
      * 正常录音完成后的回调
@@ -64,7 +66,7 @@ public class AudioRecorderButton extends Button implements AudioManage.AudioStat
     public AudioRecorderButton(final Context context, AttributeSet attrs) {
         super(context, attrs);
 
-        audioDialogManage = new AudioDialogManage(getContext());
+        audioDialogManage = new AudioDialogManageUtils(getContext());
 
 //        String dir = Environment.getExternalStorageDirectory()
 //                + "/kairui/VoiceCache";                             // 此处需要判断是否有存储卡(外存)
@@ -74,34 +76,22 @@ public class AudioRecorderButton extends Button implements AudioManage.AudioStat
         } catch (IOException e) {
             e.printStackTrace();
         }
-        mAudioManage = AudioManage.getInstance(dir);
+        mAudioManage = AudioManageUtils.getInstance(dir);
         mAudioManage.setOnAudioStateListener(this);
 
-        setOnLongClickListener(new OnLongClickListener() {
-
-            @Override
-            public boolean onLongClick(View v) {
-                mReady = true;
-                // 真正显示应该在audio end prepared以后
-                mAudioManage.prepareAudio();
-                //return true;
-                return false;
-            }
+        setOnLongClickListener(v -> {
+            mReady = true;
+            // 真正显示应该在audio end prepared以后
+            mAudioManage.prepareAudio();
+            //return true;
+            return false;
         });
 
-        mAudioManage.setOnAudioStatusUpdateListener(new AudioManage.OnAudioStatusUpdateListener() {
-
-            //录音中....db为声音分贝，time为录音时长
-            @Override
-            public void onUpdate(double db, long time) {
-                //根据分贝值来设置录音时话筒图标的上下波动
-                audioDialogManage.mIcon.getDrawable().setLevel((int) (3000 + 6000 * db / 100));
-            }
-
+        //录音中....db为声音分贝，time为录音时长
+        mAudioManage.setOnAudioStatusUpdateListener((db, time) -> {
+            //根据分贝值来设置录音时话筒图标的上下波动
+            audioDialogManage.mIcon.getDrawable().setLevel((int) (3000 + 6000 * db / 100));
         });
-
-
-        // TODO Auto-generated constructor stub
     }
 
     /*
@@ -116,13 +106,10 @@ public class AudioRecorderButton extends Button implements AudioManage.AudioStat
         int y = (int) event.getY();
 
         switch (action) {
-
             case MotionEvent.ACTION_DOWN:
                 changeState(STATE_RECORDERING);
                 break;
-
             case MotionEvent.ACTION_MOVE:
-
                 // 已经开始录音状态时，根据X、Y的坐标，判断是否想要取消
                 if (isRecordering) {
                     if (wantToCancel(x, y)) {
@@ -132,13 +119,11 @@ public class AudioRecorderButton extends Button implements AudioManage.AudioStat
                     }
                 }
                 break;
-
             case MotionEvent.ACTION_UP:
                 if (!mReady) {   //没有触发onLongClick
                     reset();
                     return super.onTouchEvent(event);
                 }
-
                 if (!isRecordering || mTime < 900) {  //录音时间过短
                     audioDialogManage.tooShort();
                     mAudioManage.cancel();

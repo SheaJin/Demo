@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
 MERGED from [:library] D:\ASProject\Lemon\library\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-11:12
 MERGED from [com.zhy:autolayout:1.4.5] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\autolayout-1.4.5.aar\98a22e0d801b73ee357862f72c3b2387\AndroidManifest.xml:2:1-12:12
 MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\MagicIndicator-1.5.0.aar\39d6bd1fe34b932ab3d334dc6d9af0c2\AndroidManifest.xml:2:1-12:12
@@ -12,6 +12,10 @@ MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\gongteng\.gradle\cac
 MERGED from [com.android.support:design:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\design-27.1.0.aar\19f9d68770d65ab9cba70f0d40cfc0e7\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\d6902c11b17a9200cd837dea22e5043b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33fd1ff81b5cd01f4189d0a9ee1fb6fa\AndroidManifest.xml:2:1-11:12
+MERGED from [:easeui] D:\ASProject\Lemon\easeui\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\86413508ad0077f92b80c12e221cd176\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:16:1-23:12
 MERGED from [com.android.support:support-v4:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\d460fed4203e9c4d0124ddd461f82e4d\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\cee99cfb2d1ea44bcc75418175d441fe\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\d515be3d6c699037e96c6a76750ccb9f\AndroidManifest.xml:17:1-22:12
@@ -23,37 +27,39 @@ MERGED from [com.jakewharton:butterknife:8.5.1] C:\Users\gongteng\.gradle\caches
 MERGED from [top.zibin:Luban:1.1.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\Luban-1.1.3.aar\492fbe0154a77764e2fef8a127261c0d\AndroidManifest.xml:2:1-11:12
 MERGED from [com.ghnor:flora:1.0.0-alpha1] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\flora-1.0.0-alpha1.aar\5865d8a6a770c0d2dc0d75f1eebfe4ad\AndroidManifest.xml:2:1-17:12
 MERGED from [com.youth.banner:banner:1.4.10] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\7d67fee86b80d94365451e038b0cb5a8\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.orangegangsters:swipy:1.2.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\swipy-1.2.3.aar\0c68a27245ebcf085d6bca719f86b33a\AndroidManifest.xml:2:1-14:12
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5-alpha-3.aar\a021216d2b180baddc3b0074b54b3f9d\AndroidManifest.xml:2:1-17:12
 MERGED from [:LiteAVSDK_Player_4.1.3173:] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\LiteAVSDK_Player_4.1.3173.aar\cefadece8eebd4c2ec9fbc59f57dc411\AndroidManifest.xml:2:1-24:12
 MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\DanmakuFlameMaster-0.9.25.aar\0638e4cc99a82671a11c5c702a8d2b86\AndroidManifest.xml:17:1-26:12
 MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\ndkbitmap-armv7a-0.9.21.aar\9cc7a0069de12c39d44b7d25e57b11a4\AndroidManifest.xml:2:1-13:12
-MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\4f920381e20fa6fff51447289edf754c\AndroidManifest.xml:2:1-13:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\72e491943d291f4ae9d416e307e0ca61\AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\8087df374654b824a32b2055bd66ef5f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\03f8763cedff78e49f940265ab376469\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\c97a4adb66b73ac670134971c29b432e\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\b8916525fd1481c7688a6235de608f64\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\469ff2ca5569fbe608a99afd3609fc6b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\6bf38e2670b10ab39c7b6d3b9fd6c691\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:transition:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\0729a9fe608dc68d9f5bdcc873e7a422\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\469ff2ca5569fbe608a99afd3609fc6b\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\8cc12847761a1fed032900da7082ac50\AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\e680e559f71be49043473da211048ed2\AndroidManifest.xml:15:1-21:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\42b6402d3ae1af4055c256f9d5e47b43\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\bcf8a0f6f4633efc3b1444fd02b74317\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\6ada98349736b0d24deb873739ed43ba\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\c9b8ea8713c3f1be952d79b8c3003f69\AndroidManifest.xml:17:1-22:12
-INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
-INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
+INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
+INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
 	package
 		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:3:5-26
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-76:12
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:1-79:12
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:2:11-69
@@ -146,25 +152,33 @@ ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:24:5-70
 	android:name
 		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:24:19-67
 application
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:26:5-74:19
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:26:5-77:19
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.0.aar\4035effe1cc20aeb762e4e754154b004\AndroidManifest.xml:11:5-13:38
 MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\bottom-navigation-bar-1.3.0.aar\4035effe1cc20aeb762e4e754154b004\AndroidManifest.xml:11:5-13:38
 MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\BubbleView-1.0.1.aar\02647bbf842f1677f30fae2c8f670d5b\AndroidManifest.xml:11:5-14:19
 MERGED from [com.github.lguipeng:BubbleView:1.0.1] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\BubbleView-1.0.1.aar\02647bbf842f1677f30fae2c8f670d5b\AndroidManifest.xml:11:5-14:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33fd1ff81b5cd01f4189d0a9ee1fb6fa\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33fd1ff81b5cd01f4189d0a9ee1fb6fa\AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\86413508ad0077f92b80c12e221cd176\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\86413508ad0077f92b80c12e221cd176\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:19:5-21:19
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\c996c2e7e4e89468e80ea1c13604b9eb\AndroidManifest.xml:9:5-20
 MERGED from [de.hdodenhof:circleimageview:2.2.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\circleimageview-2.2.0.aar\c996c2e7e4e89468e80ea1c13604b9eb\AndroidManifest.xml:9:5-20
 MERGED from [com.ghnor:flora:1.0.0-alpha1] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\flora-1.0.0-alpha1.aar\5865d8a6a770c0d2dc0d75f1eebfe4ad\AndroidManifest.xml:11:5-15:19
 MERGED from [com.ghnor:flora:1.0.0-alpha1] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\flora-1.0.0-alpha1.aar\5865d8a6a770c0d2dc0d75f1eebfe4ad\AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.orangegangsters:swipy:1.2.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\swipy-1.2.3.aar\0c68a27245ebcf085d6bca719f86b33a\AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.orangegangsters:swipy:1.2.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\swipy-1.2.3.aar\0c68a27245ebcf085d6bca719f86b33a\AndroidManifest.xml:11:5-12:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5-alpha-3.aar\a021216d2b180baddc3b0074b54b3f9d\AndroidManifest.xml:11:5-15:19
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5-alpha-3.aar\a021216d2b180baddc3b0074b54b3f9d\AndroidManifest.xml:11:5-15:19
 MERGED from [:LiteAVSDK_Player_4.1.3173:] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\LiteAVSDK_Player_4.1.3173.aar\cefadece8eebd4c2ec9fbc59f57dc411\AndroidManifest.xml:18:5-22:19
 MERGED from [:LiteAVSDK_Player_4.1.3173:] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\LiteAVSDK_Player_4.1.3173.aar\cefadece8eebd4c2ec9fbc59f57dc411\AndroidManifest.xml:18:5-22:19
 MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\ndkbitmap-armv7a-0.9.21.aar\9cc7a0069de12c39d44b7d25e57b11a4\AndroidManifest.xml:11:5-20
 MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\ndkbitmap-armv7a-0.9.21.aar\9cc7a0069de12c39d44b7d25e57b11a4\AndroidManifest.xml:11:5-20
-MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\4f920381e20fa6fff51447289edf754c\AndroidManifest.xml:11:5-20
-MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\4f920381e20fa6fff51447289edf754c\AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\72e491943d291f4ae9d416e307e0ca61\AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\72e491943d291f4ae9d416e307e0ca61\AndroidManifest.xml:11:5-20
 	android:supportsRtl
 		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:32:9-35
 	android:label
@@ -198,99 +212,105 @@ ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:41:9-43:39
 	android:name
 		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:42:13-62
 activity#app.ui.activity.SplashActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:45:9-76
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:45:9-51:20
 	android:name
 		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:45:19-64
-activity#app.ui.activity.LoginActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:46:9-66
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:46:19-63
-activity#app.ui.activity.MainActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:47:9-65
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:47:19-62
-activity#app.ui.activity.CommonDetailsActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:48:9-74
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:48:19-71
-activity#app.ui.activity.GameActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:49:9-65
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:49:19-62
-activity#app.ui.activity.SetActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:50:9-64
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:50:19-61
-activity#app.ui.activity.RechargeActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:51:9-69
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:51:19-66
-activity#app.ui.activity.MyOrderActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:52:9-68
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:52:19-65
-activity#app.ui.activity.OtherReasonActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:53:9-72
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:53:19-69
-activity#app.ui.activity.GiftBoxActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:54:9-68
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:54:19-65
-activity#app.ui.activity.ExchangeActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:55:9-69
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:55:19-66
-activity#app.ui.activity.SendActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:56:9-65
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:56:19-62
-activity#app.ui.activity.GiftDetailsActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:57:9-72
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:57:19-69
-activity#app.ui.activity.PlayHistoryActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:58:9-72
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:58:19-69
-activity#app.ui.activity.CatchFailedDetailsActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:59:9-79
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:59:19-76
-activity#app.ui.activity.CatchSuccessDetailsActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:60:9-80
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:60:19-77
-activity#com.xy.doll.download.DownloadActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:61:9-63
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:61:19-60
-activity#com.xy.doll.down.DownActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:62:9-55
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:62:19-52
-activity#com.xy.doll.rx.RxActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:63:9-51
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:63:19-48
-activity#com.xy.doll.custom.CustomActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:64:9-66:20
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:64:19-56
-activity#com.xy.doll.audio.AudioActivity
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:67:9-73:20
-	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:67:19-54
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:68:13-72:29
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:46:13-50:29
 action#android.intent.action.MAIN
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:69:17-69
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:47:17-69
 	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:69:25-66
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:47:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:71:17-77
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:49:17-77
 	android:name
-		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:71:27-74
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:49:27-74
+activity#app.ui.activity.LoginActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:52:9-66
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:52:19-63
+activity#app.ui.activity.MainActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:53:9-65
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:53:19-62
+activity#app.ui.activity.CommonDetailsActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:54:9-74
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:54:19-71
+activity#app.ui.activity.GameActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:55:9-65
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:55:19-62
+activity#app.ui.activity.SetActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:56:9-64
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:56:19-61
+activity#app.ui.activity.RechargeActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:57:9-69
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:57:19-66
+activity#app.ui.activity.MyOrderActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:58:9-68
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:58:19-65
+activity#app.ui.activity.OtherReasonActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:59:9-72
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:59:19-69
+activity#app.ui.activity.GiftBoxActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:60:9-68
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:60:19-65
+activity#app.ui.activity.ExchangeActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:61:9-69
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:61:19-66
+activity#app.ui.activity.SendActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:62:9-65
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:62:19-62
+activity#app.ui.activity.GiftDetailsActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:63:9-72
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:63:19-69
+activity#app.ui.activity.PlayHistoryActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:64:9-72
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:64:19-69
+activity#app.ui.activity.CatchFailedDetailsActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:65:9-79
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:65:19-76
+activity#app.ui.activity.CatchSuccessDetailsActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:66:9-80
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:66:19-77
+activity#com.xy.doll.download.DownloadActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:67:9-63
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:67:19-60
+activity#com.xy.doll.down.DownActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:68:9-55
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:68:19-52
+activity#com.xy.doll.rxjava.RxActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:69:9-55
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:69:19-52
+activity#com.xy.doll.custom.CustomActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:70:9-59
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:70:19-56
+activity#com.xy.doll.hy.ChatActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:71:9-73:70
+	android:windowSoftInputMode
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:73:13-67
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:72:13-44
+activity#com.xy.doll.audio.AudioActivity
+ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:74:9-76:20
+	android:name
+		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml:74:19-54
 uses-sdk
 INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
@@ -311,6 +331,14 @@ MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\gongteng\.gradle\
 MERGED from [com.android.support:appcompat-v7:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.0.aar\d6902c11b17a9200cd837dea22e5043b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33fd1ff81b5cd01f4189d0a9ee1fb6fa\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\33fd1ff81b5cd01f4189d0a9ee1fb6fa\AndroidManifest.xml:5:5-7:41
+MERGED from [:easeui] D:\ASProject\Lemon\easeui\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [:easeui] D:\ASProject\Lemon\easeui\build\intermediates\manifests\full\debug\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\86413508ad0077f92b80c12e221cd176\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-tasks-11.4.0.aar\86413508ad0077f92b80c12e221cd176\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:17:5-43
 MERGED from [com.android.support:support-v4:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\d460fed4203e9c4d0124ddd461f82e4d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-v4-27.1.0.aar\d460fed4203e9c4d0124ddd461f82e4d\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-27.1.0.aar\cee99cfb2d1ea44bcc75418175d441fe\AndroidManifest.xml:20:5-44
@@ -333,6 +361,8 @@ MERGED from [com.ghnor:flora:1.0.0-alpha1] C:\Users\gongteng\.gradle\caches\tran
 MERGED from [com.ghnor:flora:1.0.0-alpha1] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\flora-1.0.0-alpha1.aar\5865d8a6a770c0d2dc0d75f1eebfe4ad\AndroidManifest.xml:7:5-9:41
 MERGED from [com.youth.banner:banner:1.4.10] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\7d67fee86b80d94365451e038b0cb5a8\AndroidManifest.xml:7:5-9:41
 MERGED from [com.youth.banner:banner:1.4.10] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\banner-1.4.10.aar\7d67fee86b80d94365451e038b0cb5a8\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.orangegangsters:swipy:1.2.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\swipy-1.2.3.aar\0c68a27245ebcf085d6bca719f86b33a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.orangegangsters:swipy:1.2.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\swipy-1.2.3.aar\0c68a27245ebcf085d6bca719f86b33a\AndroidManifest.xml:7:5-9:41
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5-alpha-3.aar\a021216d2b180baddc3b0074b54b3f9d\AndroidManifest.xml:7:5-9:41
 MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\SmartRefreshLayout-1.0.5-alpha-3.aar\a021216d2b180baddc3b0074b54b3f9d\AndroidManifest.xml:7:5-9:41
 MERGED from [:LiteAVSDK_Player_4.1.3173:] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\LiteAVSDK_Player_4.1.3173.aar\cefadece8eebd4c2ec9fbc59f57dc411\AndroidManifest.xml:7:5-9:41
@@ -341,8 +371,8 @@ MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\gongteng\.grad
 MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\DanmakuFlameMaster-0.9.25.aar\0638e4cc99a82671a11c5c702a8d2b86\AndroidManifest.xml:22:5-24:41
 MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\ndkbitmap-armv7a-0.9.21.aar\9cc7a0069de12c39d44b7d25e57b11a4\AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\ndkbitmap-armv7a-0.9.21.aar\9cc7a0069de12c39d44b7d25e57b11a4\AndroidManifest.xml:7:5-9:41
-MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\4f920381e20fa6fff51447289edf754c\AndroidManifest.xml:7:5-9:41
-MERGED from [q.rorbin:badgeview:1.1.3] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\badgeview-1.1.3.aar\4f920381e20fa6fff51447289edf754c\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\72e491943d291f4ae9d416e307e0ca61\AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.9.5.aar\72e491943d291f4ae9d416e307e0ca61\AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\8087df374654b824a32b2055bd66ef5f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-fragment:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.0.aar\8087df374654b824a32b2055bd66ef5f\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.0.aar\03f8763cedff78e49f940265ab376469\AndroidManifest.xml:20:5-44
@@ -351,14 +381,16 @@ MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\gongteng\.grad
 MERGED from [com.android.support:support-core-ui:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.0.aar\c97a4adb66b73ac670134971c29b432e\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\b8916525fd1481c7688a6235de608f64\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-core-utils:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.0.aar\b8916525fd1481c7688a6235de608f64\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\469ff2ca5569fbe608a99afd3609fc6b\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\469ff2ca5569fbe608a99afd3609fc6b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\6bf38e2670b10ab39c7b6d3b9fd6c691\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.0.aar\6bf38e2670b10ab39c7b6d3b9fd6c691\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\0729a9fe608dc68d9f5bdcc873e7a422\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:transition:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\transition-27.1.0.aar\0729a9fe608dc68d9f5bdcc873e7a422\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\469ff2ca5569fbe608a99afd3609fc6b\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-media-compat-27.1.0.aar\469ff2ca5569fbe608a99afd3609fc6b\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\8cc12847761a1fed032900da7082ac50\AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.0.aar\8cc12847761a1fed032900da7082ac50\AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\e680e559f71be49043473da211048ed2\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\rxandroid-1.2.0.aar\e680e559f71be49043473da211048ed2\AndroidManifest.xml:19:5-43
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\42b6402d3ae1af4055c256f9d5e47b43\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\42b6402d3ae1af4055c256f9d5e47b43\AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\bcf8a0f6f4633efc3b1444fd02b74317\AndroidManifest.xml:20:5-44
@@ -377,3 +409,17 @@ INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
 		ADDED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
 		INJECTED from D:\ASProject\Lemon\app\src\main\AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-base-11.4.0.aar\9dd6e1477bd5fc26b6dbf65f58524680\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] C:\Users\gongteng\.gradle\caches\transforms-1\files-1.1\play-services-basement-11.4.0.aar\c3c4cf2005780b5e739c515b7dbe02ef\AndroidManifest.xml:20:20-65

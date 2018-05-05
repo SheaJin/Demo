@@ -61,7 +61,9 @@ public class RechargeActivity extends BaseActivity {
     @Override
     protected void onDestroy() {
         super.onDestroy();
-        timer.dispose();
+        if (timer!=null) {
+            timer.dispose();
+        }
         EventBus.getDefault().unregister(this);
     }
 }

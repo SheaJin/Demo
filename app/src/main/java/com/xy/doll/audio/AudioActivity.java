@@ -1,33 +1,34 @@
 package com.xy.doll.audio;
 
 import android.os.Bundle;
-import android.view.View;
+import android.support.annotation.Nullable;
 
 import com.xy.doll.R;
-import com.xy.libs.util.app.LogUtil;
+import com.xy.doll.hy.ChatActivity;
+import com.xy.libs.util.app.JumpUtil;
 
 import app.ui.base.BaseActivity;
-import butterknife.BindView;
+import butterknife.ButterKnife;
+import butterknife.OnClick;
 
-public class AudioActivity extends BaseActivity implements View.OnLongClickListener {
-
-    @BindView(R.id.audio)
-    AudioRecorderButton audio;
+public class AudioActivity extends BaseActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_audio);
+        ButterKnife.bind(this);
     }
 
+    @OnClick(R.id.tv)
+    void click() {
+        JumpUtil.overlay(activity, ChatActivity.class);
+        finish();
+    }
 
     @Override
     protected void initUI() {
-        audio.setAudioFinishRecorderListener((seconds, FilePath) -> {
-            LogUtil.e("AudioActivity 语音文件为：" + FilePath + "时长：" + seconds);
-            //拿到文件地址和时长后就可以去做发送语音的操作了
 
-        });
     }
 
     @Override
@@ -35,9 +36,4 @@ public class AudioActivity extends BaseActivity implements View.OnLongClickListe
 
     }
 
-    @Override
-    public boolean onLongClick(View v) {
-
-        return false;
-    }
 }

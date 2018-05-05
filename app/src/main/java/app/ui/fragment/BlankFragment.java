@@ -11,7 +11,6 @@ import com.xy.doll.R;
 import app.ui.base.BaseFragment;
 import butterknife.BindView;
 import butterknife.ButterKnife;
-import q.rorbin.badgeview.QBadgeView;
 
 /**
  * A simple {@link Fragment} subclass.
