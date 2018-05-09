@@ -37,6 +37,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/ThemeTitleTheme" >
         <meta-data
             android:name="design_width"
@@ -49,13 +50,7 @@
             android:name="app.model.service.WebSocketService"
             android:exported="true" />
 
-        <activity android:name="app.ui.activity.SplashActivity" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name="app.ui.activity.SplashActivity" />
         <activity android:name="app.ui.activity.LoginActivity" />
         <activity android:name="app.ui.activity.MainActivity" />
         <activity android:name="app.ui.activity.CommonDetailsActivity" />
@@ -78,7 +73,18 @@
         <activity
             android:name="com.xy.doll.hy.ChatActivity"
             android:windowSoftInputMode="adjustResize|stateHidden" />
-        <activity android:name="com.xy.doll.audio.AudioActivity" >
+        <activity android:name="com.xy.doll.audio.AudioActivity" />
+        <activity android:name="com.xy.doll.bottom.BottomActivity" />
+        <activity android:name="com.xy.doll.animate.AnimateActivity" />
+        <activity android:name="com.xy.doll.banner.BannerActivity" />
+        <activity android:name="com.xy.doll.pk.PksActivity" >
+        </activity>
+        <activity android:name="com.xy.doll.scroll.ScrollActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
         </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"

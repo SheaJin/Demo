@@ -17,13 +17,6 @@ public class AudioActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_audio);
-        ButterKnife.bind(this);
-    }
-
-    @OnClick(R.id.tv)
-    void click() {
-        JumpUtil.overlay(activity, ChatActivity.class);
-        finish();
     }
 
     @Override

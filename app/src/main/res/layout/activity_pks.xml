@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.zhy.autolayout.AutoRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xy.doll.pk.PksActivity">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/black_50"
+        android:visibility="visible" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="930px"
+            android:layout_height="1200px"
+            android:layout_centerInParent="true"
+            android:background="@drawable/drawable_pk_blue">
+
+            <android.support.v7.widget.CardView
+                android:layout_centerInParent="true"
+                android:layout_width="840px"
+                android:layout_height="1100px"
+                app:cardBackgroundColor="@color/white_255"
+                app:cardCornerRadius="35px"
+                app:cardElevation="0px"
+                app:cardPreventCornerOverlap="false">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="60px"
+                    android:layout_marginRight="60px"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="280px"
+                        android:text="1.胜者为王PK每次匹配对战最多30局;"
+                        android:textColor="#3A3A3A"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="54px"
+                        android:text="2.两人同时以半价开始游戏，先抓到获胜；"
+                        android:textColor="#3A3A3A"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="54px"
+                        android:text="3.获胜者将退还钻石并得到一只娃娃。"
+                        android:textColor="#3A3A3A"
+                        android:textSize="@dimen/text_size_36" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="120px"
+                        android:text="特殊情况:都抓中了,则此局中先抓中的获胜,并退还钻石;后抓中者,不会退还钻石,"
+                        android:textColor="#A0A0A0"
+                        android:textSize="@dimen/text_size_36" />
+
+                    <TextView
+                        android:layout_width="510px"
+                        android:layout_height="230px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="60px"
+                        android:background="@mipmap/end_again"
+                        android:gravity="center"
+                        android:text="开始游戏"
+                        android:textColor="@color/white_255" />
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="663px"
+            android:layout_height="579px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="88px"
+            android:src="@mipmap/win"
+            android:visibility="visible" />
+
+        <ImageView
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="358px"
+            android:layout_marginRight="97px"
+            android:src="@mipmap/end_end"
+            android:layout_width="130px"
+            android:layout_height="130px" />
+    </RelativeLayout>
+</com.zhy.autolayout.AutoRelativeLayout>
