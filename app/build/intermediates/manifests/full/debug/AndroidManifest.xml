@@ -77,8 +77,7 @@
         <activity android:name="com.xy.doll.bottom.BottomActivity" />
         <activity android:name="com.xy.doll.animate.AnimateActivity" />
         <activity android:name="com.xy.doll.banner.BannerActivity" />
-        <activity android:name="com.xy.doll.pk.PksActivity" >
-        </activity>
+        <activity android:name="com.xy.doll.pk.PksActivity" />
         <activity android:name="com.xy.doll.scroll.ScrollActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

@@ -69,9 +69,7 @@
         <activity android:name=".bottom.BottomActivity" />
         <activity android:name=".animate.AnimateActivity" />
         <activity android:name=".banner.BannerActivity" />
-        <activity android:name=".pk.PksActivity">
-
-        </activity>
+        <activity android:name=".pk.PksActivity"/>
         <activity android:name=".scroll.ScrollActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

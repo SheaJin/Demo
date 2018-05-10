@@ -20,10 +20,6 @@ import butterknife.BindView;
 import butterknife.OnClick;
 
 public class ScrollActivity extends BaseActivity {
-//    @BindView(R.id.view_title)
-//    View titleView;
-//    @BindView(R.id.scroll_view)
-//    NestedScrollView scrollView;
 
     @BindView(R.id.view_left)
     View viewLeft;
@@ -40,13 +36,6 @@ public class ScrollActivity extends BaseActivity {
 
     @Override
     protected void initUI() {
-//        initTitle("芝麻信用");
-//        scrollView.setOnScrollChangeListener(new NestedScrollView.OnScrollChangeListener() {
-//            @Override
-//            public void onScrollChange(NestedScrollView v, int scrollX, int scrollY, int oldScrollX, int oldScrollY) {
-//
-//            }
-//        });
 
     }
 
