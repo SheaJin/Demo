@@ -5,7 +5,9 @@
     android:layout_height="match_parent"
     tools:context="com.xy.doll.bottom.BottomActivity">
 
-    <com.xy.doll.bottom.Custom
+    <com.xy.doll.bottom.BottomView
+        android:background="@color/white_255"
+        android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="187px" />
 </RelativeLayout>

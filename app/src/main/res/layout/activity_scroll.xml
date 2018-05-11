@@ -130,4 +130,34 @@
         android:id="@+id/image"
         android:layout_width="480px"
         android:layout_height="500px" />
+
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_margin="30px"
+            android:background="@drawable/drawable_white_point"
+            android:id="@+id/point1"
+            android:layout_width="60px"
+            android:layout_height="60px" />
+
+        <ImageView
+            android:layout_margin="30px"
+            android:background="@drawable/drawable_white_point"
+            android:id="@+id/point2"
+            android:layout_width="60px"
+            android:layout_height="60px" />
+
+        <ImageView
+            android:layout_margin="30px"
+            android:background="@drawable/drawable_white_point"
+            android:id="@+id/point3"
+            android:layout_width="60px"
+            android:layout_height="60px" />
+    </LinearLayout>
 </RelativeLayout>
