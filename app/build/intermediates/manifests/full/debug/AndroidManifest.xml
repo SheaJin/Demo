@@ -73,17 +73,19 @@
             android:name="com.xy.doll.hy.ChatActivity"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name="com.xy.doll.audio.AudioActivity" />
-        <activity android:name="com.xy.doll.bottom.BottomActivity" />
-        <activity android:name="com.xy.doll.animate.AnimateActivity" />
-        <activity android:name="com.xy.doll.banner.BannerActivity" />
-        <activity android:name="com.xy.doll.pk.PksActivity" >
-        </activity>
         <activity android:name="com.xy.doll.scroll.ScrollActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name="com.xy.doll.animate.AnimateActivity" />
+        <activity android:name="com.xy.doll.banner.BannerActivity" />
+        <activity android:name="com.xy.doll.pk.PksActivity" />
+        <activity android:name="com.xy.doll.bottom.BottomActivity" >
+        </activity>
+        <activity android:name="com.xy.doll.surface.SurfaceActivity" >
         </activity>
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
