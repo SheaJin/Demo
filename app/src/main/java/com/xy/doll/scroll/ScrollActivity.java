@@ -104,7 +104,7 @@ public class ScrollActivity extends BaseActivity {
 
     private void rightAnimate() {
         PropertyValuesHolder alpha = PropertyValuesHolder.ofFloat("alpha",1f,1f);
-        PropertyValuesHolder transX = PropertyValuesHolder.ofFloat("translationX",451,0);
+        PropertyValuesHolder transX = PropertyValuesHolder.ofFloat("translationX",920,0);
         PropertyValuesHolder transY = PropertyValuesHolder.ofFloat("translationY",-659,0);
         ObjectAnimator animator = ObjectAnimator.ofPropertyValuesHolder(viewRight,alpha,transX,transY);
         animator.addListener(new AnimatorListenerAdapter() {
@@ -114,14 +114,14 @@ public class ScrollActivity extends BaseActivity {
                 imageAnimate();
             }
         });
-        animator.setDuration(5000);
+        animator.setDuration(500);
         animator.setInterpolator(new LinearInterpolator());
         animator.start();
     }
 
     private void leftAnimate() {
         PropertyValuesHolder alpha = PropertyValuesHolder.ofFloat("alpha",1f,1f);
-        PropertyValuesHolder transX = PropertyValuesHolder.ofFloat("translationX",-515,0);
+        PropertyValuesHolder transX = PropertyValuesHolder.ofFloat("translationX",-765,0);
         PropertyValuesHolder transY = PropertyValuesHolder.ofFloat("translationY",513,0);
         ObjectAnimator animator = ObjectAnimator.ofPropertyValuesHolder(viewLeft,alpha,transX,transY);
         animator.addListener(new AnimatorListenerAdapter() {
@@ -131,7 +131,7 @@ public class ScrollActivity extends BaseActivity {
                 rightAnimate();
             }
         });
-        animator.setDuration(5000);
+        animator.setDuration(500);
         animator.setInterpolator(new LinearInterpolator());
         animator.start();
     }

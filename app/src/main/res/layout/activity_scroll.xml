@@ -121,15 +121,16 @@
         android:layout_alignParentRight="true"
         android:layout_marginTop="576px"
         android:background="@mipmap/purple" />
-    
+
     <ImageView
-        android:alpha="0"
-        android:layout_marginTop="680px"
-        android:layout_centerHorizontal="true"
-        android:src="@mipmap/ppz_vs"
         android:id="@+id/image"
         android:layout_width="480px"
-        android:layout_height="500px" />
+        android:layout_height="500px"
+        android:layout_alignBottom="@+id/view_left"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:alpha="0"
+        android:src="@mipmap/ppz_vs" />
 
 
     <LinearLayout
