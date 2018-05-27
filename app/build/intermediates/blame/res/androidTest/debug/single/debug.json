@@ -28,12 +28,12 @@
         "source": "C:\\Users\\gongteng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d6902c11b17a9200cd837dea22e5043b\\res\\drawable-xxhdpi-v4\\abc_list_longpressed_holo.9.png"
     },
     {
-        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_ease_row_sent_voice.xml.flat",
-        "source": "D:\\ASProject\\Lemon\\easeui\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_voice.xml"
-    },
-    {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-hdpi-v4_ease_chat_face_normal.png.flat",
         "source": "D:\\ASProject\\Lemon\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ease_chat_face_normal.png"
+    },
+    {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout_ease_row_sent_voice.xml.flat",
+        "source": "D:\\ASProject\\Lemon\\easeui\\build\\intermediates\\bundles\\debug\\res\\layout\\ease_row_sent_voice.xml"
     },
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim_abc_slide_in_bottom.xml.flat",
