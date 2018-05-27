@@ -232,12 +232,12 @@
         "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\drawable-xhdpi\\emoji_68.png"
     },
     {
-        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_emoji_55.png.flat",
         "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\drawable-xhdpi\\emoji_55.png"
+    },
+    {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
     },
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_ease_chat_send_btn_pressed.9.png.flat",
@@ -992,6 +992,10 @@
         "source": "D:\\ASProject\\Lemon\\easeui\\build\\intermediates\\bundles\\debug\\res\\drawable-hdpi-v4\\ee_2.png"
     },
     {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_signin_icon_normal.png.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-xhdpi\\signin_icon_normal.png"
+    },
+    {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_ic_launcher.png.flat",
         "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\drawable-xhdpi\\ic_launcher.png"
     },
@@ -1256,6 +1260,10 @@
         "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-xhdpi\\diamond_icon.png"
     },
     {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_signin_btn_none_big.png.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-xhdpi\\signin_btn_none_big.png"
+    },
+    {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\gongteng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d6902c11b17a9200cd837dea22e5043b\\res\\drawable-hdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
     },
@@ -1358,6 +1366,10 @@
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_bottom_tab_normal_2.png.flat",
         "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-xhdpi\\bottom_tab_normal_2.png"
+    },
+    {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_sign.xml.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\layout\\activity_sign.xml"
     },
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_ic_launcher_round.png.flat",
@@ -1472,12 +1484,20 @@
         "source": "C:\\Users\\gongteng\\.gradle\\caches\\transforms-1\\files-1.1\\design-27.1.0.aar\\19f9d68770d65ab9cba70f0d40cfc0e7\\res\\drawable-anydpi-v21\\design_ic_visibility.xml"
     },
     {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_signin_zuobiao.png.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-xhdpi\\signin_zuobiao.png"
+    },
+    {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_abc_switch_track_mtrl_alpha.9.png.flat",
         "source": "C:\\Users\\gongteng\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.0.aar\\d6902c11b17a9200cd837dea22e5043b\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_emoji_4.png.flat",
         "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\drawable-xhdpi\\emoji_4.png"
+    },
+    {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable_drawable_progress.xml.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\drawable\\drawable_progress.xml"
     },
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\layout_ease_row_received_bigexpression.xml.flat",
@@ -1562,6 +1582,10 @@
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4_common_google_signin_btn_text_light_normal_background.9.png.flat",
         "source": "C:\\Users\\gongteng\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-11.4.0.aar\\9dd6e1477bd5fc26b6dbf65f58524680\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_line_di.png.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-xhdpi\\line_di.png"
     },
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi-v4_ease_login_error_icon.png.flat",
@@ -2342,6 +2366,10 @@
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_emoji_75.png.flat",
         "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\drawable-xhdpi\\emoji_75.png"
+    },
+    {
+        "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_signin_calendar_haohua.png.flat",
+        "source": "D:\\ASProject\\Lemon\\app\\src\\main\\res\\mipmap-xhdpi\\signin_calendar_haohua.png"
     },
     {
         "merged": "D:\\ASProject\\Lemon\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4_abc_tab_indicator_mtrl_alpha.9.png.flat",

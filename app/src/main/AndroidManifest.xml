@@ -66,20 +66,20 @@
             android:name=".hy.ChatActivity"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name=".audio.AudioActivity" />
-        <activity android:name=".scroll.ScrollActivity" >
+        <activity android:name=".scroll.ScrollActivity">
+
+        </activity>
+        <activity android:name=".animate.AnimateActivity" />
+        <activity android:name=".banner.BannerActivity" />
+        <activity android:name=".pk.PksActivity" />
+        <activity android:name=".bottom.BottomActivity"></activity>
+        <activity android:name=".surface.SurfaceActivity"></activity>
+        <activity android:name=".SignActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity>
-        <activity android:name=".animate.AnimateActivity" />
-        <activity android:name=".banner.BannerActivity" />
-        <activity android:name=".pk.PksActivity" />
-        <activity android:name=".bottom.BottomActivity">
-        </activity>
-        <activity android:name=".surface.SurfaceActivity">
-
         </activity>
     </application>
 
