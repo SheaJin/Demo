@@ -10,4 +10,8 @@ public class LogUtil {
     public static void e(String s){
         Log.e("jxy1", s );
     }
+
+    public static void err(String s) {
+        Log.e("SheetActivity", s);
+    }
 }
