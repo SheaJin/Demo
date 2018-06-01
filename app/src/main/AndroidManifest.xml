@@ -66,14 +66,15 @@
             android:name=".hy.ChatActivity"
             android:windowSoftInputMode="adjustResize|stateHidden" />
         <activity android:name=".audio.AudioActivity" />
-        <activity android:name=".scroll.ScrollActivity">
-        </activity>
+        <activity android:name=".scroll.ScrollActivity"></activity>
         <activity android:name=".animate.AnimateActivity" />
         <activity android:name=".banner.BannerActivity" />
         <activity android:name=".pk.PksActivity" />
-        <activity android:name=".bottom.BottomActivity"></activity>
-        <activity android:name=".surface.SurfaceActivity"></activity>
-        <activity android:name=".bottomsheet.SheetActivity">
+        <activity android:name=".bottom.BottomActivity" />
+        <activity android:name=".surface.SurfaceActivity" />
+        <activity android:name=".bottomsheet.SheetActivity" />
+        <activity android:name=".sign.SignActivity" />
+        <activity android:name=".ConstraintActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

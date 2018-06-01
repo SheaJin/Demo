@@ -286,6 +286,7 @@
     <color name="text_hint">#c7c7cd</color>
     <color name="text_light">#E3E3E5</color>
     <color name="theme">#9ddaf5</color>
+    <color name="theme_bgs">#EEF8FC</color>
     <color name="theme_no_internet">#f4fcff</color>
     <color name="themes">#a66adc6c</color>
     <color name="tooltip_background_dark">#e6616161</color>

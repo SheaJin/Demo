@@ -19,4 +19,78 @@
         android:layout_alignParentBottom="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+   <RelativeLayout
+       android:visibility="gone"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+       <TextView
+           android:id="@+id/text1"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_centerHorizontal="true"
+           android:text="VS"
+           android:textSize="80px" />
+
+       <RelativeLayout
+           android:alpha="0"
+           android:id="@+id/view_left"
+           android:layout_width="765px"
+           android:layout_height="920px"
+           android:layout_marginTop="337px"
+           android:background="@mipmap/yellow" />
+
+       <RelativeLayout
+           android:alpha="0"
+           android:id="@+id/view_right"
+           android:layout_width="691px"
+           android:layout_height="955px"
+           android:layout_alignParentRight="true"
+           android:layout_marginTop="576px"
+           android:background="@mipmap/purple" />
+
+       <ImageView
+           android:id="@+id/image"
+           android:layout_width="480px"
+           android:layout_height="500px"
+           android:layout_alignBottom="@+id/view_left"
+           android:layout_centerHorizontal="true"
+           android:layout_marginBottom="25dp"
+           android:alpha="0"
+           android:src="@mipmap/ppz_vs" />
+
+
+       <LinearLayout
+           android:visibility="gone"
+           android:layout_alignParentBottom="true"
+           android:layout_centerInParent="true"
+           android:orientation="horizontal"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content">
+           <ImageView
+               android:layout_margin="30px"
+               android:background="@drawable/drawable_white_point"
+               android:id="@+id/point1"
+               android:layout_width="60px"
+               android:layout_height="60px" />
+
+           <ImageView
+               android:layout_margin="30px"
+               android:background="@drawable/drawable_white_point"
+               android:id="@+id/point2"
+               android:layout_width="60px"
+               android:layout_height="60px" />
+
+           <ImageView
+               android:layout_margin="30px"
+               android:background="@drawable/drawable_white_point"
+               android:id="@+id/point3"
+               android:layout_width="60px"
+               android:layout_height="60px" />
+       </LinearLayout>
+   </RelativeLayout>
+
+    <com.xy.doll.scroll.CustView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </RelativeLayout>

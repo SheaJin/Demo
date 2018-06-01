@@ -52,5 +52,6 @@
     <color name="card_shape">#eeeeee</color>
     <color name="finish">#767676</color>
     <color name="popup_window">#80000000</color>
+    <color name="theme_bgs">#EEF8FC</color>
 
 </resources>

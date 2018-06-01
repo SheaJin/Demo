@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_bgs"
+    tools:context="com.xy.doll.sign.SignActivity">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="925px">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="359px"
+            android:background="@color/theme" />
+
+        <RelativeLayout
+            android:layout_width="1152px"
+            android:layout_height="570px"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="240px">
+
+            <android.support.v7.widget.CardView
+                app:cardElevation="0px"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardBackgroundColor="@color/white_255"
+                app:cardCornerRadius="45px">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60px"
+                        android:text="豪华签到每日奖励" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="60px"
+                        android:text="10钻" />
+
+                    <RelativeLayout
+                        android:layout_width="166px"
+                        android:layout_height="166px"
+                        android:layout_marginTop="60px">
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:src="@mipmap/signin_calendar_haohua" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_centerHorizontal="true"
+                            android:layout_marginBottom="30px"
+                            android:text="8次" />
+                    </RelativeLayout>
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/text_obtain"
+            android:layout_width="509px"
+            android:layout_height="230px"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:background="@mipmap/signin_btn_none_big"
+            android:gravity="center"
+            android:text="领取"
+            android:textColor="@color/white_255"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56px"
+        android:layout_marginRight="56px"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1800/3000" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60px">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="签到蓄能池"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="去充值蓄能"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="684px"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="66px">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="12px"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="12px"
+                        android:layout_marginRight="12px">
+
+                        <ProgressBar
+                            android:id="@+id/progress_bar"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:layout_width="660px"
+                            android:layout_height="match_parent"
+                            android:indeterminate="false"
+                            android:progress="0"
+                            android:progressDrawable="@drawable/drawable_progress" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:id="@+id/image_point"
+                        android:layout_width="24px"
+                        android:layout_height="60px"
+                        android:layout_marginLeft="0px"
+                        android:src="@mipmap/signin_zuobiao" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30px">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60px"
+                            android:layout_height="60px"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/signin_icon_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20px"
+                            android:gravity="center"
+                            android:text="普通\n0-9" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60px"
+                            android:layout_height="60px"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/signin_icon_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20px"
+                            android:gravity="center"
+                            android:text="普通\n0-9" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="60px"
+                            android:layout_height="60px"
+                            android:layout_gravity="center_vertical"
+                            android:src="@mipmap/signin_icon_normal" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20px"
+                            android:gravity="center"
+                            android:text="普通\n0-9" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+            </LinearLayout>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <com.xy.doll.sign.SignView
+        android:layout_centerInParent="true"
+        android:layout_width="684px"
+        android:layout_height="72px" />
+</RelativeLayout>

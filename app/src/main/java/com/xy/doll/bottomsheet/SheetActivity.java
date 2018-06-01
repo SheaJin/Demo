@@ -39,7 +39,33 @@ public class SheetActivity extends BaseActivity {
 //        printPrime();
 //        printNarcissus();
 //        printType();
-        printSummation();
+//        printSummation();
+        printDouble();
+    }
+
+    private void printDouble() {
+        for (int i = 11; i < 84; i++) {
+            double x = isDouble1(i);
+            if (isDouble2(x)) {
+                LogUtil.err("i = " + i);
+            }
+        }
+    }
+
+    private double isDouble1(int m) {
+        double num = Math.pow(m, 2);
+        double value = num - 100;
+        return value;
+    }
+
+    // x + 268 = n平方
+    private boolean isDouble2(double x) {
+        double pow = x + 268;
+        double value = Math.sqrt(pow);
+        if (value == x) {
+            return true;
+        }
+        return false;
     }
 
     private void printSummation() {
