@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/theme_bgs"
-    android:orientation="vertical"
-    tools:context="com.xy.doll.SignActivity">
+    tools:context="com.xy.doll.sign.SignActivity">
 
     <RelativeLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="925px">
 
@@ -86,6 +86,7 @@
     </RelativeLayout>
 
     <LinearLayout
+        android:visibility="gone"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="56px"
@@ -220,4 +221,9 @@
 
         </RelativeLayout>
     </LinearLayout>
-</LinearLayout>
+
+    <com.xy.doll.sign.SignView
+        android:layout_centerInParent="true"
+        android:layout_width="684px"
+        android:layout_height="72px" />
+</RelativeLayout>

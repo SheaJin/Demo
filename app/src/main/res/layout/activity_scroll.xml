@@ -5,12 +5,27 @@
     android:layout_height="match_parent"
     tools:context="com.xy.doll.scroll.ScrollActivity">
 
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="01"
+        android:textSize="80px" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
    <RelativeLayout
        android:visibility="gone"
        android:layout_width="match_parent"
        android:layout_height="match_parent">
        <TextView
-           android:id="@+id/text"
+           android:id="@+id/text1"
            android:layout_width="wrap_content"
            android:layout_height="wrap_content"
            android:layout_centerHorizontal="true"
