@@ -1009,6 +1009,7 @@
     <dimen name="px_78">78px</dimen>
     <dimen name="px_8">8px</dimen>
     <dimen name="px_80">80px</dimen>
+    <dimen name="px_800">800px</dimen>
     <dimen name="px_84">84px</dimen>
     <dimen name="px_9">8px</dimen>
     <dimen name="px_90">90px</dimen>
