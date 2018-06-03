@@ -80,6 +80,7 @@
         <activity android:name="com.xy.doll.pk.PksActivity" />
         <activity android:name="com.xy.doll.bottom.BottomActivity" />
         <activity android:name="com.xy.doll.surface.SurfaceActivity" />
+<<<<<<< HEAD
         <activity android:name="com.xy.doll.bottomsheet.SheetActivity" />
         <activity android:name="com.xy.doll.sign.SignActivity" />
         <activity android:name="com.xy.doll.constraint.ConstraintActivity" >
@@ -90,7 +91,12 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+=======
+        <activity android:name="com.xy.doll.bottomsheet.SheetActivity" >
+>>>>>>> 518cbfc9813e7e1b7efdac22575bca7386b82a78
         </activity>
+        <activity android:name="com.xy.doll.sign.SignActivity" />
+        <activity android:name="com.xy.doll.ConstraintActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

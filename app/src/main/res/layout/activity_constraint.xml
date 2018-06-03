@@ -4,12 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     tools:context="com.xy.doll.constraint.ConstraintActivity">
+=======
+    tools:context="com.xy.doll.ConstraintActivity">
+>>>>>>> 518cbfc9813e7e1b7efdac22575bca7386b82a78
 
     <android.support.constraint.ConstraintLayout
         android:id="@+id/view1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+<<<<<<< HEAD
+=======
+        android:visibility="gone"
+>>>>>>> 518cbfc9813e7e1b7efdac22575bca7386b82a78
         app:layout_constraintTop_toBottomOf="@+id/view2">
 
         <TextView
@@ -52,7 +60,12 @@
     <android.support.constraint.ConstraintLayout
         android:id="@+id/view2"
         android:layout_width="match_parent"
+<<<<<<< HEAD
         android:layout_height="wrap_content">
+=======
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+>>>>>>> 518cbfc9813e7e1b7efdac22575bca7386b82a78
 
         <View
             android:layout_width="match_parent"
@@ -70,6 +83,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
+<<<<<<< HEAD
+=======
+        android:visibility="gone"
+>>>>>>> 518cbfc9813e7e1b7efdac22575bca7386b82a78
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_chainStyle="spread_inside">
 
