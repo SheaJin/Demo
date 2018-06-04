@@ -4,7 +4,7 @@ import android.os.Build;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.xy.doll.DollApplication;
+import app.DollApplication;
 
 import app.util.SPs;
 

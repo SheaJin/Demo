@@ -1,4 +1,4 @@
-package com.xy.doll;
+package app;
 
 import android.app.Application;
 

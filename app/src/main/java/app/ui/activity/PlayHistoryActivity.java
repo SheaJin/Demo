@@ -11,7 +11,7 @@ import com.scwang.smartrefresh.layout.api.RefreshLayout;
 import com.scwang.smartrefresh.layout.footer.ClassicsFooter;
 import com.scwang.smartrefresh.layout.header.ClassicsHeader;
 import com.scwang.smartrefresh.layout.listener.OnRefreshLoadMoreListener;
-import com.xy.doll.DollApplication;
+import app.DollApplication;
 import com.xy.doll.R;
 import com.xy.libs.ui.adapter.CommonAdapter;
 import com.xy.libs.ui.adapter.RecyclerViewUtil;
@@ -20,14 +20,10 @@ import com.xy.libs.util.glide.GlideUtil;
 import com.xy.libs.util.normal.DateUtils;
 import com.xy.libs.util.normal.TextUtil;
 
-import org.greenrobot.eventbus.EventBus;
-
 import java.util.ArrayList;
 import java.util.List;
 
 import app.model.api.AppConfig;
-import app.model.constant.EventConstant;
-import app.model.constant.ObjectEvent;
 import app.model.contract.PlayHistoryContract;
 import app.model.data.PlayHistory;
 import app.presenter.PlayHistoryPresenter;

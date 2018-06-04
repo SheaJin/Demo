@@ -73,6 +73,7 @@
     <dimen name="px_690">690px</dimen>
     <dimen name="px_720">720px</dimen>
     <dimen name="px_760">760px</dimen>
+    <dimen name="px_800">800px</dimen>
     <dimen name="px_900">900px</dimen>
     <dimen name="px_1002">1002px</dimen>
     <dimen name="px_1062">1062px</dimen>

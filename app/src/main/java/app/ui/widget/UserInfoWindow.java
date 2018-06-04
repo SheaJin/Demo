@@ -1,17 +1,15 @@
 package app.ui.widget;
 
-import android.app.Activity;
 import android.content.Context;
 import android.graphics.Color;
 import android.graphics.drawable.ColorDrawable;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.TextView;
 
-import com.xy.doll.DollApplication;
+import app.DollApplication;
 import com.xy.doll.R;
 import com.xy.libs.util.app.JumpUtil;
 import com.xy.libs.util.glide.GlideUtil;
@@ -26,7 +24,6 @@ import app.model.api.BaseResp;
 import app.model.api.HttpObserver;
 import app.model.constant.Constant;
 import app.model.constant.EventConstant;
-import app.model.constant.MessageEvent;
 import app.model.constant.ObjectEvent;
 import app.model.data.UserInfo;
 import app.ui.activity.LoginActivity;

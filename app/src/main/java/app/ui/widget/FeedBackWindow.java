@@ -7,7 +7,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.PopupWindow;
 
-import com.xy.doll.DollApplication;
+import app.DollApplication;
 import com.xy.doll.R;
 import com.xy.libs.util.app.JumpUtil;
 

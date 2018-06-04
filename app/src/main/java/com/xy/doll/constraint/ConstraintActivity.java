@@ -1,8 +1,10 @@
-package com.xy.doll;
+package com.xy.doll.constraint;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.TextView;
+
+import com.xy.doll.R;
 
 public class ConstraintActivity extends AppCompatActivity {
 

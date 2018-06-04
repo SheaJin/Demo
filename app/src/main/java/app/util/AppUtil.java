@@ -15,7 +15,7 @@ import android.os.Build;
 import android.telephony.TelephonyManager;
 
 import com.ghnor.flora.common.MD5Util;
-import com.xy.doll.DollApplication;
+import app.DollApplication;
 
 import java.net.InetAddress;
 import java.net.NetworkInterface;

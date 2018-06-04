@@ -8,16 +8,10 @@ import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.xy.doll.DollApplication;
+import app.DollApplication;
 import com.xy.libs.R;
 import com.zhy.autolayout.AutoLayoutActivity;
 
-import org.greenrobot.eventbus.EventBus;
-import org.greenrobot.eventbus.Subscribe;
-import org.greenrobot.eventbus.ThreadMode;
-
-import app.model.constant.MessageEvent;
-import app.model.constant.ObjectEvent;
 import butterknife.ButterKnife;
 
 /**

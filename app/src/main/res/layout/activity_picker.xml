@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.xy.doll.address.PickerActivity">
+
+    <TextView
+        android:id="@+id/tv_address"
+        android:textSize="20sp"
+        android:text=""
+        android:layout_margin="30px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.xy.doll.address.PickAddressView
+        android:id="@+id/picker"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/px_800"
+        android:layout_alignParentBottom="true" />
+</RelativeLayout>

@@ -10,7 +10,7 @@ import android.text.style.ImageSpan;
 import android.util.Log;
 import android.view.WindowManager;
 
-import com.xy.doll.DollApplication;
+import app.DollApplication;
 import com.xy.doll.R;
 
 import java.util.ArrayList;
