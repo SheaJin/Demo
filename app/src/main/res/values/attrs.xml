@@ -38,4 +38,16 @@
         <attr name="noEmpty" format="boolean" />
         <attr name="isEnable" format="boolean" />
     </declare-styleable>
+
+    <declare-styleable name="FormationView">
+        <attr name="title_text" format="string" />
+        <attr name="title_size" format="dimension" />
+        <attr name="title_color" format="color" />
+        <attr name="left_text" format="string" />
+        <attr name="left_color" format="color" />
+        <attr name="left_background" format="reference|color" />
+        <attr name="right_text" format="string" />
+        <attr name="right_color" format="color" />
+        <attr name="right_background" format="reference|color" />
+    </declare-styleable>
 </resources>

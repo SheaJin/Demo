@@ -78,18 +78,18 @@
         <activity android:name="com.xy.doll.animate.AnimateActivity" />
         <activity android:name="com.xy.doll.banner.BannerActivity" />
         <activity android:name="com.xy.doll.pk.PksActivity" />
-        <activity android:name="com.xy.doll.bottom.BottomActivity" />
-        <activity android:name="com.xy.doll.surface.SurfaceActivity" />
-        <activity android:name="com.xy.doll.bottomsheet.SheetActivity" />
-        <activity android:name="com.xy.doll.sign.SignActivity" />
-        <activity android:name="com.xy.doll.constraint.ConstraintActivity" />
-        <activity android:name="com.xy.doll.address.PickerActivity" >
+        <activity android:name="com.xy.doll.bottom.BottomActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.xy.doll.surface.SurfaceActivity" />
+        <activity android:name="com.xy.doll.bottomsheet.SheetActivity" />
+        <activity android:name="com.xy.doll.sign.SignActivity" />
+        <activity android:name="com.xy.doll.constraint.ConstraintActivity" />
+        <activity android:name="com.xy.doll.address.PickerActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

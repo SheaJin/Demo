@@ -70,18 +70,18 @@
         <activity android:name=".animate.AnimateActivity" />
         <activity android:name=".banner.BannerActivity" />
         <activity android:name=".pk.PksActivity" />
-        <activity android:name=".bottom.BottomActivity" />
-        <activity android:name=".surface.SurfaceActivity" />
-        <activity android:name=".bottomsheet.SheetActivity" />
-        <activity android:name=".sign.SignActivity" />
-        <activity android:name=".constraint.ConstraintActivity" />
-        <activity android:name=".address.PickerActivity">
+        <activity android:name=".bottom.BottomActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".surface.SurfaceActivity" />
+        <activity android:name=".bottomsheet.SheetActivity" />
+        <activity android:name=".sign.SignActivity" />
+        <activity android:name=".constraint.ConstraintActivity" />
+        <activity android:name=".address.PickerActivity" />
     </application>
 
 </manifest>

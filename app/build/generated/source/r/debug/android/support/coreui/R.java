@@ -25,7 +25,7 @@ public final class R {
         public static final int layout_dodgeInsetEdges = 0x7f030133;
         public static final int layout_insetEdge = 0x7f03013c;
         public static final int layout_keyline = 0x7f03013d;
-        public static final int statusBarBackground = 0x7f0301d3;
+        public static final int statusBarBackground = 0x7f0301d9;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
@@ -132,7 +132,7 @@ public final class R {
         public static final int Widget_Support_CoordinatorLayout = 0x7f0d018f;
     }
     public static final class styleable {
-        public static final int[] CoordinatorLayout = { 0x7f030107, 0x7f0301d3 };
+        public static final int[] CoordinatorLayout = { 0x7f030107, 0x7f0301d9 };
         public static final int CoordinatorLayout_keylines = 0;
         public static final int CoordinatorLayout_statusBarBackground = 1;
         public static final int[] CoordinatorLayout_Layout = { 0x010100b3, 0x7f03010a, 0x7f03010b, 0x7f03010e, 0x7f030133, 0x7f03013c, 0x7f03013d };

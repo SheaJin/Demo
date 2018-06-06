@@ -31,10 +31,10 @@ public final class R {
         public static final int layout_dodgeInsetEdges = 0x7f030133;
         public static final int layout_insetEdge = 0x7f03013c;
         public static final int layout_keyline = 0x7f03013d;
-        public static final int reverseLayout = 0x7f030184;
-        public static final int spanCount = 0x7f030198;
-        public static final int stackFromEnd = 0x7f0301cf;
-        public static final int statusBarBackground = 0x7f0301d3;
+        public static final int reverseLayout = 0x7f030187;
+        public static final int spanCount = 0x7f03019e;
+        public static final int stackFromEnd = 0x7f0301d5;
+        public static final int statusBarBackground = 0x7f0301d9;
     }
     public static final class bool {
         public static final int abc_action_bar_embed_tabs = 0x7f040000;
@@ -148,7 +148,7 @@ public final class R {
         public static final int Widget_Support_CoordinatorLayout = 0x7f0d018f;
     }
     public static final class styleable {
-        public static final int[] CoordinatorLayout = { 0x7f030107, 0x7f0301d3 };
+        public static final int[] CoordinatorLayout = { 0x7f030107, 0x7f0301d9 };
         public static final int CoordinatorLayout_keylines = 0;
         public static final int CoordinatorLayout_statusBarBackground = 1;
         public static final int[] CoordinatorLayout_Layout = { 0x010100b3, 0x7f03010a, 0x7f03010b, 0x7f03010e, 0x7f030133, 0x7f03013c, 0x7f03013d };
@@ -173,7 +173,7 @@ public final class R {
         public static final int FontFamilyFont_font = 3;
         public static final int FontFamilyFont_fontStyle = 4;
         public static final int FontFamilyFont_fontWeight = 5;
-        public static final int[] RecyclerView = { 0x010100c4, 0x010100f1, 0x7f0300d3, 0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f030109, 0x7f030184, 0x7f030198, 0x7f0301cf };
+        public static final int[] RecyclerView = { 0x010100c4, 0x010100f1, 0x7f0300d3, 0x7f0300d4, 0x7f0300d5, 0x7f0300d6, 0x7f0300d7, 0x7f030109, 0x7f030187, 0x7f03019e, 0x7f0301d5 };
         public static final int RecyclerView_android_orientation = 0;
         public static final int RecyclerView_android_descendantFocusability = 1;
         public static final int RecyclerView_fastScrollEnabled = 2;

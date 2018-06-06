@@ -3,11 +3,31 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context="com.xy.doll.bottom.BottomActivity">
 
-    <com.xy.doll.bottom.BottomView
-        android:background="@color/white_255"
+    <!--<com.xy.doll.bottom.BottomView-->
+    <!--android:background="@color/white_255"-->
+    <!--android:layout_alignParentBottom="true"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="187px" />-->
+
+    <com.xy.doll.custom.CustomText
         android:layout_alignParentBottom="true"
         android:layout_width="match_parent"
-        android:layout_height="187px" />
+        android:layout_height="wrap_content" />
+
+    <com.xy.doll.custom.FormationView
+        android:layout_width="match_parent"
+        android:layout_height="140px"
+        android:background="@color/black_15"
+        app:title_color="@color/black_50"
+        app:title_size="20sp"
+        app:title_text="a是大幅度发" />
+
+    <!--app:right_color="@color/green"-->
+    <!--app:right_text="右"-->
+    <!--app:title_color="@color/black_255"-->
+    <!--app:title_size="@dimen/text_size_36"-->
+    <!--app:title_text="标题"-->
 </RelativeLayout>

@@ -321,39 +321,39 @@ ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:72:19-49
 activity#com.xy.doll.bottom.BottomActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:73:9-59
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:73:9-79:20
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:73:19-56
-activity#com.xy.doll.surface.SurfaceActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:74:9-61
-	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:74:19-58
-activity#com.xy.doll.bottomsheet.SheetActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:9-63
-	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:19-60
-activity#com.xy.doll.sign.SignActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:76:9-55
-	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:76:19-52
-activity#com.xy.doll.constraint.ConstraintActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:9-67
-	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:19-64
-activity#com.xy.doll.address.PickerActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:78:9-84:20
-	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:78:19-57
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:79:13-83:29
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:74:13-78:29
 action#android.intent.action.MAIN
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:80:17-69
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:17-69
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:80:25-66
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:82:17-77
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:17-77
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:82:27-74
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:27-74
+activity#com.xy.doll.surface.SurfaceActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:80:9-61
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:80:19-58
+activity#com.xy.doll.bottomsheet.SheetActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:81:9-63
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:81:19-60
+activity#com.xy.doll.sign.SignActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:82:9-55
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:82:19-52
+activity#com.xy.doll.constraint.ConstraintActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:83:9-67
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:83:19-64
+activity#com.xy.doll.address.PickerActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:84:9-60
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:84:19-57
 uses-sdk
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
