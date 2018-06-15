@@ -661,6 +661,10 @@ public class WheelView extends View {
          */
         public String itemText = "";
         /**
+         * 要绘制的内容
+         */
+        public String drawItemText = "";
+        /**
          * x坐标
          */
         public int x = 0;
@@ -706,8 +710,7 @@ public class WheelView extends View {
                 textPaint.setColor(selectedColor);
                 // 获取距离标准位置的距离
                 float moveToSelect = moveToSelected();
-                moveToSelect = moveToSelect > 0 ? moveToSelect : moveToSelect
-                        * (-1);
+                moveToSelect = moveToSelect > 0 ? moveToSelect : moveToSelect * (-1);
                 // 计算当前字体大小
                 float textSize = (float) normalFont
                         + ((float) (selectedFont - normalFont) * (1.0f - (float) moveToSelect
@@ -719,18 +722,15 @@ public class WheelView extends View {
             }
 
             // 返回包围整个字符串的最小的一个Rect区域
-            itemText = (String) TextUtils.ellipsize(itemText, textPaint, containerWidth,
+            drawItemText = (String) TextUtils.ellipsize(itemText, textPaint, containerWidth,
                     TextUtils.TruncateAt.END);
-            textPaint.getTextBounds(itemText, 0, itemText.length(), textRect);
+            textPaint.getTextBounds(drawItemText, 0, drawItemText.length(), textRect);
             // 判断是否可视
             if (!isInView())
                 return;
 
             // 绘制内容
-            canvas.drawText(itemText, x + controlWidth / 2 - textRect.width()
-                            / 2, y + move + unitHeight / 2 + textRect.height() / 2,
-                    textPaint);
-
+            canvas.drawText(drawItemText, x + controlWidth / 2 - textRect.width() / 2, y + move + unitHeight / 2 + textRect.height() / 2, textPaint);
         }
 
         /**

@@ -154,8 +154,9 @@ public class PickAddressView extends LinearLayout {
         ok.setOnClickListener(view -> {
             if (addressSelectedListener != null) {
                 addressSelectedListener.onEnsureClick(
-                        mProvinceDatas.get(mProvincePicker.getSelected())
-                                + mCityPicker.getSelectedText() + mCountyPicker.getSelectedText()
+                        mProvinceDatas.get(mProvincePicker.getSelected()) + "-"
+                                + mCityPicker.getSelectedText() + "-"
+                                + mCountyPicker.getSelectedText() + "-"
                                 + mStreetPicker.getSelectedText(), streetChildsBeans);
             }
 

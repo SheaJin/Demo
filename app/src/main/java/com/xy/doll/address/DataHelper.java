@@ -8,7 +8,6 @@ import com.google.gson.reflect.TypeToken;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.io.UnsupportedEncodingException;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.List;
@@ -18,10 +17,10 @@ import java.util.List;
  */
 
 public class DataHelper {
-    private static List<AddressBean> beans;
+    private static List<AddressBean> addressList;
 
     public static List<AddressBean> getAddress(Context context) {
-        if (beans == null) {
+        if (addressList == null) {
             InputStreamReader inputStreamReader;
             try {
                 inputStreamReader = new InputStreamReader(context.getAssets().open(
@@ -37,16 +36,14 @@ public class DataHelper {
                 bufferedReader.close();
                 Gson gson = new Gson();
                 Type type = new TypeToken<List<AddressBean>>() {}.getType();
-                beans = gson.fromJson(stringBuilder.toString(), type);
-                return beans;
-            } catch (UnsupportedEncodingException e) {
-                e.printStackTrace();
+                addressList = gson.fromJson(stringBuilder.toString(), type);
+                return addressList;
             } catch (IOException e) {
                 e.printStackTrace();
             }
             return new ArrayList<>();
         } else {
-            return beans;
+            return addressList;
         }
     }
 }
