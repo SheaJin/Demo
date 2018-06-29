@@ -4,7 +4,7 @@
             "outputFile": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v26/values-v26.xml",
             "map": [
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/values-v26/values-v26.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/9f8f99594b87dc8adade4fe4dc97af96/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/res/values-v26/values-v26.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/2c23e7c5982d4d5a12ceba093c2387ab/res/values-v26/values-v26.xml",
                     "from": {
                         "startLines": "2,6",
                         "startColumns": "4,4",

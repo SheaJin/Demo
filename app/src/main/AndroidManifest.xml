@@ -42,8 +42,7 @@
             android:name="app.model.service.WebSocketService"
             android:exported="true" />
 
-        <activity android:name="app.ui.activity.SplashActivity" >
-        </activity>
+        <activity android:name="app.ui.activity.SplashActivity" />
         <activity android:name="app.ui.activity.LoginActivity" />
         <activity android:name="app.ui.activity.MainActivity" />
         <activity android:name="app.ui.activity.CommonDetailsActivity" />
@@ -71,18 +70,21 @@
         <activity android:name=".animate.AnimateActivity" />
         <activity android:name=".banner.BannerActivity" />
         <activity android:name=".pk.PksActivity" />
-        <activity android:name=".bottom.BottomActivity"/>
+        <activity android:name=".bottom.BottomActivity" />
         <activity android:name=".surface.SurfaceActivity" />
         <activity android:name=".bottomsheet.SheetActivity" />
         <activity android:name=".sign.SignActivity" />
         <activity android:name=".constraint.ConstraintActivity" />
-        <activity android:name=".address.PickerActivity" >
+        <activity android:name=".address.PickerActivity"></activity>
+        <activity android:name=".file.FileActivity"/>
+        <activity android:name=".dagger.DaggerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
     </application>
 
 </manifest>

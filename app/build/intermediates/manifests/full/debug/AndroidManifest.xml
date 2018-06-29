@@ -50,8 +50,7 @@
             android:name="app.model.service.WebSocketService"
             android:exported="true" />
 
-        <activity android:name="app.ui.activity.SplashActivity" >
-        </activity>
+        <activity android:name="app.ui.activity.SplashActivity" />
         <activity android:name="app.ui.activity.LoginActivity" />
         <activity android:name="app.ui.activity.MainActivity" />
         <activity android:name="app.ui.activity.CommonDetailsActivity" />
@@ -84,7 +83,9 @@
         <activity android:name="com.xy.doll.bottomsheet.SheetActivity" />
         <activity android:name="com.xy.doll.sign.SignActivity" />
         <activity android:name="com.xy.doll.constraint.ConstraintActivity" />
-        <activity android:name="com.xy.doll.address.PickerActivity" >
+        <activity android:name="com.xy.doll.address.PickerActivity" />
+        <activity android:name="com.xy.doll.file.FileActivity" />
+        <activity android:name="com.xy.doll.dagger.DaggerActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

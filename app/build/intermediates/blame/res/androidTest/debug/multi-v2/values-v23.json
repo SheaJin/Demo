@@ -4,7 +4,7 @@
             "outputFile": "/Users/mjn_ziyu/StudioProject/Lemon/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/res/values-v23/values-v23.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/9f8f99594b87dc8adade4fe4dc97af96/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -15,7 +15,7 @@
                     }
                 },
                 {
-                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/88fcf20ebf7579d1f05d49b5897f6fa5/res/values-v23/values-v23.xml",
+                    "source": "/Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/ac62ee74aee25f0bb50d5648e4132272/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

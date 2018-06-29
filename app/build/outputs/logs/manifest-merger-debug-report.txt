@@ -1,85 +1,85 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
 MERGED from [:library] /Users/mjn_ziyu/StudioProject/Lemon/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/aca96fc5cbfea498006fb1538625692e/AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/a8e804e3da2b0671b0d9fb7a4dafddf8/AndroidManifest.xml:2:1-12:12
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:2:1-15:12
-MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/8d91b19f87a9531b9e3f780983fac1b0/AndroidManifest.xml:2:1-16:12
-MERGED from [com.android.support:design:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/07ab6161c86f7c3082eb1275032840a0/AndroidManifest.xml:2:1-11:12
+MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/1a9a1056eaa5a38b17b5a33a3382d85a/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/29c7cf20d428434577d0c765e4dd5dab/AndroidManifest.xml:2:1-12:12
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/3c9d78243b8951f3b12a4679e2350c29/AndroidManifest.xml:2:1-15:12
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/6412bb17dd07644d86a1f2666ac58926/AndroidManifest.xml:2:1-16:12
+MERGED from [com.android.support:design:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/2c23e7c5982d4d5a12ceba093c2387ab/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/9f8f99594b87dc8adade4fe4dc97af96/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/58b68e19fcea5a22ab3f2bc1538100d5/AndroidManifest.xml:2:1-11:12
 MERGED from [:easeui] /Users/mjn_ziyu/StudioProject/Lemon/easeui/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:16:1-21:12
-MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a3e32cab0ba4dbdebb68b9f050307920/AndroidManifest.xml:2:1-5:12
-MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:16:1-23:12
-MERGED from [com.android.support:support-v4:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/2a0d8bc04350f41754689365aad5046e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/f23d4591e87a9c752395de4083be283e/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:cardview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/88fcf20ebf7579d1f05d49b5897f6fa5/AndroidManifest.xml:17:1-22:12
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:16:1-21:12
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/2275df70b922732b0fea05f36ed47aa3/AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e65caa21799bb98cda7ec0665bab8695/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/a78d8dcb556d7fec528a98092488e58b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/ac62ee74aee25f0bb50d5648e4132272/AndroidManifest.xml:17:1-22:12
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/93b952340288eb650e72a09935cba913/AndroidManifest.xml:2:1-11:12
 MERGED from [:animationTools] /Users/mjn_ziyu/StudioProject/Lemon/animationTools/build/intermediates/manifests/full/debug/AndroidManifest.xml:2:1-11:12
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/b720ba49b33e5a3067cb9a39f3398739/AndroidManifest.xml:15:1-21:12
-MERGED from [id.zelory:compressor:2.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/faf8963493534826da6b8ffc18631f7a/AndroidManifest.xml:2:1-12:12
-MERGED from [com.jakewharton:butterknife:8.5.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/6b38b0b21ea68af1f07e2cb845ca8431/AndroidManifest.xml:2:1-7:12
-MERGED from [top.zibin:Luban:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/Luban-1.1.3.aar/b95131626d33e3bd8bb9136ad0955464/AndroidManifest.xml:2:1-11:12
-MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/f9fa004381f1efc67603f29c0f6225fa/AndroidManifest.xml:2:1-17:12
-MERGED from [com.youth.banner:banner:1.4.10] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7519e86ea7d4de9d43d5b11624bca163/AndroidManifest.xml:2:1-14:12
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:2:1-17:12
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:2:1-24:12
-MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/a9780d83f3c3f21b052c66f20a720b0b/AndroidManifest.xml:17:1-26:12
-MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:2:1-13:12
-MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/707a271d17582bc77ad443a17df5d415/AndroidManifest.xml:2:1-13:12
-MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/6e5f192b87bf2d9cda7289b319d805ae/AndroidManifest.xml:2:1-13:12
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/f067e8ab39f8da929833174a8eb50fdf/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/da04679dae67341a835ee856a61a6a62/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/2a5191bdb9407ed04646eda0be4bd1ca/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/08eb346fb28def25667507f4d290a508/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/4278d8de4fc560626d1db505c0185e97/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/629a109fe60aeffcc206c3a49cf1b5af/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/3b0822fcec544cfe632faf9a28a99c9a/AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/AndroidManifest.xml:17:1-22:12
-MERGED from [io.reactivex:rxandroid:1.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.0.aar/f46c34d9609e74aebc84d58f0999f2cc/AndroidManifest.xml:15:1-21:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/04ca8e4bfaf19718f388238914b95744/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4bd307122ba2dfe2e544671267f15ea8/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e90a197ae790052d3b6120d71ca2dc60/AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a67c3e1885d5e5c84cbd6ada32c9eff6/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
-INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/0055313a672cedfa2123d20833d3fd5d/AndroidManifest.xml:15:1-21:12
+MERGED from [id.zelory:compressor:2.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/16609fde5dbcd9892951a2e78fbecb0e/AndroidManifest.xml:2:1-12:12
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/ed9a57b119a21e66e61a349a231574c2/AndroidManifest.xml:2:1-7:12
+MERGED from [top.zibin:Luban:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/Luban-1.1.3.aar/e41838d8d2a3cfeae1e114752d4abe8b/AndroidManifest.xml:2:1-11:12
+MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/34bf087d3b2d75a3ecb1b1d91e02f88e/AndroidManifest.xml:2:1-17:12
+MERGED from [com.youth.banner:banner:1.4.10] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/b53ce10fc17f69337bcda59bb09a6c26/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7ca550ba2408b0f2d45c4171d06e2ca5/AndroidManifest.xml:2:1-14:12
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/7fd2111497b347798fff31865465afef/AndroidManifest.xml:2:1-17:12
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:2:1-24:12
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/58482c74b8ca9d7512b9646887f2df8f/AndroidManifest.xml:17:1-26:12
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/ea4de5d18edb796eb3d5db6d82ccdc15/AndroidManifest.xml:2:1-13:12
+MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/80dc18df339a512e17ac8a04de8ad383/AndroidManifest.xml:2:1-13:12
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/a5e9443d236c91253655406a40c29b9a/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/88511c3dd83798c5d3502d3a14ea3696/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/e789bde51e569175dc0635d345cde5a1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/8c28b30bd0cfe17a076feefd218a8c20/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/59a5dc9fe4ee818acbc6bb82f028b614/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/b6fb8dcf55d88ea3fc0aa909bc2c172a/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/a29507ccafcee120ce604fe47c81e4c7/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75d0b8233a1dab87d643f2f41a19acbf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/80c9cbd60b04b9cd432774e1239d0e26/AndroidManifest.xml:17:1-22:12
+MERGED from [io.reactivex:rxandroid:1.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.0.aar/0cd3fdda6f0f1fb7d25839c3351b1a25/AndroidManifest.xml:15:1-21:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/d2d03500738ba49cc2f5516a01759dd7/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1d1dea802359368b13b9a332c8ee026e/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7bcae8d936a09e50264e9642dc4a57ee/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fecb79f7e98f71122a5a6b3b18015c1a/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
+INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
 	package
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:3:5-26
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-88:12
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:1-90:12
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:5:5-67
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:12:5-67
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:12:5-67
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:12:5-67
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:12:5-67
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:5:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:6:5-79
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:11:5-79
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:11:5-79
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:11:5-79
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:11:5-79
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:6:22-76
 uses-permission#android.permission.ACCESS_WIFI_STATE
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:7:5-76
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:16:5-76
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:16:5-76
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:16:5-76
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:16:5-76
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:7:22-73
 uses-permission#android.permission.READ_PHONE_STATE
@@ -88,8 +88,8 @@ ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:8:22-72
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:9:5-81
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:15:5-81
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:15:5-81
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:15:5-81
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:15:5-81
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:9:22-78
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
@@ -102,14 +102,14 @@ ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:11:22-62
 uses-permission#android.permission.RECORD_AUDIO
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:12:5-71
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:13:5-71
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:13:5-71
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:13:5-71
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:13:5-71
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:12:22-68
 uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:13:5-84
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:14:5-84
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:14:5-84
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:14:5-84
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:14:5-84
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:13:22-81
 uses-permission#android.permission.READ_LOGS
@@ -153,35 +153,35 @@ ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:24:19-67
 application
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:26:5-86:19
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:11:5-13:38
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:11:5-13:38
-MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/8d91b19f87a9531b9e3f780983fac1b0/AndroidManifest.xml:11:5-14:19
-MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/8d91b19f87a9531b9e3f780983fac1b0/AndroidManifest.xml:11:5-14:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/07ab6161c86f7c3082eb1275032840a0/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/07ab6161c86f7c3082eb1275032840a0/AndroidManifest.xml:9:5-20
-MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a3e32cab0ba4dbdebb68b9f050307920/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a3e32cab0ba4dbdebb68b9f050307920/AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:19:5-21:19
-MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:19:5-21:19
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:9:5-20
-MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/f9fa004381f1efc67603f29c0f6225fa/AndroidManifest.xml:11:5-15:19
-MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/f9fa004381f1efc67603f29c0f6225fa/AndroidManifest.xml:11:5-15:19
-MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7519e86ea7d4de9d43d5b11624bca163/AndroidManifest.xml:11:5-12:19
-MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7519e86ea7d4de9d43d5b11624bca163/AndroidManifest.xml:11:5-12:19
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:11:5-15:19
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:11:5-15:19
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:18:5-22:19
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:18:5-22:19
-MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:11:5-20
-MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:11:5-20
-MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/707a271d17582bc77ad443a17df5d415/AndroidManifest.xml:11:5-20
-MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/707a271d17582bc77ad443a17df5d415/AndroidManifest.xml:11:5-20
-MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/6e5f192b87bf2d9cda7289b319d805ae/AndroidManifest.xml:11:5-20
-MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/6e5f192b87bf2d9cda7289b319d805ae/AndroidManifest.xml:11:5-20
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:26:5-88:19
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/3c9d78243b8951f3b12a4679e2350c29/AndroidManifest.xml:11:5-13:38
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/3c9d78243b8951f3b12a4679e2350c29/AndroidManifest.xml:11:5-13:38
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/6412bb17dd07644d86a1f2666ac58926/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/6412bb17dd07644d86a1f2666ac58926/AndroidManifest.xml:11:5-14:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/58b68e19fcea5a22ab3f2bc1538100d5/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/58b68e19fcea5a22ab3f2bc1538100d5/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/2275df70b922732b0fea05f36ed47aa3/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/2275df70b922732b0fea05f36ed47aa3/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:19:5-21:19
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/93b952340288eb650e72a09935cba913/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/93b952340288eb650e72a09935cba913/AndroidManifest.xml:9:5-20
+MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/34bf087d3b2d75a3ecb1b1d91e02f88e/AndroidManifest.xml:11:5-15:19
+MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/34bf087d3b2d75a3ecb1b1d91e02f88e/AndroidManifest.xml:11:5-15:19
+MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7ca550ba2408b0f2d45c4171d06e2ca5/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7ca550ba2408b0f2d45c4171d06e2ca5/AndroidManifest.xml:11:5-12:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/7fd2111497b347798fff31865465afef/AndroidManifest.xml:11:5-15:19
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/7fd2111497b347798fff31865465afef/AndroidManifest.xml:11:5-15:19
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:18:5-22:19
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:18:5-22:19
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/ea4de5d18edb796eb3d5db6d82ccdc15/AndroidManifest.xml:11:5-20
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/ea4de5d18edb796eb3d5db6d82ccdc15/AndroidManifest.xml:11:5-20
+MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/80dc18df339a512e17ac8a04de8ad383/AndroidManifest.xml:11:5-20
+MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/80dc18df339a512e17ac8a04de8ad383/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/a5e9443d236c91253655406a40c29b9a/AndroidManifest.xml:11:5-20
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/a5e9443d236c91253655406a40c29b9a/AndroidManifest.xml:11:5-20
 	android:supportsRtl
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:32:9-35
 	android:label
@@ -215,235 +215,243 @@ ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:42:13-62
 activity#app.ui.activity.SplashActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:45:9-46:20
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:45:9-67
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:45:19-64
 activity#app.ui.activity.LoginActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:47:9-66
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:46:9-66
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:47:19-63
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:46:19-63
 activity#app.ui.activity.MainActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:48:9-65
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:47:9-65
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:48:19-62
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:47:19-62
 activity#app.ui.activity.CommonDetailsActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:49:9-74
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:48:9-74
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:49:19-71
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:48:19-71
 activity#app.ui.activity.GameActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:50:9-65
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:49:9-65
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:50:19-62
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:49:19-62
 activity#app.ui.activity.SetActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:51:9-64
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:50:9-64
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:51:19-61
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:50:19-61
 activity#app.ui.activity.RechargeActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:52:9-69
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:51:9-69
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:52:19-66
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:51:19-66
 activity#app.ui.activity.MyOrderActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:53:9-68
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:52:9-68
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:53:19-65
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:52:19-65
 activity#app.ui.activity.OtherReasonActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:54:9-72
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:53:9-72
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:54:19-69
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:53:19-69
 activity#app.ui.activity.GiftBoxActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:55:9-68
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:54:9-68
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:55:19-65
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:54:19-65
 activity#app.ui.activity.ExchangeActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:56:9-69
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:55:9-69
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:56:19-66
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:55:19-66
 activity#app.ui.activity.SendActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:57:9-65
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:56:9-65
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:57:19-62
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:56:19-62
 activity#app.ui.activity.GiftDetailsActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:57:9-72
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:57:19-69
+activity#app.ui.activity.PlayHistoryActivity
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:58:9-72
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:58:19-69
-activity#app.ui.activity.PlayHistoryActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:59:9-72
-	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:59:19-69
 activity#app.ui.activity.CatchFailedDetailsActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:60:9-79
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:59:9-79
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:60:19-76
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:59:19-76
 activity#app.ui.activity.CatchSuccessDetailsActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:61:9-80
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:60:9-80
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:61:19-77
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:60:19-77
 activity#com.xy.doll.download.DownloadActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:62:9-63
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:61:9-63
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:62:19-60
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:61:19-60
 activity#com.xy.doll.down.DownActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:62:9-55
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:62:19-52
+activity#com.xy.doll.rxjava.RxActivity
 ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:63:9-55
 	android:name
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:63:19-52
-activity#com.xy.doll.rxjava.RxActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:64:9-55
-	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:64:19-52
 activity#com.xy.doll.custom.CustomActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:65:9-59
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:64:9-59
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:65:19-56
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:64:19-56
 activity#com.xy.doll.hy.ChatActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:66:9-68:70
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:65:9-67:70
 	android:windowSoftInputMode
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:68:13-67
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:67:13-67
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:67:13-44
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:66:13-44
 activity#com.xy.doll.audio.AudioActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:69:9-57
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:68:9-57
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:69:19-54
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:68:19-54
 activity#com.xy.doll.scroll.ScrollActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:70:9-59
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:69:9-59
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:70:19-56
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:69:19-56
 activity#com.xy.doll.animate.AnimateActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:71:9-61
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:70:9-61
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:71:19-58
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:70:19-58
 activity#com.xy.doll.banner.BannerActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:72:9-59
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:71:9-59
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:72:19-56
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:71:19-56
 activity#com.xy.doll.pk.PksActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:73:9-52
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:72:9-52
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:73:19-49
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:72:19-49
 activity#com.xy.doll.bottom.BottomActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:74:9-58
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:73:9-59
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:74:19-56
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:73:19-56
 activity#com.xy.doll.surface.SurfaceActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:9-61
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:74:9-61
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:19-58
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:74:19-58
 activity#com.xy.doll.bottomsheet.SheetActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:76:9-63
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:9-63
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:76:19-60
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:75:19-60
 activity#com.xy.doll.sign.SignActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:9-55
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:76:9-55
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:19-52
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:76:19-52
 activity#com.xy.doll.constraint.ConstraintActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:78:9-67
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:9-67
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:78:19-64
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:77:19-64
 activity#com.xy.doll.address.PickerActivity
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:79:9-85:20
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:78:9-69
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:79:19-57
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:78:19-57
+activity#com.xy.doll.file.FileActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:79:9-54
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:79:19-52
+activity#com.xy.doll.dagger.DaggerActivity
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:80:9-86:20
+	android:name
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:80:19-56
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:80:13-84:29
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:81:13-85:29
 action#android.intent.action.MAIN
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:81:17-69
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:82:17-69
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:81:25-66
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:82:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:83:17-77
+ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:84:17-77
 	android:name
-		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:83:27-74
+		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml:84:27-74
 uses-sdk
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 MERGED from [:library] /Users/mjn_ziyu/StudioProject/Lemon/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:library] /Users/mjn_ziyu/StudioProject/Lemon/library/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/aca96fc5cbfea498006fb1538625692e/AndroidManifest.xml:8:5-10:41
-MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/aca96fc5cbfea498006fb1538625692e/AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/a8e804e3da2b0671b0d9fb7a4dafddf8/AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/a8e804e3da2b0671b0d9fb7a4dafddf8/AndroidManifest.xml:8:5-10:41
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:7:5-9:41
-MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/7fa6db56093f24256a59aa49d43f58be/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/8d91b19f87a9531b9e3f780983fac1b0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/8d91b19f87a9531b9e3f780983fac1b0/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:design:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/b47b0ef05dc503d92d53e6b3ecfe7223/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/e175ac1467b65834907d0fe1e12070e2/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/07ab6161c86f7c3082eb1275032840a0/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/07ab6161c86f7c3082eb1275032840a0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/1a9a1056eaa5a38b17b5a33a3382d85a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.zhy:autolayout:1.4.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/autolayout-1.4.5.aar/1a9a1056eaa5a38b17b5a33a3382d85a/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/29c7cf20d428434577d0c765e4dd5dab/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.hackware1993:MagicIndicator:1.5.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/MagicIndicator-1.5.0.aar/29c7cf20d428434577d0c765e4dd5dab/AndroidManifest.xml:8:5-10:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/3c9d78243b8951f3b12a4679e2350c29/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ashokvarma.android:bottom-navigation-bar:1.3.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/bottom-navigation-bar-1.3.0.aar/3c9d78243b8951f3b12a4679e2350c29/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/6412bb17dd07644d86a1f2666ac58926/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.lguipeng:BubbleView:1.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/BubbleView-1.0.1.aar/6412bb17dd07644d86a1f2666ac58926/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/2c23e7c5982d4d5a12ceba093c2387ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/design-27.1.0.aar/2c23e7c5982d4d5a12ceba093c2387ab/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/9f8f99594b87dc8adade4fe4dc97af96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.0.aar/9f8f99594b87dc8adade4fe4dc97af96/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/58b68e19fcea5a22ab3f2bc1538100d5/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/58b68e19fcea5a22ab3f2bc1538100d5/AndroidManifest.xml:5:5-7:41
 MERGED from [:easeui] /Users/mjn_ziyu/StudioProject/Lemon/easeui/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [:easeui] /Users/mjn_ziyu/StudioProject/Lemon/easeui/build/intermediates/manifests/full/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a3e32cab0ba4dbdebb68b9f050307920/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/a3e32cab0ba4dbdebb68b9f050307920/AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/2a0d8bc04350f41754689365aad5046e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/2a0d8bc04350f41754689365aad5046e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/f23d4591e87a9c752395de4083be283e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/f23d4591e87a9c752395de4083be283e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/88fcf20ebf7579d1f05d49b5897f6fa5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/88fcf20ebf7579d1f05d49b5897f6fa5/AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/a3fb8fd0c7cd060b8810652fbaf25e5d/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/2275df70b922732b0fea05f36ed47aa3/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-tasks-11.4.0.aar/2275df70b922732b0fea05f36ed47aa3/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e65caa21799bb98cda7ec0665bab8695/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-v4-27.1.0.aar/e65caa21799bb98cda7ec0665bab8695/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/a78d8dcb556d7fec528a98092488e58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-27.1.0.aar/a78d8dcb556d7fec528a98092488e58b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/ac62ee74aee25f0bb50d5648e4132272/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.0.aar/ac62ee74aee25f0bb50d5648e4132272/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/93b952340288eb650e72a09935cba913/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/circleimageview-2.2.0.aar/93b952340288eb650e72a09935cba913/AndroidManifest.xml:5:5-7:41
 MERGED from [:animationTools] /Users/mjn_ziyu/StudioProject/Lemon/animationTools/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [:animationTools] /Users/mjn_ziyu/StudioProject/Lemon/animationTools/build/intermediates/manifests/full/debug/AndroidManifest.xml:7:5-9:41
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/b720ba49b33e5a3067cb9a39f3398739/AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/b720ba49b33e5a3067cb9a39f3398739/AndroidManifest.xml:19:5-43
-MERGED from [id.zelory:compressor:2.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/faf8963493534826da6b8ffc18631f7a/AndroidManifest.xml:8:5-10:41
-MERGED from [id.zelory:compressor:2.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/faf8963493534826da6b8ffc18631f7a/AndroidManifest.xml:8:5-10:41
-MERGED from [com.jakewharton:butterknife:8.5.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/6b38b0b21ea68af1f07e2cb845ca8431/AndroidManifest.xml:5:5-43
-MERGED from [com.jakewharton:butterknife:8.5.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/6b38b0b21ea68af1f07e2cb845ca8431/AndroidManifest.xml:5:5-43
-MERGED from [top.zibin:Luban:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/Luban-1.1.3.aar/b95131626d33e3bd8bb9136ad0955464/AndroidManifest.xml:7:5-9:41
-MERGED from [top.zibin:Luban:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/Luban-1.1.3.aar/b95131626d33e3bd8bb9136ad0955464/AndroidManifest.xml:7:5-9:41
-MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/f9fa004381f1efc67603f29c0f6225fa/AndroidManifest.xml:7:5-9:41
-MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/f9fa004381f1efc67603f29c0f6225fa/AndroidManifest.xml:7:5-9:41
-MERGED from [com.youth.banner:banner:1.4.10] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/AndroidManifest.xml:7:5-9:41
-MERGED from [com.youth.banner:banner:1.4.10] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/7652e91adab58f9342184772e57bfef7/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7519e86ea7d4de9d43d5b11624bca163/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7519e86ea7d4de9d43d5b11624bca163/AndroidManifest.xml:7:5-9:41
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:7:5-9:41
-MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/65e04500265f10b79c49a953291cf0f6/AndroidManifest.xml:7:5-9:41
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:7:5-9:41
-MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/76c031aa2afe2020d77e183bffb7ceb5/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/a9780d83f3c3f21b052c66f20a720b0b/AndroidManifest.xml:22:5-24:41
-MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/a9780d83f3c3f21b052c66f20a720b0b/AndroidManifest.xml:22:5-24:41
-MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:7:5-9:41
-MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/593493c85a660ccf2980c0ab7bbc7aa4/AndroidManifest.xml:7:5-9:41
-MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/707a271d17582bc77ad443a17df5d415/AndroidManifest.xml:7:5-9:41
-MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/707a271d17582bc77ad443a17df5d415/AndroidManifest.xml:7:5-9:41
-MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/6e5f192b87bf2d9cda7289b319d805ae/AndroidManifest.xml:7:5-9:41
-MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/6e5f192b87bf2d9cda7289b319d805ae/AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/f067e8ab39f8da929833174a8eb50fdf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/f067e8ab39f8da929833174a8eb50fdf/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/da04679dae67341a835ee856a61a6a62/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/da04679dae67341a835ee856a61a6a62/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/2a5191bdb9407ed04646eda0be4bd1ca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/2a5191bdb9407ed04646eda0be4bd1ca/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/08eb346fb28def25667507f4d290a508/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/08eb346fb28def25667507f4d290a508/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/4278d8de4fc560626d1db505c0185e97/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/4278d8de4fc560626d1db505c0185e97/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/629a109fe60aeffcc206c3a49cf1b5af/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/629a109fe60aeffcc206c3a49cf1b5af/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/3b0822fcec544cfe632faf9a28a99c9a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/3b0822fcec544cfe632faf9a28a99c9a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/5519a870595b41137177483c55ebb4d5/AndroidManifest.xml:20:5-44
-MERGED from [io.reactivex:rxandroid:1.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.0.aar/f46c34d9609e74aebc84d58f0999f2cc/AndroidManifest.xml:19:5-43
-MERGED from [io.reactivex:rxandroid:1.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.0.aar/f46c34d9609e74aebc84d58f0999f2cc/AndroidManifest.xml:19:5-43
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/04ca8e4bfaf19718f388238914b95744/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/04ca8e4bfaf19718f388238914b95744/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4bd307122ba2dfe2e544671267f15ea8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4bd307122ba2dfe2e544671267f15ea8/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e90a197ae790052d3b6120d71ca2dc60/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e90a197ae790052d3b6120d71ca2dc60/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a67c3e1885d5e5c84cbd6ada32c9eff6/AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/a67c3e1885d5e5c84cbd6ada32c9eff6/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/0055313a672cedfa2123d20833d3fd5d/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-2.0.1.aar/0055313a672cedfa2123d20833d3fd5d/AndroidManifest.xml:19:5-43
+MERGED from [id.zelory:compressor:2.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/16609fde5dbcd9892951a2e78fbecb0e/AndroidManifest.xml:8:5-10:41
+MERGED from [id.zelory:compressor:2.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/compressor-2.1.0.aar/16609fde5dbcd9892951a2e78fbecb0e/AndroidManifest.xml:8:5-10:41
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/ed9a57b119a21e66e61a349a231574c2/AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.5.1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/butterknife-8.5.1.aar/ed9a57b119a21e66e61a349a231574c2/AndroidManifest.xml:5:5-43
+MERGED from [top.zibin:Luban:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/Luban-1.1.3.aar/e41838d8d2a3cfeae1e114752d4abe8b/AndroidManifest.xml:7:5-9:41
+MERGED from [top.zibin:Luban:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/Luban-1.1.3.aar/e41838d8d2a3cfeae1e114752d4abe8b/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/34bf087d3b2d75a3ecb1b1d91e02f88e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.ghnor:flora:1.0.0-alpha1] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/flora-1.0.0-alpha1.aar/34bf087d3b2d75a3ecb1b1d91e02f88e/AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/b53ce10fc17f69337bcda59bb09a6c26/AndroidManifest.xml:7:5-9:41
+MERGED from [com.youth.banner:banner:1.4.10] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/banner-1.4.10.aar/b53ce10fc17f69337bcda59bb09a6c26/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7ca550ba2408b0f2d45c4171d06e2ca5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.orangegangsters:swipy:1.2.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/swipy-1.2.3.aar/7ca550ba2408b0f2d45c4171d06e2ca5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/7fd2111497b347798fff31865465afef/AndroidManifest.xml:7:5-9:41
+MERGED from [com.scwang.smartrefresh:SmartRefreshLayout:1.0.5-alpha-3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/SmartRefreshLayout-1.0.5-alpha-3.aar/7fd2111497b347798fff31865465afef/AndroidManifest.xml:7:5-9:41
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:7:5-9:41
+MERGED from [:LiteAVSDK_Player_4.1.3173:] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/LiteAVSDK_Player_4.1.3173.aar/1ed35c5b0b5db833ba900bc237b2fce3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/58482c74b8ca9d7512b9646887f2df8f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:DanmakuFlameMaster:0.9.25] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/DanmakuFlameMaster-0.9.25.aar/58482c74b8ca9d7512b9646887f2df8f/AndroidManifest.xml:22:5-24:41
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/ea4de5d18edb796eb3d5db6d82ccdc15/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.ctiao:ndkbitmap-armv7a:0.9.21] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/ndkbitmap-armv7a-0.9.21.aar/ea4de5d18edb796eb3d5db6d82ccdc15/AndroidManifest.xml:7:5-9:41
+MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/80dc18df339a512e17ac8a04de8ad383/AndroidManifest.xml:7:5-9:41
+MERGED from [q.rorbin:badgeview:1.1.3] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/badgeview-1.1.3.aar/80dc18df339a512e17ac8a04de8ad383/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/a5e9443d236c91253655406a40c29b9a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.tbruyelle.rxpermissions2:rxpermissions:0.9.5] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxpermissions-0.9.5.aar/a5e9443d236c91253655406a40c29b9a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/88511c3dd83798c5d3502d3a14ea3696/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.0.aar/88511c3dd83798c5d3502d3a14ea3696/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/e789bde51e569175dc0635d345cde5a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.0.aar/e789bde51e569175dc0635d345cde5a1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/8c28b30bd0cfe17a076feefd218a8c20/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.0.aar/8c28b30bd0cfe17a076feefd218a8c20/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/59a5dc9fe4ee818acbc6bb82f028b614/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.0.aar/59a5dc9fe4ee818acbc6bb82f028b614/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/b6fb8dcf55d88ea3fc0aa909bc2c172a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.0.aar/b6fb8dcf55d88ea3fc0aa909bc2c172a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/a29507ccafcee120ce604fe47c81e4c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/transition-27.1.0.aar/a29507ccafcee120ce604fe47c81e4c7/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75d0b8233a1dab87d643f2f41a19acbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-media-compat-27.1.0.aar/75d0b8233a1dab87d643f2f41a19acbf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/80c9cbd60b04b9cd432774e1239d0e26/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.0.aar/80c9cbd60b04b9cd432774e1239d0e26/AndroidManifest.xml:20:5-44
+MERGED from [io.reactivex:rxandroid:1.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.0.aar/0cd3fdda6f0f1fb7d25839c3351b1a25/AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex:rxandroid:1.2.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/rxandroid-1.2.0.aar/0cd3fdda6f0f1fb7d25839c3351b1a25/AndroidManifest.xml:19:5-43
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/d2d03500738ba49cc2f5516a01759dd7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/d2d03500738ba49cc2f5516a01759dd7/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1d1dea802359368b13b9a332c8ee026e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/1d1dea802359368b13b9a332c8ee026e/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7bcae8d936a09e50264e9642dc4a57ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/7bcae8d936a09e50264e9642dc4a57ee/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fecb79f7e98f71122a5a6b3b18015c1a/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/fecb79f7e98f71122a5a6b3b18015c1a/AndroidManifest.xml:20:5-44
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
@@ -455,16 +463,16 @@ INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.x
 		ADDED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/mjn_ziyu/StudioProject/Lemon/app/src/main/AndroidManifest.xml
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/8ef326e9d1d4a6c0256b1539c15ee280/AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-base-11.4.0.aar/beee8884be050c02b514ec68206a9d27/AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/9cef83da940d854be46b0055f1eeec2a/AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.4.0] /Users/mjn_ziyu/.gradle/caches/transforms-1/files-1.1/play-services-basement-11.4.0.aar/a1b903c92c7fc491987fc2684bfed0ce/AndroidManifest.xml:20:20-65
