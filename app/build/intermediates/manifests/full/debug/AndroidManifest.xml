@@ -85,7 +85,9 @@
         <activity android:name="com.xy.doll.constraint.ConstraintActivity" />
         <activity android:name="com.xy.doll.address.PickerActivity" />
         <activity android:name="com.xy.doll.file.FileActivity" />
-        <activity android:name="com.xy.doll.dagger.DaggerActivity" >
+        <activity android:name="com.xy.doll.dagger.DaggerActivity" />
+        <activity android:name="com.xy.doll.annotation.AnnotationActivity" />
+        <activity android:name="com.xy.doll.rv.RecyclerActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

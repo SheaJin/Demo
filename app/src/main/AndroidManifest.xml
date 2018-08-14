@@ -59,7 +59,13 @@
         <activity android:name="app.ui.activity.CatchFailedDetailsActivity" />
         <activity android:name="app.ui.activity.CatchSuccessDetailsActivity" />
         <activity android:name=".download.DownloadActivity" />
-        <activity android:name=".down.DownActivity" />
+        <activity android:name=".down.DownActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".rxjava.RxActivity" />
         <activity android:name=".custom.CustomActivity" />
         <activity
@@ -75,16 +81,11 @@
         <activity android:name=".bottomsheet.SheetActivity" />
         <activity android:name=".sign.SignActivity" />
         <activity android:name=".constraint.ConstraintActivity" />
-        <activity android:name=".address.PickerActivity"></activity>
-        <activity android:name=".file.FileActivity"/>
-        <activity android:name=".dagger.DaggerActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
+        <activity android:name=".address.PickerActivity" />
+        <activity android:name=".file.FileActivity" />
+        <activity android:name=".dagger.DaggerActivity" />
+        <activity android:name=".annotation.AnnotationActivity" />
+        <activity android:name=".rv.RecyclerActivity" />
     </application>
 
 </manifest>

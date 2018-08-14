@@ -88,7 +88,7 @@ public class DownloadUtil {
                         message.obj = file.getAbsolutePath();
                         handler.sendMessage(message);
                     } catch (Exception e) {
-
+                        e.getStackTrace();
                     } finally {
                         if (is != null) {
                             is.close();
