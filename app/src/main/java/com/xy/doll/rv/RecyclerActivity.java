@@ -1,11 +1,12 @@
 package com.xy.doll.rv;
 
+import android.graphics.Bitmap;
 import android.os.Bundle;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.LinearLayoutManager;
+import android.support.v4.util.LruCache;
 import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 
+import com.bumptech.glide.load.engine.cache.DiskLruCacheFactory;
 import com.xy.doll.R;
 
 import java.util.ArrayList;
@@ -13,6 +14,7 @@ import java.util.List;
 
 import app.ui.base.BaseActivity;
 import butterknife.BindView;
+import okhttp3.internal.cache.DiskLruCache;
 
 public class RecyclerActivity extends BaseActivity {
 
@@ -21,12 +23,12 @@ public class RecyclerActivity extends BaseActivity {
 
     private List<String> list;
     private RecyclerAdapter adapter;
+    private LruCache lruCache;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recycler);
-
     }
 
     @Override
@@ -81,6 +83,21 @@ public class RecyclerActivity extends BaseActivity {
             list.add("");
         }
         adapter = new RecyclerAdapter(activity, list);
-        mRv.setAdapter(adapter);
+//        mRv.setAdapter(adapter);
+
+
+
     }
+
+    private void getCacheSize() {
+        int maxMemory = (int) Runtime.getRuntime().totalMemory();
+        int cacheSize = maxMemory / 8;
+        lruCache = new LruCache<String,String>(cacheSize){
+            @Override
+            protected int sizeOf(String key, String value) {
+                return super.sizeOf(key, value);
+            }
+        };
+    }
+
 }

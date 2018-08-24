@@ -49,6 +49,12 @@
         <service
             android:name="app.model.service.WebSocketService"
             android:exported="true" />
+        <service
+            android:name="com.xy.doll.service.OneService"
+            android:exported="true" />
+        <service
+            android:name="com.xy.doll.service.TwoService"
+            android:exported="true" />
 
         <activity android:name="app.ui.activity.SplashActivity" />
         <activity android:name="app.ui.activity.LoginActivity" />
@@ -87,13 +93,15 @@
         <activity android:name="com.xy.doll.file.FileActivity" />
         <activity android:name="com.xy.doll.dagger.DaggerActivity" />
         <activity android:name="com.xy.doll.annotation.AnnotationActivity" />
-        <activity android:name="com.xy.doll.rv.RecyclerActivity" >
+        <activity android:name="com.xy.doll.rv.RecyclerActivity" />
+        <activity android:name="com.xy.doll.service.ServiceActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name="com.xy.doll.service.OtherServiceActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"

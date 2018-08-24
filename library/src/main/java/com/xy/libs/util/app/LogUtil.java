@@ -8,7 +8,7 @@ import android.util.Log;
 
 public class LogUtil {
     public static void e(String s){
-        Log.e("jxy1", s );
+        Log.e("ServiceActivity", s );
     }
 
     public static void err(String s) {
