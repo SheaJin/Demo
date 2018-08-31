@@ -1,12 +1,10 @@
 package com.xy.doll.rv;
 
-import android.graphics.Bitmap;
 import android.os.Bundle;
 import android.support.v4.util.LruCache;
+import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.StaggeredGridLayoutManager;
 
-import com.bumptech.glide.load.engine.cache.DiskLruCacheFactory;
 import com.xy.doll.R;
 
 import java.util.ArrayList;
@@ -14,7 +12,6 @@ import java.util.List;
 
 import app.ui.base.BaseActivity;
 import butterknife.BindView;
-import okhttp3.internal.cache.DiskLruCache;
 
 public class RecyclerActivity extends BaseActivity {
 
@@ -71,7 +68,9 @@ public class RecyclerActivity extends BaseActivity {
         /**
          * 瀑布流
          */
-        StaggeredGridLayoutManager manager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
+//        StaggeredGridLayoutManager manager = new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL);
+//        mRv.setLayoutManager(manager);
+        LinearLayoutManager manager = new LinearLayoutManager(this);
         mRv.setLayoutManager(manager);
 
     }
@@ -83,9 +82,7 @@ public class RecyclerActivity extends BaseActivity {
             list.add("");
         }
         adapter = new RecyclerAdapter(activity, list);
-//        mRv.setAdapter(adapter);
-
-
+        mRv.setAdapter(adapter);
 
     }
 

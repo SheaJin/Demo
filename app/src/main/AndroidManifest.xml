@@ -85,15 +85,16 @@
         <activity android:name=".file.FileActivity" />
         <activity android:name=".dagger.DaggerActivity" />
         <activity android:name=".annotation.AnnotationActivity" />
-        <activity android:name=".rv.RecyclerActivity" />
-        <activity android:name=".service.ServiceActivity">
+        <activity android:name=".rv.RecyclerActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".service.OtherServiceActivity"></activity>
+        <activity android:name=".service.ServiceActivity">
+        </activity>
+        <activity android:name=".service.OtherServiceActivity" />
     </application>
 
 </manifest>
